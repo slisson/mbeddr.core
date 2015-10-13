@@ -27,6 +27,7 @@
       </concept>
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.editor.cells">
+      <concept id="994107119628459644" name="com.mbeddr.mpsutil.editor.cells.structure.SideTransformGenerator" flags="ig" index="2bVX_k" />
       <concept id="7363578995839261502" name="com.mbeddr.mpsutil.editor.cells.structure.SubstituteActionsGenerator" flags="ig" index="1kHAGF" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
@@ -52,6 +53,7 @@
         <reference id="1112058088712" name="applicableConcept" index="3FOWKa" />
       </concept>
       <concept id="1138079221458" name="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" flags="ig" index="3UNGvq">
+        <property id="1215605257730" name="side" index="7I3sp" />
         <property id="1140829165817" name="transformTag" index="2uHTBK" />
         <reference id="1138079221462" name="applicableConcept" index="3UNGvu" />
         <child id="1177442283389" name="part" index="_1QTJ" />
@@ -79,6 +81,10 @@
   </node>
   <node concept="3UOs0u" id="6oKG1kMxrFD">
     <property role="TrG5h" value="sta" />
+    <node concept="2bVX_k" id="RbLMy693s5" role="3UOs0v">
+      <property role="7I3sp" value="both" />
+      <ref role="3UNGvu" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
     <node concept="3UNGvq" id="6oKG1kMxrFE" role="3UOs0v">
       <property role="2uHTBK" value="ext_1_RTransform" />
       <ref role="3UNGvu" to="ibwz:6oKG1kMxn7T" resolve="VariableDeclaration" />

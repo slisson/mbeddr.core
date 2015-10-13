@@ -47,6 +47,9 @@
     <property role="34LRSv" value="flag" />
     <property role="3GE5qa" value="cells" />
     <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
+    <node concept="PrWs8" id="RbLMy6aM8Q" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6oKG1kMxvFA">
     <property role="1pbfSe" value="1732859141" />
@@ -67,17 +70,6 @@
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6oKG1kMxz3z">
-    <property role="TrG5h" value="StubFlagCell" />
-    <property role="3GE5qa" value="stubs" />
-    <ref role="1TJDcQ" node="6oKG1kMxv_T" resolve="FlagCell" />
-    <node concept="PrWs8" id="6oKG1kMxz3$" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
-    <node concept="PrWs8" id="6oKG1kMxz3_" role="PzmwI">
-      <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6oKG1kMxHGY">
     <property role="1pbfSe" value="1732801709" />
     <property role="TrG5h" value="SubstituteActionsGenerator" />
@@ -88,7 +80,7 @@
     <property role="1pbfSe" value="1732627854" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="WrapperCell" />
-    <property role="34LRSv" value="wrapper" />
+    <property role="34LRSv" value="wrap" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="6oKG1kMyo9u" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -104,6 +96,23 @@
     <property role="1pbfSe" value="1732567287" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="IGrammarCell" />
+  </node>
+  <node concept="1TIwiD" id="RbLMy691TW">
+    <property role="1pbfSe" value="1812994652" />
+    <property role="TrG5h" value="SideTransformGenerator" />
+    <property role="34LRSv" value="generated" />
+    <ref role="1TJDcQ" to="tpdg:gzUNGri" resolve="SideTransformHintSubstituteActionsBuilder" />
+  </node>
+  <node concept="1TIwiD" id="RbLMy69Jga">
+    <property role="TrG5h" value="StubFlagCell" />
+    <property role="3GE5qa" value="stub" />
+    <ref role="1TJDcQ" node="6oKG1kMxv_T" resolve="FlagCell" />
+    <node concept="PrWs8" id="RbLMy69Jgb" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+    <node concept="PrWs8" id="RbLMy69Jgc" role="PzmwI">
+      <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
+    </node>
   </node>
 </model>
 

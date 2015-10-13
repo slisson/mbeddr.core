@@ -84,6 +84,7 @@
       </concept>
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.editor.cells">
+      <concept id="7363578995839203705" name="com.mbeddr.mpsutil.editor.cells.structure.FlagCell" flags="sg" stub="994107119628645386" index="1kHk_G" />
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.editor.cells.structure.WrapperCell" flags="ng" index="1kIj98">
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
       </concept>
@@ -287,6 +288,12 @@
         <node concept="3F1sOY" id="RbLMy68PdR" role="1kIj9b">
           <ref role="1NtTu8" to="ibwz:6oKG1kMxn7U" />
         </node>
+      </node>
+      <node concept="1kHk_G" id="RbLMy69LP2" role="3EZMnx">
+        <ref role="1NtTu8" to="ibwz:6oKG1kMxvr1" resolve="transient" />
+      </node>
+      <node concept="1kHk_G" id="RbLMy6b51E" role="3EZMnx">
+        <ref role="1NtTu8" to="ibwz:6oKG1kMxvqX" resolve="volatile" />
       </node>
       <node concept="3F0A7n" id="RbLMy68PdS" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />

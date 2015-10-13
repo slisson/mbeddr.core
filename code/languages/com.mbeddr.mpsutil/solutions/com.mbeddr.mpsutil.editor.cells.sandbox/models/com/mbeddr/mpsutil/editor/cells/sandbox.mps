@@ -26,6 +26,8 @@
       <concept id="1749127723000290684" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.IntType" flags="ng" index="2cvBGp" />
       <concept id="7363578995839144929" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.StringType" flags="ng" index="1kHqfO" />
       <concept id="7363578995839169017" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.VariableDeclaration" flags="ng" index="1kHs7G">
+        <property id="7363578995839203005" name="volatile" index="1kHkqC" />
+        <property id="7363578995839203009" name="transient" index="1kHkrk" />
         <child id="7363578995839169018" name="type" index="1kHs7J" />
         <child id="7363578995839169055" name="initializer" index="1kHs8a" />
       </concept>
@@ -33,6 +35,7 @@
       <concept id="7363578995839169063" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.StringLiteral" flags="ng" index="1kHs8M">
         <property id="7363578995839169078" name="value" index="1kHs8z" />
       </concept>
+      <concept id="7363578995839169062" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.IExpression" flags="ng" index="1kHs8N" />
     </language>
   </registry>
   <node concept="2cssWn" id="1x69Amke0N9">
@@ -49,10 +52,22 @@
         </node>
         <node concept="1kHs8n" id="6oKG1kMxrFn" role="2cssZA">
           <property role="TrG5h" value="abc" />
+          <property role="1kHkrk" value="false" />
+          <property role="1kHkqC" value="false" />
           <node concept="1kHqfO" id="6oKG1kMxrFl" role="1kHs7J" />
         </node>
-        <node concept="2cssZR" id="6oKG1kMzc8G" role="2cssZA" />
+        <node concept="1kHs8n" id="RbLMy691NU" role="2cssZA">
+          <property role="TrG5h" value="d" />
+          <property role="1kHkqC" value="false" />
+          <node concept="2cvBGp" id="RbLMy691NS" role="1kHs7J" />
+          <node concept="1kHs8N" id="RbLMy696hU" role="1kHs8a" />
+        </node>
         <node concept="2cssZR" id="6oKG1kMzd0B" role="2cssZA" />
+        <node concept="1kHs8n" id="RbLMy69LtH" role="2cssZA">
+          <property role="1kHkrk" value="false" />
+          <property role="TrG5h" value="b" />
+          <node concept="2cvBGp" id="RbLMy69LtF" role="1kHs7J" />
+        </node>
       </node>
     </node>
     <node concept="2cssZD" id="1x69Amke1Gi" role="2cssWm" />
