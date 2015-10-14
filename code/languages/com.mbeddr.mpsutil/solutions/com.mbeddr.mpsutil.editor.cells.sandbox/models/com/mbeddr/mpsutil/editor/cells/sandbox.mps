@@ -2,7 +2,7 @@
 <model ref="r:bae66b56-8260-4ca2-b9e1-6409bf7aba83(com.mbeddr.mpsutil.editor.cells.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="a257f68c-93a3-47b0-838b-6905dd9c20f6" name="com.mbeddr.mpsutil.editor.cells.sandboxlang" version="0" />
+    <use id="a257f68c-93a3-47b0-838b-6905dd9c20f6" name="com.mbeddr.mpsutil.grammarcells.sandboxlang" version="0" />
   </languages>
   <imports />
   <registry>
@@ -11,31 +11,36 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
-    <language id="a257f68c-93a3-47b0-838b-6905dd9c20f6" name="com.mbeddr.mpsutil.editor.cells.sandboxlang">
-      <concept id="994107119629524729" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.ArrayType" flags="ng" index="2bZTBh">
+    <language id="a257f68c-93a3-47b0-838b-6905dd9c20f6" name="com.mbeddr.mpsutil.grammarcells.sandboxlang">
+      <concept id="994107119629524729" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.ArrayType" flags="ng" index="2bZTBh">
         <child id="994107119629524730" name="type" index="2bZTBi" />
       </concept>
-      <concept id="1749127723000260978" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.Module" flags="ng" index="2cssWn">
+      <concept id="1749127723000260978" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.Module" flags="ng" index="2cssWn">
         <child id="1749127723000260979" name="content" index="2cssWm" />
       </concept>
-      <concept id="1749127723000260989" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.StatementList" flags="ng" index="2cssWo">
+      <concept id="1749127723000260989" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StatementList" flags="ng" index="2cssWo">
         <child id="1749127723000260995" name="statements" index="2cssZA" />
       </concept>
-      <concept id="1749127723000260984" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.Function" flags="ng" index="2cssWt">
+      <concept id="1749127723000260984" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.Function" flags="ng" index="2cssWt">
         <child id="1749127723000260990" name="body" index="2cssWr" />
+        <child id="5083944728299528581" name="visibility" index="yzEPe" />
       </concept>
-      <concept id="1749127723000261004" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.EmptyModuleContent" flags="ng" index="2cssZD" />
-      <concept id="1749127723000261010" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.EmptyStatement" flags="ng" index="2cssZR" />
-      <concept id="1749127723000290684" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.IntType" flags="ng" index="2cvBGp" />
-      <concept id="7363578995839144929" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.StringType" flags="ng" index="1kHqfO" />
-      <concept id="7363578995839169017" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.VariableDeclaration" flags="ng" index="1kHs7G">
+      <concept id="1749127723000261004" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.EmptyModuleContent" flags="ng" index="2cssZD" />
+      <concept id="1749127723000261010" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.EmptyStatement" flags="ng" index="2cssZR" />
+      <concept id="1749127723000290684" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.IntType" flags="ng" index="2cvBGp" />
+      <concept id="5083944728299558929" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.FloatLiteral" flags="ng" index="yzxjq">
+        <property id="5083944728299564021" name="value" index="yzysY" />
+      </concept>
+      <concept id="5083944728299528550" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.PublicVisibility" flags="ng" index="yzEQH" />
+      <concept id="7363578995839144929" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StringType" flags="ng" index="1kHqfO" />
+      <concept id="7363578995839169017" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.VariableDeclaration" flags="ng" index="1kHs7G">
         <property id="7363578995839203005" name="volatile" index="1kHkqC" />
         <property id="7363578995839203009" name="transient" index="1kHkrk" />
         <child id="7363578995839169018" name="type" index="1kHs7J" />
         <child id="7363578995839169055" name="initializer" index="1kHs8a" />
       </concept>
-      <concept id="7363578995839169026" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.LocalVariableDeclaration" flags="ng" index="1kHs8n" />
-      <concept id="7363578995839169063" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.StringLiteral" flags="ng" index="1kHs8M">
+      <concept id="7363578995839169026" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.LocalVariableDeclaration" flags="ng" index="1kHs8n" />
+      <concept id="7363578995839169063" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StringLiteral" flags="ng" index="1kHs8M">
         <property id="7363578995839169078" name="value" index="1kHs8z" />
       </concept>
     </language>
@@ -57,11 +62,17 @@
           <property role="1kHkrk" value="false" />
           <property role="1kHkqC" value="false" />
           <node concept="1kHqfO" id="6oKG1kMxrFl" role="1kHs7J" />
+          <node concept="yzxjq" id="4qdNcH$2X0P" role="1kHs8a">
+            <property role="yzysY" value="1.1" />
+          </node>
         </node>
         <node concept="1kHs8n" id="RbLMy691NU" role="2cssZA">
           <property role="TrG5h" value="d" />
           <property role="1kHkqC" value="false" />
           <node concept="2cvBGp" id="RbLMy691NS" role="1kHs7J" />
+          <node concept="yzxjq" id="4qdNcH$13dK" role="1kHs8a">
+            <property role="yzysY" value="1.1211" />
+          </node>
         </node>
         <node concept="2cssZR" id="6oKG1kMzd0B" role="2cssZA" />
         <node concept="1kHs8n" id="RbLMy69LtH" role="2cssZA">
@@ -113,10 +124,11 @@
           </node>
         </node>
       </node>
+      <node concept="yzEQH" id="4qdNcH$0TXL" role="yzEPe" />
     </node>
     <node concept="2cssZD" id="1x69Amke1Gi" role="2cssWm" />
-    <node concept="2cssZD" id="1x69Amke3TO" role="2cssWm" />
-    <node concept="2cssZD" id="1x69Amke3U1" role="2cssWm" />
+    <node concept="2cssZD" id="4qdNcH$0Xu5" role="2cssWm" />
+    <node concept="2cssZD" id="4qdNcH$0Xv8" role="2cssWm" />
   </node>
 </model>
 

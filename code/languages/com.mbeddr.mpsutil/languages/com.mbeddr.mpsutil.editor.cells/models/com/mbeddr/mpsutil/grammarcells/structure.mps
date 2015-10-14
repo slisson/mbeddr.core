@@ -86,7 +86,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="wrapped" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpc2:fBF1sR7" resolve="CellModel_RefNode" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
     <node concept="PrWs8" id="6oKG1kMyAVP" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />

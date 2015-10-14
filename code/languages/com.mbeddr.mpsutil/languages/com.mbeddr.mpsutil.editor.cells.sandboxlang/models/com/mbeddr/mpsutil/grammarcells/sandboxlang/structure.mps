@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
@@ -79,6 +82,12 @@
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1x69AmkdY_X" resolve="StatementList" />
+    </node>
+    <node concept="1TJgyj" id="4qdNcH$0Q65" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="visibility" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4qdNcH$0Q5z" resolve="Visibility" />
     </node>
     <node concept="PrWs8" id="1x69AmkdZS$" role="PzmwI">
       <ref role="PrY4T" node="1x69AmkdY_R" resolve="IModuleContent" />
@@ -203,6 +212,41 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1x69Amke5PV" resolve="Type" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="4qdNcH$0Q5z">
+    <property role="1pbfSe" value="1433326034" />
+    <property role="TrG5h" value="Visibility" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="4qdNcH$0Q5A">
+    <property role="1pbfSe" value="1433326031" />
+    <property role="TrG5h" value="PublicVisibility" />
+    <property role="34LRSv" value="public" />
+    <ref role="1TJDcQ" node="4qdNcH$0Q5z" resolve="Visibility" />
+  </node>
+  <node concept="1TIwiD" id="4qdNcH$0Q5B">
+    <property role="1pbfSe" value="1433326030" />
+    <property role="TrG5h" value="PrivateVisibility" />
+    <property role="34LRSv" value="private" />
+    <ref role="1TJDcQ" node="4qdNcH$0Q5z" resolve="Visibility" />
+  </node>
+  <node concept="1TIwiD" id="4qdNcH$0Xwh">
+    <property role="1pbfSe" value="1433295652" />
+    <property role="TrG5h" value="FloatLiteral" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4qdNcH$0Xwi" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+    <node concept="1TJgyi" id="4qdNcH$0YJP" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="4qdNcH$0YJS" resolve="FP" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="4qdNcH$0YJS">
+    <property role="TrG5h" value="FP" />
+    <property role="FLfZY" value="[0-9]+\\.[0-9]+" />
   </node>
 </model>
 
