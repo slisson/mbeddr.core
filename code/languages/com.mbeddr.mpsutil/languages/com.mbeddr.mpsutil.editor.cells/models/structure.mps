@@ -114,5 +114,21 @@
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4qdNcHzYfBo">
+    <property role="1pbfSe" value="1434007901" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="OptionalCell" />
+    <property role="34LRSv" value="optional" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="4qdNcHzYfBp" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="option" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+    <node concept="PrWs8" id="4qdNcH$0C9H" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
+    </node>
+  </node>
 </model>
 
