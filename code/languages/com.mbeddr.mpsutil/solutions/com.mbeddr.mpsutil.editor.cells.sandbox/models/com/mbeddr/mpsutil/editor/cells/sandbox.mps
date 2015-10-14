@@ -12,6 +12,9 @@
       </concept>
     </language>
     <language id="a257f68c-93a3-47b0-838b-6905dd9c20f6" name="com.mbeddr.mpsutil.editor.cells.sandboxlang">
+      <concept id="994107119629524729" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.ArrayType" flags="ng" index="2bZTBh">
+        <child id="994107119629524730" name="type" index="2bZTBi" />
+      </concept>
       <concept id="1749127723000260978" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.Module" flags="ng" index="2cssWn">
         <child id="1749127723000260979" name="content" index="2cssWm" />
       </concept>
@@ -71,7 +74,43 @@
           <property role="TrG5h" value="b" />
           <property role="1kHkqC" value="true" />
           <property role="1kHkrk" value="true" />
-          <node concept="2cvBGp" id="RbLMy6bVZ1" role="1kHs7J" />
+          <node concept="2bZTBh" id="7bg0Wzv50hh" role="1kHs7J">
+            <node concept="2bZTBh" id="7bg0Wzv50gR" role="2bZTBi">
+              <node concept="2bZTBh" id="7bg0Wzv50h4" role="2bZTBi">
+                <node concept="2cvBGp" id="RbLMy6bVZ1" role="2bZTBi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1kHs8n" id="RbLMy6d5LZ" role="2cssZA">
+          <property role="1kHkrk" value="true" />
+          <property role="1kHkqC" value="false" />
+          <property role="TrG5h" value="c" />
+          <node concept="2bZTBh" id="7bg0Wzv50hE" role="1kHs7J">
+            <node concept="2bZTBh" id="7bg0Wzv50gE" role="2bZTBi">
+              <node concept="2cvBGp" id="7bg0Wzv50g$" role="2bZTBi" />
+            </node>
+          </node>
+        </node>
+        <node concept="1kHs8n" id="RbLMy6diwU" role="2cssZA">
+          <property role="1kHkrk" value="true" />
+          <property role="1kHkqC" value="true" />
+          <property role="TrG5h" value="a" />
+          <node concept="2bZTBh" id="RbLMy6diwQ" role="1kHs7J">
+            <node concept="2cvBGp" id="RbLMy6dixu" role="2bZTBi" />
+          </node>
+        </node>
+        <node concept="1kHs8n" id="7bg0Wzv53d9" role="2cssZA">
+          <property role="TrG5h" value="abc" />
+          <node concept="2bZTBh" id="7bg0Wzv5DXH" role="1kHs7J">
+            <node concept="2bZTBh" id="7bg0Wzv5DYd" role="2bZTBi">
+              <node concept="2bZTBh" id="7bg0Wzv5DXw" role="2bZTBi">
+                <node concept="2bZTBh" id="7bg0Wzv5DY0" role="2bZTBi">
+                  <node concept="2cvBGp" id="7bg0Wzv53d7" role="2bZTBi" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>

@@ -193,5 +193,16 @@
       <ref role="PrY4T" node="6oKG1kMxn8A" resolve="IExpression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="RbLMy6d5VT">
+    <property role="1pbfSe" value="1811929567" />
+    <property role="TrG5h" value="ArrayType" />
+    <ref role="1TJDcQ" node="1x69Amke5PV" resolve="Type" />
+    <node concept="1TJgyj" id="RbLMy6d5VU" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1x69Amke5PV" resolve="Type" />
+    </node>
+  </node>
 </model>
 

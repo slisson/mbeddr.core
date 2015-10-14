@@ -19,6 +19,7 @@
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
@@ -335,6 +336,23 @@
         </node>
       </node>
       <node concept="l2Vlx" id="RbLMy68Pe9" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="RbLMy6d5Wl">
+    <ref role="1XX52x" to="ibwz:RbLMy6d5VT" resolve="ArrayType" />
+    <node concept="3EZMnI" id="RbLMy6d5Wu" role="2wV5jI">
+      <node concept="1kIj98" id="RbLMy6d8Zw" role="3EZMnx">
+        <node concept="3F1sOY" id="RbLMy6d8Zy" role="1kIj9b">
+          <ref role="1NtTu8" to="ibwz:RbLMy6d5VU" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="RbLMy6d5WL" role="3EZMnx">
+        <property role="3F0ifm" value="[]" />
+        <node concept="11L4FC" id="7bg0Wzv50la" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="RbLMy6d5Wx" role="2iSdaV" />
     </node>
   </node>
 </model>
