@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e17a7b42-250b-4961-b1c8-475ee4adb927(com.mbeddr.mpsutil.editor.cells.sandboxlang.typesystem)">
+<model ref="r:e17a7b42-250b-4961-b1c8-475ee4adb927(com.mbeddr.mpsutil.grammarcells.sandboxlang.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />

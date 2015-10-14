@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="com.mbeddr.mpsutil.editor.cells.sandboxlang" uuid="a257f68c-93a3-47b0-838b-6905dd9c20f6" version="0">
+<language namespace="com.mbeddr.mpsutil.grammarcells.sandboxlang" uuid="a257f68c-93a3-47b0-838b-6905dd9c20f6" version="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -38,12 +38,13 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">a257f68c-93a3-47b0-838b-6905dd9c20f6(com.mbeddr.mpsutil.editor.cells.sandboxlang)</dependency>
+    <dependency reexport="false">a257f68c-93a3-47b0-838b-6905dd9c20f6(com.mbeddr.mpsutil.grammarcells.sandboxlang)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <languageVersions>
+    <language id="9d69e719-78c8-4286-90db-fb19c107d049" fqName="com.mbeddr.mpsutil.grammarcells" version="0" />
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="3" />
     <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" fqName="jetbrains.mps.baseLanguage.classifiers" version="0" />

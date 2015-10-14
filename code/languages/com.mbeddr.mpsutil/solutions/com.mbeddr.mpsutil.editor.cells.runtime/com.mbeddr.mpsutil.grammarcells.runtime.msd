@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.mbeddr.mpsutil.editor.cells.runtime" uuid="7ac49bcb-77fb-4f0f-9036-e31b86b854b2" compileInMPS="true">
+<solution name="com.mbeddr.mpsutil.grammarcells.runtime" uuid="7ac49bcb-77fb-4f0f-9036-e31b86b854b2" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

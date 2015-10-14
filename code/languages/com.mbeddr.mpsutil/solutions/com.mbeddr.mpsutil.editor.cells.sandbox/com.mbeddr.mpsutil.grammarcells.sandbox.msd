@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.mbeddr.mpsutil.editor.cells.sandbox" uuid="613777d2-fabf-4da2-88f3-26716f3200ee" compileInMPS="true">
+<solution name="com.mbeddr.mpsutil.grammarcells.sandbox" uuid="613777d2-fabf-4da2-88f3-26716f3200ee" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -7,6 +7,7 @@
   </models>
   <sourcePath />
   <languageVersions>
+    <language id="a257f68c-93a3-47b0-838b-6905dd9c20f6" fqName="com.mbeddr.mpsutil.grammarcells.sandboxlang" version="0" />
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
   </languageVersions>
 </solution>
