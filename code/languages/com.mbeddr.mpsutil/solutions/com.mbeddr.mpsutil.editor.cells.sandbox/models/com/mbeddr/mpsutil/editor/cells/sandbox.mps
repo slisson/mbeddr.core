@@ -35,7 +35,6 @@
       <concept id="7363578995839169063" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.StringLiteral" flags="ng" index="1kHs8M">
         <property id="7363578995839169078" name="value" index="1kHs8z" />
       </concept>
-      <concept id="7363578995839169062" name="com.mbeddr.mpsutil.editor.cells.sandboxlang.structure.IExpression" flags="ng" index="1kHs8N" />
     </language>
   </registry>
   <node concept="2cssWn" id="1x69Amke0N9">
@@ -60,13 +59,19 @@
           <property role="TrG5h" value="d" />
           <property role="1kHkqC" value="false" />
           <node concept="2cvBGp" id="RbLMy691NS" role="1kHs7J" />
-          <node concept="1kHs8N" id="RbLMy696hU" role="1kHs8a" />
         </node>
         <node concept="2cssZR" id="6oKG1kMzd0B" role="2cssZA" />
         <node concept="1kHs8n" id="RbLMy69LtH" role="2cssZA">
-          <property role="1kHkrk" value="false" />
+          <property role="1kHkrk" value="true" />
           <property role="TrG5h" value="b" />
+          <property role="1kHkqC" value="true" />
           <node concept="2cvBGp" id="RbLMy69LtF" role="1kHs7J" />
+        </node>
+        <node concept="1kHs8n" id="RbLMy6bVZ3" role="2cssZA">
+          <property role="TrG5h" value="b" />
+          <property role="1kHkqC" value="true" />
+          <property role="1kHkrk" value="true" />
+          <node concept="2cvBGp" id="RbLMy6bVZ1" role="1kHs7J" />
         </node>
       </node>
     </node>
