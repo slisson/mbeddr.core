@@ -678,5 +678,52 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="4qdNcH$3v85">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:4qdNcH$3v7A" resolve="SubstituteCell" />
+    <node concept="3EZMnI" id="4qdNcH$3v9v" role="2wV5jI">
+      <node concept="3F0ifn" id="4qdNcH$3v9w" role="3EZMnx">
+        <property role="3F0ifm" value="substitute" />
+        <node concept="Vb9p2" id="4qdNcH$3v9x" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
+        <node concept="VechU" id="4qdNcH$3v9y" role="3F10Kt">
+          <property role="Vb096" value="lightGray" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="4qdNcH$3v9z" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:4qdNcH$3v7B" />
+        <node concept="2R9Tw8" id="4qdNcH$3v9$" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="4qdNcH$3v9_" role="2iSdaV" />
+      <node concept="VPXOz" id="4qdNcH$3v9A" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="Veino" id="4qdNcH$3v9B" role="3F10Kt">
+        <node concept="3ZlJ5R" id="4qdNcH$3v9C" role="VblUZ">
+          <node concept="3clFbS" id="4qdNcH$3v9D" role="2VODD2">
+            <node concept="3clFbF" id="4qdNcH$3v9E" role="3cqZAp">
+              <node concept="2ShNRf" id="4qdNcH$3v9F" role="3clFbG">
+                <node concept="1pGfFk" id="4qdNcH$3v9G" role="2ShVmc">
+                  <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
+                  <node concept="3cmrfG" id="4qdNcH$3v9H" role="37wK5m">
+                    <property role="3cmrfH" value="220" />
+                  </node>
+                  <node concept="3cmrfG" id="4qdNcH$3v9I" role="37wK5m">
+                    <property role="3cmrfH" value="255" />
+                  </node>
+                  <node concept="3cmrfG" id="4qdNcH$3v9J" role="37wK5m">
+                    <property role="3cmrfH" value="255" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

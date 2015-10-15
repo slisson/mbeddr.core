@@ -85,6 +85,9 @@
       </concept>
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
+      <concept id="5083944728300220902" name="com.mbeddr.mpsutil.grammarcells.structure.SubstituteCell" flags="ng" index="yw3OH">
+        <child id="5083944728300220903" name="wrapped" index="yw3OG" />
+      </concept>
       <concept id="5083944728298846680" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell" flags="ng" index="_tjkj">
         <child id="5083944728298846681" name="option" index="_tjki" />
       </concept>
@@ -372,8 +375,10 @@
           <ref role="1NtTu8" to="ibwz:4qdNcH$3auE" />
         </node>
       </node>
-      <node concept="3F0ifn" id="4qdNcH$3avv" role="3EZMnx">
-        <property role="3F0ifm" value="+" />
+      <node concept="yw3OH" id="4qdNcH$5YNu" role="3EZMnx">
+        <node concept="3F0ifn" id="4qdNcH$5YNI" role="yw3OG">
+          <property role="3F0ifm" value="+" />
+        </node>
       </node>
       <node concept="1kIj98" id="4qdNcH$3f2P" role="3EZMnx">
         <node concept="3F1sOY" id="4qdNcH$3avi" role="1kIj9b">
@@ -381,6 +386,34 @@
         </node>
       </node>
       <node concept="l2Vlx" id="4qdNcH$3av2" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4qdNcH$3y9A">
+    <ref role="1XX52x" to="ibwz:4qdNcH$3y92" resolve="MulExpression" />
+    <node concept="3EZMnI" id="4qdNcH$3y9P" role="2wV5jI">
+      <node concept="3F1sOY" id="4qdNcH$3y9Z" role="3EZMnx">
+        <ref role="1NtTu8" to="ibwz:4qdNcH$3y96" />
+      </node>
+      <node concept="yw3OH" id="4qdNcH$5YNe" role="3EZMnx">
+        <node concept="3F0ifn" id="4qdNcH$5YNq" role="yw3OG">
+          <property role="3F0ifm" value="*" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="4qdNcH$3ya8" role="3EZMnx">
+        <ref role="1NtTu8" to="ibwz:4qdNcH$3y99" />
+      </node>
+      <node concept="l2Vlx" id="4qdNcH$3y9S" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4qdNcH$5rcI">
+    <ref role="1XX52x" to="ibwz:4qdNcH$5rcf" resolve="IntLiteral" />
+    <node concept="3EZMnI" id="4qdNcH$5x0g" role="2wV5jI">
+      <node concept="1kIj98" id="4qdNcH$5rcN" role="3EZMnx">
+        <node concept="3F0A7n" id="4qdNcH$5rcV" role="1kIj9b">
+          <ref role="1NtTu8" to="ibwz:4qdNcH$5rcj" resolve="value" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4qdNcH$5x0h" role="2iSdaV" />
     </node>
   </node>
 </model>
