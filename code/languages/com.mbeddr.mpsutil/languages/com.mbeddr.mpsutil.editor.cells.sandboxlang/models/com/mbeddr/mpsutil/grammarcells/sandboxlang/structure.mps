@@ -300,5 +300,29 @@
       <ref role="PrY4T" node="6oKG1kMxn8A" resolve="IExpression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4qdNcH$71LM">
+    <property role="1pbfSe" value="1431705283" />
+    <property role="TrG5h" value="BlockExpression" />
+    <property role="34LRSv" value="{" />
+    <ref role="1TJDcQ" node="1x69AmkdY_X" resolve="StatementList" />
+    <node concept="PrWs8" id="4qdNcH$77ZQ" role="PzmwI">
+      <ref role="PrY4T" node="1x69AmkdYA2" resolve="IStatement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4qdNcH$7jQh">
+    <property role="1pbfSe" value="1431631268" />
+    <property role="TrG5h" value="ParenthesesExpression" />
+    <property role="34LRSv" value="(" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4qdNcH$7jQr" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="inner" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+    <node concept="PrWs8" id="4qdNcH$7jQo" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+  </node>
 </model>
 

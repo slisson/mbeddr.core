@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="ibwz" ref="r:ad27d4b4-fc2c-4b6d-9e22-455eb0ccf354(com.mbeddr.mpsutil.grammarcells.sandboxlang.structure)" />
+    <import index="878o" ref="r:46fddec3-0db9-4b86-8274-957463dd4499(com.mbeddr.mpsutil.grammarcells.runtimelang.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -42,7 +43,6 @@
     <node concept="1kHAGF" id="6oKG1kMybJ7" role="3FOPby">
       <ref role="3FOWKa" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
-    <node concept="3FOIzC" id="4qdNcH$5YuT" role="3FOPby" />
   </node>
   <node concept="3UOs0u" id="6oKG1kMxrFD">
     <property role="TrG5h" value="sta" />

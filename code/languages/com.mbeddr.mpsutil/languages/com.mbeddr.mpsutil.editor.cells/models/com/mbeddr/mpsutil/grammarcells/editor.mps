@@ -725,5 +725,30 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="1vi_twqJeMu">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:1vi_twqJeLl" resolve="BracketsCell" />
+    <node concept="3EZMnI" id="1vi_twqJeMA" role="2wV5jI">
+      <node concept="3F0ifn" id="1vi_twqJeNn" role="3EZMnx">
+        <property role="3F0ifm" value="brackets[" />
+      </node>
+      <node concept="3F1sOY" id="1vi_twqJeMK" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:1vi_twqJeLv" />
+      </node>
+      <node concept="3F1sOY" id="1vi_twqJeMT" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:1vi_twqJeLy" />
+      </node>
+      <node concept="3F1sOY" id="1vi_twqJeN6" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:1vi_twqJeLB" />
+      </node>
+      <node concept="3F0ifn" id="1vi_twqJeNG" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="2iRfu4" id="1vi_twqJeMD" role="2iSdaV" />
+      <node concept="VPXOz" id="1vi_twqJiY8" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
 </model>
 

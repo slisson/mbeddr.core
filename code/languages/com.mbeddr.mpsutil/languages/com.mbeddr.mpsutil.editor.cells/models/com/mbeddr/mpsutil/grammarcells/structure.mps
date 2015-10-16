@@ -146,5 +146,33 @@
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1vi_twqJeLl">
+    <property role="1pbfSe" value="848265773" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="BracketsCell" />
+    <property role="34LRSv" value="brackets" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="1vi_twqJeLv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBF0icI" resolve="CellModel_Constant" />
+    </node>
+    <node concept="1TJgyj" id="1vi_twqJeLy" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="inner" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBF1sR7" resolve="CellModel_RefNode" />
+    </node>
+    <node concept="1TJgyj" id="1vi_twqJeLB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBF0icI" resolve="CellModel_Constant" />
+    </node>
+    <node concept="PrWs8" id="1vi_twqJeLs" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
+    </node>
+  </node>
 </model>
 

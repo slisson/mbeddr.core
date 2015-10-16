@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="com.mbeddr.mpsutil.grammarcells.sandboxlang" uuid="a257f68c-93a3-47b0-838b-6905dd9c20f6" version="0">
+<language namespace="com.mbeddr.mpsutil.grammarcells.runtimelang" uuid="b4f35ed8-45af-4efa-abe4-00ac26956e69" version="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="com.mbeddr.mpsutil.editor.cells.sandboxlang#1749127723000259754" uuid="70c639aa-2028-47e9-88c9-7d69c9b405e3">
+    <generator generatorUID="com.mbeddr.mpsutil.grammarcells.runtimelang#5083944728301309305" uuid="79e1a72a-662e-4384-882a-49dd59eb455c">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -18,7 +18,7 @@
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <languageVersions>
-        <language id="a257f68c-93a3-47b0-838b-6905dd9c20f6" fqName="com.mbeddr.mpsutil.grammarcells.sandboxlang" version="-1" />
+        <language id="b4f35ed8-45af-4efa-abe4-00ac26956e69" fqName="com.mbeddr.mpsutil.grammarcells.runtimelang" version="-1" />
         <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="3" />
         <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
         <language id="fd392034-7849-419d-9071-12563d152375" fqName="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -37,15 +37,10 @@
     </generator>
   </generators>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">a257f68c-93a3-47b0-838b-6905dd9c20f6(com.mbeddr.mpsutil.grammarcells.sandboxlang)</dependency>
-    <dependency reexport="false">b4f35ed8-45af-4efa-abe4-00ac26956e69(com.mbeddr.mpsutil.grammarcells.runtimelang)</dependency>
-  </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <languageVersions>
-    <language id="9d69e719-78c8-4286-90db-fb19c107d049" fqName="com.mbeddr.mpsutil.grammarcells" version="0" />
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="3" />
     <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" fqName="jetbrains.mps.baseLanguage.classifiers" version="0" />

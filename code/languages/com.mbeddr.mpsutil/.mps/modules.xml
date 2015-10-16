@@ -25,8 +25,8 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.datepicker.sandbox/com.mbeddr.mpsutil.datepicker.sandbox.mpl" folder="datePicker" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.datepicker/com.mbeddr.mpsutil.datepicker.mpl" folder="datePicker" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.dependenciesdiagram/com.mbeddr.mpsutil.dependenciesdiagram.mpl" folder="dependenciesdiagram" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editor.cells.sandboxlang/com.mbeddr.mpsutil.grammarcells.sandboxlang.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editor.cells/com.mbeddr.mpsutil.grammarcells.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editor.cells.sandboxlang/com.mbeddr.mpsutil.grammarcells.sandboxlang.mpl" folder="grammarCells" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editor.cells/com.mbeddr.mpsutil.grammarcells.mpl" folder="grammarCells" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editor.querylist.demolang/com.mbeddr.mpsutil.editor.querylist.demolang.mpl" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.mpl" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.emf.rt/com.mbeddr.mpsutil.emf.rt.msd" folder="emf" />
@@ -39,6 +39,7 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.genutil/genutil.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.globalgenerators.sandboxlang/com.mbeddr.mpsutil.globalgenerators.sandboxlang.mpl" folder="globalGenerators" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.globalgenerators/com.mbeddr.mpsutil.globalgenerators.mpl" folder="globalGenerators" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.grammarcells.runtimelang/com.mbeddr.mpsutil.grammarcells.runtimelang.mpl" folder="grammarCells" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.httpsupport/com.mbeddr.mpsutil.httpsupport.mpl" folder="httpSupport" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.hyperlink/com.mbeddr.mpsutil.hyperlink.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.iconchar/com.mbeddr.mpsutil.iconchar.mpl" folder="iconchar" />
@@ -98,8 +99,8 @@
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.datepicker.runtime/com.mbeddr.mpsutil.datepicker.runtime.msd" folder="datePicker" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.datepicker.sandbox.demo/com.mbeddr.mpsutil.datepicker.sandbox.demo.msd" folder="datePicker" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.dependenciesdiagram.sandbox/com.mbeddr.mpsutil.dependenciesdiagram.sandbox.msd" folder="dependenciesdiagram" />
-      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.cells.runtime/com.mbeddr.mpsutil.grammarcells.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.cells.sandbox/com.mbeddr.mpsutil.grammarcells.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.cells.runtime/com.mbeddr.mpsutil.grammarcells.runtime.msd" folder="grammarCells" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.cells.sandbox/com.mbeddr.mpsutil.grammarcells.sandbox.msd" folder="grammarCells" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.querylist.runtime/com.mbeddr.mpsutil.editor.querylist.runtime.msd" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.querylist.sandbox/com.mbeddr.mpsutil.editor.querylist.sandbox.msd" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.msd" folder="" />

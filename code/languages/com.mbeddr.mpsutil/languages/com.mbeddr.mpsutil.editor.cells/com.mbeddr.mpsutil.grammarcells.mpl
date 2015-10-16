@@ -28,12 +28,13 @@
         <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
         <dependency reexport="false">7037b32c-9607-4f8e-81bd-1f028a4c117b(de.slisson.mps.reflection.runtime)</dependency>
         <dependency reexport="false">52733268-be24-4f5f-ab84-a73b7c0c03b0(de.slisson.mps.richtext.customcell)</dependency>
+        <dependency reexport="false">b4f35ed8-45af-4efa-abe4-00ac26956e69(com.mbeddr.mpsutil.grammarcells.runtimelang)</dependency>
       </dependencies>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <languageVersions>
-        <language id="9d69e719-78c8-4286-90db-fb19c107d049" fqName="com.mbeddr.mpsutil.editor.cells" version="-1" />
+        <language id="9d69e719-78c8-4286-90db-fb19c107d049" fqName="com.mbeddr.mpsutil.grammarcells" version="-1" />
         <language id="52733268-be24-4f5f-ab84-a73b7c0c03b0" fqName="de.slisson.mps.richtext.customcell" version="0" />
         <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="3" />
         <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
