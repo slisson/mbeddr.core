@@ -324,5 +324,45 @@
       <ref role="PrY4T" node="6oKG1kMxn8A" resolve="IExpression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5OsvY4gZcgA">
+    <property role="1pbfSe" value="1847149575" />
+    <property role="TrG5h" value="TernaryExpression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5OsvY4gZcq6" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+    <node concept="1TJgyj" id="5OsvY4gZcty" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="then" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+    <node concept="1TJgyj" id="5OsvY4gZcx1" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="else" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+    <node concept="PrWs8" id="5OsvY4gZcom" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5OsvY4gZz7B">
+    <property role="1pbfSe" value="1847243208" />
+    <property role="TrG5h" value="BracketsExpression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5OsvY4gZzcT" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="inner" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+    <node concept="PrWs8" id="5OsvY4gZzbZ" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+  </node>
 </model>
 

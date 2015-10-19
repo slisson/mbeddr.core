@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="878o" ref="r:46fddec3-0db9-4b86-8274-957463dd4499(com.mbeddr.mpsutil.grammarcells.runtimelang.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpdg" ref="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" implicit="true" />
   </imports>
@@ -172,6 +173,22 @@
     </node>
     <node concept="PrWs8" id="1vi_twqJeLs" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
+    </node>
+    <node concept="PrWs8" id="5OsvY4gZA6O" role="PzmwI">
+      <ref role="PrY4T" to="878o:5OsvY4gZzIS" resolve="ICollectionLikeCell" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2BcfhHlZPa5">
+    <property role="1pbfSe" value="2144047008" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="GrammarInfoCell" />
+    <property role="34LRSv" value="grammar" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="2BcfhHlZPa9" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cell" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
   </node>
 </model>

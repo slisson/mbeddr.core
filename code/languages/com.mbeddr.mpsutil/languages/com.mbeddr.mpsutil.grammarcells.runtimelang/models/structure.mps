@@ -26,6 +26,7 @@
         <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
       </concept>
@@ -64,6 +65,10 @@
         <property role="tnX3d" value="true" />
       </node>
     </node>
+  </node>
+  <node concept="PlHQZ" id="5OsvY4gZzIS">
+    <property role="1pbfSe" value="1847245721" />
+    <property role="TrG5h" value="ICollectionLikeCell" />
   </node>
 </model>
 

@@ -750,5 +750,18 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="2BcfhHlZPa$">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:2BcfhHlZPa5" resolve="GrammarInfoCell" />
+    <node concept="3EZMnI" id="2BcfhHlZPaA" role="2wV5jI">
+      <node concept="3F0ifn" id="2BcfhHlZPaK" role="3EZMnx">
+        <property role="3F0ifm" value="grammar:" />
+      </node>
+      <node concept="3F1sOY" id="2BcfhHlZPaT" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:2BcfhHlZPa9" />
+      </node>
+      <node concept="2iRfu4" id="2BcfhHlZYYi" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
