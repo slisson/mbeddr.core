@@ -39,13 +39,13 @@
     </language>
   </registry>
   <node concept="3FK_9_" id="6oKG1kMxpo2">
-    <property role="TrG5h" value="nsa" />
+    <property role="TrG5h" value="GeneratedNodeSubstituteActions" />
     <node concept="1kHAGF" id="6oKG1kMybJ7" role="3FOPby">
       <ref role="3FOWKa" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
   <node concept="3UOs0u" id="6oKG1kMxrFD">
-    <property role="TrG5h" value="sta" />
+    <property role="TrG5h" value="GeneratedSideTransformationActions" />
     <node concept="2bVX_k" id="RbLMy693s5" role="3UOs0v">
       <property role="7I3sp" value="both" />
       <ref role="3UNGvu" to="tpck:gw2VY9q" resolve="BaseConcept" />
