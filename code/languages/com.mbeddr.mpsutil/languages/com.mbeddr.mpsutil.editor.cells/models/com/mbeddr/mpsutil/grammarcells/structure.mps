@@ -10,6 +10,7 @@
     <import index="878o" ref="r:46fddec3-0db9-4b86-8274-957463dd4499(com.mbeddr.mpsutil.grammarcells.runtimelang.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpdg" ref="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -49,7 +50,7 @@
     <property role="3GE5qa" value="cells" />
     <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
     <node concept="PrWs8" id="RbLMy6aM8Q" role="PzmwI">
-      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
   </node>
   <node concept="1TIwiD" id="6oKG1kMxvFA">
@@ -90,13 +91,13 @@
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
     <node concept="PrWs8" id="6oKG1kMyAVP" role="PzmwI">
-      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
   </node>
   <node concept="PlHQZ" id="6oKG1kMyAVO">
     <property role="1pbfSe" value="1732567287" />
     <property role="3GE5qa" value="cells" />
-    <property role="TrG5h" value="IGrammarCell" />
+    <property role="TrG5h" value="IActionGeneratingCell" />
   </node>
   <node concept="1TIwiD" id="RbLMy691TW">
     <property role="1pbfSe" value="1812994652" />
@@ -128,7 +129,7 @@
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
     <node concept="PrWs8" id="4qdNcH$0C9H" role="PzmwI">
-      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
   </node>
   <node concept="1TIwiD" id="4qdNcH$3v7A">
@@ -144,7 +145,7 @@
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
     <node concept="PrWs8" id="4qdNcH$3v7E" role="PzmwI">
-      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
   </node>
   <node concept="1TIwiD" id="1vi_twqJeLl">
@@ -172,7 +173,7 @@
       <ref role="20lvS9" to="tpc2:fBF0icI" resolve="CellModel_Constant" />
     </node>
     <node concept="PrWs8" id="1vi_twqJeLs" role="PzmwI">
-      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IGrammarCell" />
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
     <node concept="PrWs8" id="5OsvY4gZA6O" role="PzmwI">
       <ref role="PrY4T" to="878o:5OsvY4gZzIS" resolve="ICollectionLikeCell" />
@@ -186,10 +187,58 @@
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="2BcfhHlZPa9" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="cell" />
+      <property role="20kJfa" value="grammar" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
+    <node concept="1TJgyj" id="2uT2PLmWwE4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="projection" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2uT2PLmXm4H">
+    <property role="1pbfSe" value="2125360265" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="GrammarConstantQueryCell" />
+    <property role="34LRSv" value="grammar.constant" />
+    <ref role="1TJDcQ" to="tpc2:fHev3Dc" resolve="CellModel_AbstractLabel" />
+    <node concept="1TJgyj" id="2uT2PLmXo6I" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="query" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2uT2PLmXm4O" resolve="GrammarConstantQuery" />
+    </node>
+    <node concept="PrWs8" id="2uT2PLmXvE1" role="PzmwI">
+      <ref role="PrY4T" node="2uT2PLmXqYk" resolve="IGrammarCell" />
+    </node>
+    <node concept="PrWs8" id="2uT2PLn1Z88" role="PzmwI">
+      <ref role="PrY4T" node="2uT2PLn1Z87" resolve="IConstantCell" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2uT2PLmXm4O">
+    <property role="1pbfSe" value="2125360272" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="GrammarConstantQuery" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2uT2PLmXmjz">
+    <property role="1pbfSe" value="2125361215" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="Parameter_SubConcept" />
+    <property role="34LRSv" value="subconcept" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="PlHQZ" id="2uT2PLmXqYk">
+    <property role="1pbfSe" value="2125380336" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="IGrammarCell" />
+  </node>
+  <node concept="PlHQZ" id="2uT2PLn1Z87">
+    <property role="1pbfSe" value="2126576995" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="IConstantCell" />
   </node>
 </model>
 

@@ -753,14 +753,76 @@
   <node concept="24kQdi" id="2BcfhHlZPa$">
     <property role="3GE5qa" value="cells" />
     <ref role="1XX52x" to="teg0:2BcfhHlZPa5" resolve="GrammarInfoCell" />
-    <node concept="3EZMnI" id="2BcfhHlZPaA" role="2wV5jI">
-      <node concept="3F0ifn" id="2BcfhHlZPaK" role="3EZMnx">
-        <property role="3F0ifm" value="grammar:" />
+    <node concept="3EZMnI" id="2uT2PLmWyGI" role="2wV5jI">
+      <node concept="3EZMnI" id="2BcfhHlZPaA" role="3EZMnx">
+        <node concept="3F0ifn" id="2BcfhHlZPaK" role="3EZMnx">
+          <property role="3F0ifm" value="grammar:" />
+        </node>
+        <node concept="3F1sOY" id="2BcfhHlZPaT" role="3EZMnx">
+          <ref role="1NtTu8" to="teg0:2BcfhHlZPa9" />
+        </node>
+        <node concept="2iRfu4" id="2BcfhHlZYYi" role="2iSdaV" />
       </node>
-      <node concept="3F1sOY" id="2BcfhHlZPaT" role="3EZMnx">
-        <ref role="1NtTu8" to="teg0:2BcfhHlZPa9" />
+      <node concept="3EZMnI" id="2uT2PLmWyH2" role="3EZMnx">
+        <node concept="3F0ifn" id="2uT2PLmWyH3" role="3EZMnx">
+          <property role="3F0ifm" value="projection:" />
+        </node>
+        <node concept="3F1sOY" id="2uT2PLmWyH4" role="3EZMnx">
+          <property role="1$x2rV" value="same as grammar" />
+          <ref role="1NtTu8" to="teg0:2uT2PLmWwE4" />
+        </node>
+        <node concept="2iRfu4" id="2uT2PLmWyH5" role="2iSdaV" />
       </node>
-      <node concept="2iRfu4" id="2BcfhHlZYYi" role="2iSdaV" />
+      <node concept="2EHx9g" id="2uT2PLmWyHu" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2uT2PLmXo7a">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:2uT2PLmXm4H" resolve="GrammarConstantQueryCell" />
+    <node concept="PMmxH" id="2uT2PLmXo7c" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <node concept="VPXOz" id="2uT2PLmX$E0" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+    <node concept="3EZMnI" id="fIxj85y" role="6VMZX">
+      <property role="3EZMnw" value="true" />
+      <node concept="PMmxH" id="hF4Bju4" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="hF4Bju5" role="3EZMnx">
+        <node concept="Vb9p2" id="hN2HAca" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3h9t8JnexrE" role="3EZMnx">
+        <property role="3F0ifm" value="Grammar:" />
+        <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+      </node>
+      <node concept="3EZMnI" id="3h9t8JnexrF" role="3EZMnx">
+        <property role="3EZMnw" value="true" />
+        <property role="3EZMnz" value="true" />
+        <node concept="3EZMnI" id="3h9t8Jnexss" role="3EZMnx">
+          <property role="3EZMnw" value="false" />
+          <node concept="3F0ifn" id="3h9t8Jnexst" role="3EZMnx">
+            <property role="3F0ifm" value="constant text" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F1sOY" id="3h9t8Jnexsu" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;no condition&gt;" />
+            <ref role="1NtTu8" to="teg0:2uT2PLmXo6I" />
+          </node>
+          <node concept="VPXOz" id="3h9t8Jnexsv" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2iRfu4" id="3h9t8Jnexsw" role="2iSdaV" />
+        </node>
+        <node concept="2EHx9g" id="3h9t8Jnexsx" role="2iSdaV" />
+      </node>
+      <node concept="VPM3Z" id="hEU$P9L" role="3F10Kt">
+        <property role="VOm3f" value="false" />
+      </node>
+      <node concept="2iRkQZ" id="i2IxuMq" role="2iSdaV" />
     </node>
   </node>
 </model>
