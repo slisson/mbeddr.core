@@ -3148,33 +3148,8 @@
                               <node concept="3Tm1VV" id="5OsvY4gxIky" role="1B3o_S" />
                               <node concept="3clFbS" id="5OsvY4gxIk$" role="3clF47">
                                 <node concept="3clFbF" id="5OsvY4gxJF4" role="3cqZAp">
-                                  <node concept="35c_gC" id="5OsvY4gxJF3" role="3clFbG">
-                                    <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
-                                    <node concept="1ZhdrF" id="5OsvY4gxJJb" role="lGtFl">
-                                      <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/2644386474300074836/2644386474300074837" />
-                                      <property role="2qtEX8" value="conceptDeclaration" />
-                                      <node concept="3$xsQk" id="5OsvY4gxJJc" role="3$ytzL">
-                                        <node concept="3clFbS" id="5OsvY4gxJJd" role="2VODD2">
-                                          <node concept="3clFbF" id="5OsvY4gxJNG" role="3cqZAp">
-                                            <node concept="2OqwBi" id="5OsvY4gxKl5" role="3clFbG">
-                                              <node concept="2OqwBi" id="5OsvY4gxJRX" role="2Oq$k0">
-                                                <node concept="30H73N" id="5OsvY4gxJNF" role="2Oq$k0" />
-                                                <node concept="2Xjw5R" id="5OsvY4gxKbV" role="2OqNvi">
-                                                  <node concept="1xMEDy" id="5OsvY4gxKbX" role="1xVPHs">
-                                                    <node concept="chp4Y" id="5OsvY4gxKh7" role="ri$Ld">
-                                                      <ref role="cht4Q" to="tpc2:gXXWOiD" resolve="AbstractComponent" />
-                                                    </node>
-                                                  </node>
-                                                </node>
-                                              </node>
-                                              <node concept="2qgKlT" id="5OsvY4gxKt3" role="2OqNvi">
-                                                <ref role="37wK5l" to="tpcb:67EYkym$wx3" resolve="getConceptDeclaration" />
-                                              </node>
-                                            </node>
-                                          </node>
-                                        </node>
-                                      </node>
-                                    </node>
+                                  <node concept="37vLTw" id="5fhdISdNLpT" role="3clFbG">
+                                    <ref role="3cqZAo" node="2uT2PLmYPwQ" resolve="subconcept" />
                                   </node>
                                 </node>
                               </node>
