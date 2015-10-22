@@ -825,5 +825,12 @@
       <node concept="2iRkQZ" id="i2IxuMq" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="KKTwbO$gXB">
+    <property role="3GE5qa" value="stubs" />
+    <ref role="1XX52x" to="teg0:KKTwbO$gX$" resolve="StubFlagCell" />
+    <node concept="PMmxH" id="KKTwbO$gXC" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:37EzmTDC95l" resolve="ImplementationRemovedInStubMessage" />
+    </node>
+  </node>
 </model>
 
