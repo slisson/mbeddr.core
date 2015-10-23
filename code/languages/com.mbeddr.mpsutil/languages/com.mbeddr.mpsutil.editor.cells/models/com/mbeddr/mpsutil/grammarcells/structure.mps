@@ -63,7 +63,7 @@
   <node concept="1TIwiD" id="6oKG1kMxvFB">
     <property role="TrG5h" value="StubUnorderedCollection" />
     <property role="1pbfSe" value="1732859140" />
-    <property role="3GE5qa" value="stubs" />
+    <property role="3GE5qa" value="cells" />
     <ref role="1TJDcQ" node="6oKG1kMxvFA" resolve="UnorderedCollection" />
     <node concept="PrWs8" id="6oKG1kMxvFC" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -82,7 +82,7 @@
     <property role="1pbfSe" value="1732627854" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="WrapperCell" />
-    <property role="34LRSv" value="wrap" />
+    <property role="34LRSv" value="grammar.wrap" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="6oKG1kMyo9u" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -108,17 +108,6 @@
     <property role="34LRSv" value="generated" />
     <ref role="1TJDcQ" to="tpdg:gzUNGri" resolve="SideTransformHintSubstituteActionsBuilder" />
   </node>
-  <node concept="1TIwiD" id="RbLMy69Jga">
-    <property role="TrG5h" value="StubFlagCell" />
-    <property role="3GE5qa" value="stub" />
-    <ref role="1TJDcQ" node="6oKG1kMxv_T" resolve="FlagCell" />
-    <node concept="PrWs8" id="RbLMy69Jgb" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
-    <node concept="PrWs8" id="RbLMy69Jgc" role="PzmwI">
-      <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="4qdNcHzYfBo">
     <property role="1pbfSe" value="1434007901" />
     <property role="3GE5qa" value="cells" />
@@ -139,7 +128,7 @@
     <property role="1pbfSe" value="1432633679" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="SubstituteCell" />
-    <property role="34LRSv" value="substitute" />
+    <property role="34LRSv" value="grammar.substitute" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="4qdNcH$3v7B" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -194,7 +183,7 @@
     <node concept="1TJgyj" id="2BcfhHlZPa9" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="grammar" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
     <node concept="1TJgyj" id="2uT2PLmWwE4" role="1TKVEi">
@@ -246,14 +235,15 @@
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="IConstantCell" />
   </node>
-  <node concept="1TIwiD" id="KKTwbO$gX$">
+  <node concept="1TIwiD" id="1Ia5rYltZv0">
     <property role="TrG5h" value="StubFlagCell" />
-    <property role="3GE5qa" value="stubs" />
+    <property role="3GE5qa" value="cells" />
+    <property role="1pbfSe" value="1325265537" />
     <ref role="1TJDcQ" node="6oKG1kMxv_T" resolve="FlagCell" />
-    <node concept="PrWs8" id="KKTwbO$gX_" role="PzmwI">
+    <node concept="PrWs8" id="1Ia5rYltZv1" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
-    <node concept="PrWs8" id="KKTwbO$gXA" role="PzmwI">
+    <node concept="PrWs8" id="1Ia5rYltZv2" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>
   </node>

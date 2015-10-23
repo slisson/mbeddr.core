@@ -20,6 +20,9 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
+      <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <child id="1140524464360" name="cellLayout" index="2czzBx" />
+      </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
@@ -88,6 +91,7 @@
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -151,7 +155,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="6oKG1kMxvFE">
-    <property role="3GE5qa" value="stubs" />
+    <property role="3GE5qa" value="cells" />
     <ref role="1XX52x" to="teg0:6oKG1kMxvFB" resolve="StubUnorderedCollection" />
     <node concept="PMmxH" id="6oKG1kMxvFF" role="2wV5jI">
       <ref role="PMmxG" to="tpco:37EzmTDC95l" resolve="ImplementationRemovedInStubMessage" />
@@ -295,13 +299,6 @@
         <ref role="1NtTu8" to="tpdg:gAuHTzT" resolve="transformTag" />
       </node>
       <node concept="l2Vlx" id="RbLMy691Ut" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="RbLMy69Jgd">
-    <property role="3GE5qa" value="stub" />
-    <ref role="1XX52x" to="teg0:RbLMy69Jga" resolve="StubFlagCell" />
-    <node concept="PMmxH" id="RbLMy69Jge" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:37EzmTDC95l" resolve="ImplementationRemovedInStubMessage" />
     </node>
   </node>
   <node concept="24kQdi" id="7bg0Wzv5KMN">
@@ -758,8 +755,9 @@
         <node concept="3F0ifn" id="2BcfhHlZPaK" role="3EZMnx">
           <property role="3F0ifm" value="grammar:" />
         </node>
-        <node concept="3F1sOY" id="2BcfhHlZPaT" role="3EZMnx">
+        <node concept="3F2HdR" id="1Ia5rYlwsZt" role="3EZMnx">
           <ref role="1NtTu8" to="teg0:2BcfhHlZPa9" />
+          <node concept="2iRkQZ" id="1Ia5rYlwthD" role="2czzBx" />
         </node>
         <node concept="2iRfu4" id="2BcfhHlZYYi" role="2iSdaV" />
       </node>
@@ -825,10 +823,10 @@
       <node concept="2iRkQZ" id="i2IxuMq" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="KKTwbO$gXB">
-    <property role="3GE5qa" value="stubs" />
-    <ref role="1XX52x" to="teg0:KKTwbO$gX$" resolve="StubFlagCell" />
-    <node concept="PMmxH" id="KKTwbO$gXC" role="2wV5jI">
+  <node concept="24kQdi" id="1Ia5rYltZv3">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:1Ia5rYltZv0" resolve="StubFlagCell" />
+    <node concept="PMmxH" id="1Ia5rYltZv4" role="2wV5jI">
       <ref role="PMmxG" to="tpco:37EzmTDC95l" resolve="ImplementationRemovedInStubMessage" />
     </node>
   </node>

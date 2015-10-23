@@ -116,6 +116,9 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
       <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.ConceptNodeType" flags="in" index="3THzug">
         <reference id="1180481110358" name="conceptDeclaraton" index="3qa414" />
       </concept>
@@ -145,6 +148,7 @@
         <child id="1237721435807" name="elementType" index="HW$YZ" />
       </concept>
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
+      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
   </registry>
   <node concept="13h7C7" id="6oKG1kMxvGa">
@@ -299,11 +303,14 @@
                 <ref role="3Tt5mk" to="teg0:2uT2PLmWwE4" />
               </node>
             </node>
-            <node concept="2OqwBi" id="2uT2PLmWycy" role="3K4E3e">
-              <node concept="13iPFW" id="2uT2PLmWya0" role="2Oq$k0" />
-              <node concept="3TrEf2" id="2uT2PLmWyoL" role="2OqNvi">
-                <ref role="3Tt5mk" to="teg0:2BcfhHlZPa9" />
+            <node concept="2OqwBi" id="1Ia5rYlwAPa" role="3K4E3e">
+              <node concept="2OqwBi" id="2uT2PLmWycy" role="2Oq$k0">
+                <node concept="13iPFW" id="2uT2PLmWya0" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="1Ia5rYlw_xW" role="2OqNvi">
+                  <ref role="3TtcxE" to="teg0:2BcfhHlZPa9" />
+                </node>
               </node>
+              <node concept="1uHKPH" id="1Ia5rYlwBOi" role="2OqNvi" />
             </node>
             <node concept="2OqwBi" id="2uT2PLmWxQ0" role="3K4Cdx">
               <node concept="2OqwBi" id="2uT2PLmWxyU" role="2Oq$k0">
