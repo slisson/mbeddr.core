@@ -3518,6 +3518,21 @@
       <node concept="10P_77" id="4LLYoSZMkW" role="3clF45" />
       <node concept="3Tm1VV" id="4LLYoSZMkX" role="1B3o_S" />
     </node>
+    <node concept="13i0hz" id="1Ia5rYlCQz6" role="13h7CS">
+      <property role="TrG5h" value="isDotCapable" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="66WTx3vdu2E" resolve="isDotCapable" />
+      <node concept="3Tm1VV" id="1Ia5rYlCQz7" role="1B3o_S" />
+      <node concept="3clFbS" id="1Ia5rYlCQzt" role="3clF47">
+        <node concept="3clFbF" id="1Ia5rYlCQDv" role="3cqZAp">
+          <node concept="3clFbT" id="1Ia5rYlCQDu" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="1Ia5rYlCQzu" role="3clF45" />
+    </node>
     <node concept="13hLZK" id="3ilck8KrCZ6" role="13h7CW">
       <node concept="3clFbS" id="3ilck8KrCZ7" role="2VODD2" />
     </node>
