@@ -242,7 +242,7 @@
     </node>
     <node concept="3EZMnI" id="3h9t8JnexrB" role="6VMZX">
       <node concept="3F0ifn" id="1Ia5rYlzm_V" role="3EZMnx">
-        <property role="3F0ifm" value="Wrapper:" />
+        <property role="3F0ifm" value="Side Transformation:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3EZMnI" id="1Ia5rYlzm_W" role="3EZMnx">
@@ -251,17 +251,47 @@
         <node concept="3EZMnI" id="1Ia5rYlzm_X" role="3EZMnx">
           <property role="3EZMnw" value="false" />
           <node concept="3F0ifn" id="1Ia5rYlzm_Y" role="3EZMnx">
-            <property role="3F0ifm" value="side transformation condition:" />
+            <property role="3F0ifm" value="condition:" />
             <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
           </node>
           <node concept="3F1sOY" id="1Ia5rYlzm_Z" role="3EZMnx">
-            <property role="1$x2rV" value="&lt;no condition&gt;" />
+            <property role="1$x2rV" value="true" />
             <ref role="1NtTu8" to="teg0:1Ia5rYlzacq" />
           </node>
           <node concept="VPXOz" id="1Ia5rYlzmA0" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
           <node concept="2iRfu4" id="1Ia5rYlzmA1" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="1Ia5rYlGCXI" role="3EZMnx">
+          <property role="3EZMnw" value="false" />
+          <node concept="3F0ifn" id="1Ia5rYlGCXJ" role="3EZMnx">
+            <property role="3F0ifm" value="left text:" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F1sOY" id="1Ia5rYlGCXK" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;use neighbour cell&gt;" />
+            <ref role="1NtTu8" to="teg0:1Ia5rYlGAt_" />
+          </node>
+          <node concept="VPXOz" id="1Ia5rYlGCXL" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2iRfu4" id="1Ia5rYlGCXM" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="1Ia5rYlGFq1" role="3EZMnx">
+          <property role="3EZMnw" value="false" />
+          <node concept="3F0ifn" id="1Ia5rYlGFq2" role="3EZMnx">
+            <property role="3F0ifm" value="right text:" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F1sOY" id="1Ia5rYlGFq3" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;use neighbour cell&gt;" />
+            <ref role="1NtTu8" to="teg0:1Ia5rYlGBkJ" />
+          </node>
+          <node concept="VPXOz" id="1Ia5rYlGFq4" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2iRfu4" id="1Ia5rYlGFq5" role="2iSdaV" />
         </node>
         <node concept="2EHx9g" id="1Ia5rYlzmA2" role="2iSdaV" />
       </node>
