@@ -17,6 +17,7 @@
       </concept>
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
+        <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -63,6 +64,7 @@
     <node concept="13i0hz" id="77A3HzrK1aC" role="13h7CS">
       <property role="TrG5h" value="getPriority" />
       <property role="13i0it" value="true" />
+      <property role="2Ki8OM" value="true" />
       <node concept="3Tm1VV" id="77A3HzrK1aD" role="1B3o_S" />
       <node concept="10Oyi0" id="77A3HzrK1aS" role="3clF45" />
       <node concept="3clFbS" id="77A3HzrK1aF" role="3clF47">
@@ -76,6 +78,7 @@
     <node concept="13i0hz" id="77A3HzrK1bb" role="13h7CS">
       <property role="TrG5h" value="isLeftAssociative" />
       <property role="13i0it" value="true" />
+      <property role="2Ki8OM" value="true" />
       <node concept="3Tm1VV" id="77A3HzrK1bc" role="1B3o_S" />
       <node concept="10P_77" id="77A3HzrK1bH" role="3clF45" />
       <node concept="3clFbS" id="77A3HzrK1be" role="3clF47">
@@ -96,6 +99,7 @@
       <property role="TrG5h" value="getPriority" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
+      <property role="2Ki8OM" value="true" />
       <ref role="13i0hy" node="77A3HzrK1aC" resolve="getPriority" />
       <node concept="3Tm1VV" id="77A3HzrKdLY" role="1B3o_S" />
       <node concept="3clFbS" id="77A3HzrKdM3" role="3clF47">
@@ -105,7 +109,7 @@
           </node>
         </node>
       </node>
-      <node concept="10Oyi0" id="77A3HzrKdM4" role="3clF45" />
+      <node concept="10Oyi0" id="77A3HzrNr8j" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="77A3HzrKdQN">
@@ -117,6 +121,7 @@
       <property role="TrG5h" value="getPriority" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
+      <property role="2Ki8OM" value="true" />
       <ref role="13i0hy" node="77A3HzrK1aC" resolve="getPriority" />
       <node concept="3Tm1VV" id="77A3HzrKdQX" role="1B3o_S" />
       <node concept="3clFbS" id="77A3HzrKdR2" role="3clF47">
