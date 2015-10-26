@@ -88,9 +88,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -582,16 +579,15 @@
       </node>
       <node concept="3clFbS" id="6hg40VOPQgw" role="3clF47">
         <node concept="3clFbF" id="6hg40VOPQsu" role="3cqZAp">
-          <node concept="1PxgMI" id="6hg40VOPQDf" role="3clFbG">
-            <property role="1BlNFB" value="true" />
+          <node concept="1PxgMI" id="77A3HzrFuWW" role="3clFbG">
             <ref role="1PxNhF" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
-            <node concept="2YIFZM" id="6hg40VOPQsw" role="1PxMeX">
-              <ref role="37wK5l" to="czm:RbLMy6c9G8" resolve="firstLastLeaf" />
-              <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
-              <node concept="13iPFW" id="6hg40VOPQsx" role="37wK5m" />
-              <node concept="3clFbT" id="6hg40VOPQsy" role="37wK5m">
-                <property role="3clFbU" value="true" />
+            <node concept="2OqwBi" id="77A3HzrFwpa" role="1PxMeX">
+              <node concept="2YIFZM" id="77A3HzrFvBB" role="2Oq$k0">
+                <ref role="37wK5l" to="czm:5OsvY4gxRdc" resolve="collectDescendantLeafs" />
+                <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                <node concept="13iPFW" id="77A3HzrFvBC" role="37wK5m" />
               </node>
+              <node concept="1uHKPH" id="77A3HzrFxsq" role="2OqNvi" />
             </node>
           </node>
         </node>
