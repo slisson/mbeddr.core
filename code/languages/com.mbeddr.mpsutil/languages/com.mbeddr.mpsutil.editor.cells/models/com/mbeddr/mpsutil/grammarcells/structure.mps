@@ -18,6 +18,7 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
@@ -26,6 +27,9 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -280,6 +284,66 @@
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="WrapperCell_TransformationText" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5WBKiSs9kHF">
+    <property role="1pbfSe" value="2068647065" />
+    <property role="TrG5h" value="InlineActionMapCell" />
+    <property role="3GE5qa" value="inlineActions" />
+    <property role="34LRSv" value="grammar.cellActions" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="5WBKiSs9kHP" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cell" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+    <node concept="1TJgyj" id="5WBKiSs9_2H" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5WBKiSs9xxf" resolve="InlineActionMapItem" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WBKiSs9xxf">
+    <property role="1pbfSe" value="2068699517" />
+    <property role="3GE5qa" value="inlineActions" />
+    <property role="TrG5h" value="InlineActionMapItem" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="g_hAc3q" role="1TKVEl">
+      <property role="TrG5h" value="actionId" />
+      <ref role="AX2Wp" to="tpc2:g_hAjpB" resolve="CellActionId" />
+    </node>
+    <node concept="1TJgyj" id="5WBKiSs9$Zt" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="canExecute" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="5WBKiSs9xxt" resolve="InlineActionMapItem_CanExecuteFunction" />
+    </node>
+    <node concept="1TJgyj" id="5WBKiSs9$Zx" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="execute" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5WBKiSs9xxm" resolve="InlineActionMapItem_ExecuteFunction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WBKiSs9xxm">
+    <property role="1pbfSe" value="2068699524" />
+    <property role="3GE5qa" value="inlineActions" />
+    <property role="TrG5h" value="InlineActionMapItem_ExecuteFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5WBKiSs9xxt">
+    <property role="1pbfSe" value="2068699531" />
+    <property role="3GE5qa" value="inlineActions" />
+    <property role="TrG5h" value="InlineActionMapItem_CanExecuteFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5WBKiSs9xAL">
+    <property role="1pbfSe" value="2068699871" />
+    <property role="3GE5qa" value="inlineActions" />
+    <property role="TrG5h" value="InlineActionMapItem_Param_node" />
+    <property role="34LRSv" value="node" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

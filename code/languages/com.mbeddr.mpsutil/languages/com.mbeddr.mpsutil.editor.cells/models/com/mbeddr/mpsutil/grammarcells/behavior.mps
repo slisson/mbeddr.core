@@ -13,7 +13,8 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="czm" ref="r:e8e03ffa-3c1e-4997-9f51-6f8ca9be2f23(com.mbeddr.mpsutil.editor.cells.runtime)" />
-    <import index="teg0" ref="r:96165ed2-ef22-48c7-bfe5-8fce083cbabb(com.mbeddr.mpsutil.grammarcells.structure)" implicit="true" />
+    <import index="tpcw" ref="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
+    <import index="teg0" ref="r:96165ed2-ef22-48c7-bfe5-8fce083cbabb(com.mbeddr.mpsutil.grammarcells.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpdg" ref="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" implicit="true" />
   </imports>
@@ -773,6 +774,96 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="1Ia5rYlGzbn" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5WBKiSs9xBg">
+    <property role="3GE5qa" value="inlineActions" />
+    <ref role="13h7C2" to="teg0:5WBKiSs9xxm" resolve="InlineActionMapItem_ExecuteFunction" />
+    <node concept="13hLZK" id="5WBKiSs9xBh" role="13h7CW">
+      <node concept="3clFbS" id="5WBKiSs9xBi" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5WBKiSs9xBp" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="5WBKiSs9xBU" role="1B3o_S" />
+      <node concept="3clFbS" id="5WBKiSs9xBV" role="3clF47">
+        <node concept="3clFbF" id="5WBKiSs9yYq" role="3cqZAp">
+          <node concept="2ShNRf" id="5WBKiSs9yYm" role="3clFbG">
+            <node concept="Tc6Ow" id="5WBKiSs9$cK" role="2ShVmc">
+              <node concept="3THzug" id="5WBKiSs9$gQ" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="5WBKiSs9$l8" role="HW$Y0">
+                <ref role="3TV0OU" to="tpcw:ho1XNXU" resolve="ConceptFunctionParameter_editorContext" />
+              </node>
+              <node concept="3TUQnm" id="5WBKiSs9$DC" role="HW$Y0">
+                <ref role="3TV0OU" to="teg0:5WBKiSs9xAL" resolve="InlineActionMapItem_Param_node" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="5WBKiSs9xBW" role="3clF45">
+        <node concept="3THzug" id="5WBKiSs9xBX" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="5WBKiSs9$Iz">
+    <property role="3GE5qa" value="inlineActions" />
+    <ref role="13h7C2" to="teg0:5WBKiSs9xxt" resolve="InlineActionMapItem_CanExecuteFunction" />
+    <node concept="13hLZK" id="5WBKiSs9$I$" role="13h7CW">
+      <node concept="3clFbS" id="5WBKiSs9$I_" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5WBKiSs9$IG" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="5WBKiSs9$Jd" role="1B3o_S" />
+      <node concept="3clFbS" id="5WBKiSs9$Je" role="3clF47">
+        <node concept="3clFbF" id="5WBKiSs9$Nh" role="3cqZAp">
+          <node concept="2ShNRf" id="5WBKiSs9$Ni" role="3clFbG">
+            <node concept="Tc6Ow" id="5WBKiSs9$Nj" role="2ShVmc">
+              <node concept="3THzug" id="5WBKiSs9$Nk" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="5WBKiSs9$Nl" role="HW$Y0">
+                <ref role="3TV0OU" to="tpcw:ho1XNXU" resolve="ConceptFunctionParameter_editorContext" />
+              </node>
+              <node concept="3TUQnm" id="5WBKiSs9$Nm" role="HW$Y0">
+                <ref role="3TV0OU" to="teg0:5WBKiSs9xAL" resolve="InlineActionMapItem_Param_node" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="5WBKiSs9$Jf" role="3clF45">
+        <node concept="3THzug" id="5WBKiSs9$Jg" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="5WBKiSs9$PV" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="5WBKiSs9$PZ" role="1B3o_S" />
+      <node concept="3clFbS" id="5WBKiSs9$Q1" role="3clF47">
+        <node concept="3clFbF" id="5WBKiSs9$YM" role="3cqZAp">
+          <node concept="2c44tf" id="5WBKiSs9$YK" role="3clFbG">
+            <node concept="10P_77" id="5WBKiSs9$Za" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="5WBKiSs9$Q2" role="3clF45" />
     </node>
   </node>
 </model>
