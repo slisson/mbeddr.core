@@ -199,11 +199,11 @@
     <property role="TrG5h" value="GrammarInfoCell" />
     <property role="34LRSv" value="grammar" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
-    <node concept="1TJgyj" id="2BcfhHlZPa9" role="1TKVEi">
+    <node concept="1TJgyj" id="77A3HzrGy5f" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="grammar" />
+      <property role="20kJfa" value="rules" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+      <ref role="20lvS9" node="77A3HzrGsvf" resolve="CellBasedRule" />
     </node>
     <node concept="1TJgyj" id="2uT2PLmWwE4" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -344,6 +344,42 @@
     <property role="TrG5h" value="InlineActionMapItem_Param_node" />
     <property role="34LRSv" value="node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="77A3HzrGsvf">
+    <property role="1pbfSe" value="1301796519" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="CellBasedRule" />
+    <property role="34LRSv" value="rule" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="77A3HzrGsvB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="symbols" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+    <node concept="1TJgyj" id="77A3HzrJpWi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="leftAssociative" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="77A3HzrJqc0" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="priority" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="77A3HzrGsvz" role="PzmwI">
+      <ref role="PrY4T" node="77A3HzrGsvs" resolve="IRule" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="77A3HzrGsvs">
+    <property role="1pbfSe" value="1301796532" />
+    <property role="TrG5h" value="IRule" />
+  </node>
+  <node concept="1TIwiD" id="77A3HzrJvbw">
+    <property role="1pbfSe" value="1302593976" />
+    <property role="TrG5h" value="SubconceptExpression" />
+    <property role="34LRSv" value="subconcept" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>
 

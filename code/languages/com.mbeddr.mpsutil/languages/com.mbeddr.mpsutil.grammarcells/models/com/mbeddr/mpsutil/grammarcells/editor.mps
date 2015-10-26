@@ -812,15 +812,15 @@
     <property role="3GE5qa" value="cells" />
     <ref role="1XX52x" to="teg0:2BcfhHlZPa5" resolve="GrammarInfoCell" />
     <node concept="3EZMnI" id="2uT2PLmWyGI" role="2wV5jI">
-      <node concept="3EZMnI" id="2BcfhHlZPaA" role="3EZMnx">
-        <node concept="3F0ifn" id="2BcfhHlZPaK" role="3EZMnx">
+      <node concept="3EZMnI" id="77A3HzrGy4w" role="3EZMnx">
+        <node concept="3F0ifn" id="77A3HzrGy4x" role="3EZMnx">
           <property role="3F0ifm" value="grammar:" />
         </node>
-        <node concept="3F2HdR" id="1Ia5rYlwsZt" role="3EZMnx">
-          <ref role="1NtTu8" to="teg0:2BcfhHlZPa9" />
-          <node concept="2iRkQZ" id="1Ia5rYlwthD" role="2czzBx" />
+        <node concept="3F2HdR" id="77A3HzrGy4y" role="3EZMnx">
+          <ref role="1NtTu8" to="teg0:77A3HzrGy5f" />
+          <node concept="2iRkQZ" id="77A3HzrGy4z" role="2czzBx" />
         </node>
-        <node concept="2iRfu4" id="2BcfhHlZYYi" role="2iSdaV" />
+        <node concept="2iRfu4" id="77A3HzrGy4$" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="2uT2PLmWyH2" role="3EZMnx">
         <node concept="3F0ifn" id="2uT2PLmWyH3" role="3EZMnx">
@@ -1000,6 +1000,52 @@
         <node concept="2EHx9g" id="i2IxuTe" role="2iSdaV" />
       </node>
       <node concept="2iRfu4" id="i2IxuO6" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="77A3HzrGsw3">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:77A3HzrGsvf" resolve="CellBasedRule" />
+    <node concept="3EZMnI" id="77A3HzrGswb" role="2wV5jI">
+      <node concept="3F0ifn" id="77A3HzrGswo" role="3EZMnx">
+        <property role="3F0ifm" value="rule:" />
+      </node>
+      <node concept="3F1sOY" id="77A3HzrGsw$" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:77A3HzrGsvB" />
+      </node>
+      <node concept="l2Vlx" id="77A3HzrGswe" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="77A3HzrGFAX" role="6VMZX">
+      <node concept="2EHx9g" id="77A3HzrGFBh" role="2iSdaV" />
+      <node concept="3EZMnI" id="77A3HzrGFB5" role="3EZMnx">
+        <node concept="2iRfu4" id="77A3HzrGFBm" role="2iSdaV" />
+        <node concept="VPM3Z" id="77A3HzrGFB7" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="77A3HzrGFBr" role="3EZMnx">
+          <property role="3F0ifm" value="left associative (concept&lt;&gt; subconcept):" />
+        </node>
+        <node concept="3F1sOY" id="77A3HzrJqx8" role="3EZMnx">
+          <ref role="1NtTu8" to="teg0:77A3HzrJpWi" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="77A3HzrGFBP" role="3EZMnx">
+        <node concept="2iRfu4" id="77A3HzrGFBQ" role="2iSdaV" />
+        <node concept="VPM3Z" id="77A3HzrGFBR" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="77A3HzrGFBS" role="3EZMnx">
+          <property role="3F0ifm" value="priority (concept&lt;&gt; subconcept):" />
+        </node>
+        <node concept="3F1sOY" id="77A3HzrJqxq" role="3EZMnx">
+          <ref role="1NtTu8" to="teg0:77A3HzrJqc0" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="77A3HzrJvbZ">
+    <ref role="1XX52x" to="teg0:77A3HzrJvbw" resolve="SubconceptExpression" />
+    <node concept="PMmxH" id="77A3HzrJvc7" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>
