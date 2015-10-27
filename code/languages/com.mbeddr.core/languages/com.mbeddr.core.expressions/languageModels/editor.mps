@@ -384,7 +384,9 @@
       </concept>
       <concept id="8207263695490893775" name="com.mbeddr.mpsutil.grammarcells.structure.CellBasedRule" flags="ng" index="2ElW$n">
         <child id="8207263695490893799" name="symbols" index="2ElW$Z" />
+        <child id="8207263695491670784" name="priority" index="2EmURo" />
       </concept>
+      <concept id="8207263695491691232" name="com.mbeddr.mpsutil.grammarcells.structure.SubconceptExpression" flags="ng" index="2EmZKS" />
       <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G" />
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
         <child id="1984422498402083610" name="sideTransformationCondition" index="2e1Fq_" />
@@ -833,6 +835,12 @@
             </node>
           </node>
           <node concept="l2Vlx" id="5fhdISdO3qF" role="2iSdaV" />
+        </node>
+        <node concept="2OqwBi" id="6YjZr6Qvz34" role="2EmURo">
+          <node concept="2EmZKS" id="6YjZr6QvpwC" role="2Oq$k0" />
+          <node concept="2qgKlT" id="6YjZr6Qvzqw" role="2OqNvi">
+            <ref role="37wK5l" to="ywuz:5HxjapwgqKu" resolve="getPriolevel" />
+          </node>
         </node>
       </node>
     </node>
