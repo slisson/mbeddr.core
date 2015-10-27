@@ -1055,5 +1055,27 @@
       <node concept="3clFbS" id="6ASs6Ln2NDp" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="6ASs6Ln7Cdd">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:4qdNcHzYfBo" resolve="OptionalCell" />
+    <node concept="13hLZK" id="6ASs6Ln7Cde" role="13h7CW">
+      <node concept="3clFbS" id="6ASs6Ln7Cdf" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6ASs6Ln7CdK" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="generatesDeleteAction" />
+      <ref role="13i0hy" node="6ASs6LmWHDF" resolve="generatesDeleteAction" />
+      <node concept="3Tm1VV" id="6ASs6Ln7CdL" role="1B3o_S" />
+      <node concept="3clFbS" id="6ASs6Ln7CdQ" role="3clF47">
+        <node concept="3clFbF" id="6ASs6Ln7CfH" role="3cqZAp">
+          <node concept="3clFbT" id="6ASs6Ln7CfG" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="6ASs6Ln7CdR" role="3clF45" />
+    </node>
+  </node>
 </model>
 

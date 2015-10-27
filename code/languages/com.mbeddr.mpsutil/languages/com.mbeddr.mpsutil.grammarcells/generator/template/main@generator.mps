@@ -9221,13 +9221,18 @@
           </node>
           <node concept="3clFbF" id="6ASs6LmWINP" role="3cqZAp">
             <node concept="3vZ8r8" id="6ASs6LmWJhe" role="3clFbG">
-              <node concept="2OqwBi" id="6ASs6LmWLlh" role="37vLTx">
-                <node concept="1PxgMI" id="6ASs6LmWKCn" role="2Oq$k0">
-                  <property role="1BlNFB" value="true" />
-                  <ref role="1PxNhF" to="teg0:6oKG1kMyAVO" resolve="IActionGeneratingCell" />
-                  <node concept="30H73N" id="6ASs6LmWJAl" role="1PxMeX" />
+              <node concept="2OqwBi" id="6ASs6Ln7Gi1" role="37vLTx">
+                <node concept="2OqwBi" id="6ASs6Ln7F3L" role="2Oq$k0">
+                  <node concept="30H73N" id="6ASs6LmWJAl" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="6ASs6Ln7Fzi" role="2OqNvi">
+                    <node concept="1xMEDy" id="6ASs6Ln7Fzk" role="1xVPHs">
+                      <node concept="chp4Y" id="6ASs6Ln7FUk" role="ri$Ld">
+                        <ref role="cht4Q" to="teg0:6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="2qgKlT" id="6ASs6LmWLJB" role="2OqNvi">
+                <node concept="2qgKlT" id="6ASs6Ln7GHC" role="2OqNvi">
                   <ref role="37wK5l" to="karh:6ASs6LmWHDF" resolve="generatesDeleteAction" />
                 </node>
               </node>
