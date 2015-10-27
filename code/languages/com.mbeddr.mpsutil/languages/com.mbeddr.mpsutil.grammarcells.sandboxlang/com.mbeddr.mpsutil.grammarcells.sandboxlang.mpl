@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="com.mbeddr.mpsutil.editor.cells.sandboxlang#1749127723000259754" uuid="70c639aa-2028-47e9-88c9-7d69c9b405e3">
+    <generator generatorUID="com.mbeddr.mpsutil.grammarcells.sandboxlang#1749127723000259754" uuid="70c639aa-2028-47e9-88c9-7d69c9b405e3">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />

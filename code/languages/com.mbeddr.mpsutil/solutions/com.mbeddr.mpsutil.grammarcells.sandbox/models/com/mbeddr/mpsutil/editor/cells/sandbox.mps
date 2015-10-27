@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:bae66b56-8260-4ca2-b9e1-6409bf7aba83(com.mbeddr.mpsutil.editor.cells.sandbox)">
+<model ref="r:bae66b56-8260-4ca2-b9e1-6409bf7aba83(com.mbeddr.mpsutil.grammarcells.sandbox)">
   <persistence version="9" />
   <languages>
     <use id="a257f68c-93a3-47b0-838b-6905dd9c20f6" name="com.mbeddr.mpsutil.grammarcells.sandboxlang" version="0" />
