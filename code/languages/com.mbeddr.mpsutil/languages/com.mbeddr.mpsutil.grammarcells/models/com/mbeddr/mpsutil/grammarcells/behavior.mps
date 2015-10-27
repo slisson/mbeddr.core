@@ -78,6 +78,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -983,6 +984,75 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="6ASs6Ln2NDn">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:6ASs6Ln2N$C" resolve="IncludeParentSideTransformations" />
+    <node concept="13i0hz" id="6ASs6Ln2NER" role="13h7CS">
+      <property role="TrG5h" value="leftTransformationsEnabled" />
+      <node concept="3Tm1VV" id="6ASs6Ln2NES" role="1B3o_S" />
+      <node concept="10P_77" id="6ASs6Ln2NF7" role="3clF45" />
+      <node concept="3clFbS" id="6ASs6Ln2NEU" role="3clF47">
+        <node concept="3clFbF" id="6ASs6Ln2PLq" role="3cqZAp">
+          <node concept="22lmx$" id="6ASs6Ln47ba" role="3clFbG">
+            <node concept="2OqwBi" id="6ASs6Ln47hL" role="3uHU7B">
+              <node concept="13iPFW" id="6ASs6Ln47df" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6ASs6Ln47w2" role="2OqNvi">
+                <ref role="3TsBF5" to="teg0:6ASs6Ln45Jn" resolve="forceLeft" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="6ASs6Ln2Q0g" role="3uHU7w">
+              <node concept="2YIFZM" id="6ASs6Ln2PMJ" role="3uHU7B">
+                <ref role="37wK5l" to="czm:RbLMy6c3rM" resolve="findLeaf" />
+                <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                <node concept="13iPFW" id="6ASs6Ln2PNN" role="37wK5m" />
+                <node concept="35c_gC" id="6ASs6Ln2PQS" role="37wK5m">
+                  <ref role="35c_gD" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+                </node>
+                <node concept="3clFbT" id="6ASs6Ln2PWm" role="37wK5m">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="6ASs6Ln2Q0L" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6ASs6Ln2NQO" role="13h7CS">
+      <property role="TrG5h" value="rightTransformationsEnabled" />
+      <node concept="3Tm1VV" id="6ASs6Ln2NQP" role="1B3o_S" />
+      <node concept="10P_77" id="6ASs6Ln2NQQ" role="3clF45" />
+      <node concept="3clFbS" id="6ASs6Ln2NQR" role="3clF47">
+        <node concept="3clFbF" id="6ASs6Ln2Q2r" role="3cqZAp">
+          <node concept="22lmx$" id="6ASs6Ln47y1" role="3clFbG">
+            <node concept="2OqwBi" id="6ASs6Ln47CA" role="3uHU7B">
+              <node concept="13iPFW" id="6ASs6Ln47$4" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6ASs6Ln47QR" role="2OqNvi">
+                <ref role="3TsBF5" to="teg0:6ASs6Ln4653" resolve="forceRight" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="6ASs6Ln2Q2s" role="3uHU7w">
+              <node concept="10Nm6u" id="6ASs6Ln2Q2t" role="3uHU7w" />
+              <node concept="2YIFZM" id="6ASs6Ln2Q2u" role="3uHU7B">
+                <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                <ref role="37wK5l" to="czm:RbLMy6c3rM" resolve="findLeaf" />
+                <node concept="13iPFW" id="6ASs6Ln2Q2v" role="37wK5m" />
+                <node concept="35c_gC" id="6ASs6Ln2Q2w" role="37wK5m">
+                  <ref role="35c_gD" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+                </node>
+                <node concept="3clFbT" id="6ASs6Ln2Q2x" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="6ASs6Ln2NDo" role="13h7CW">
+      <node concept="3clFbS" id="6ASs6Ln2NDp" role="2VODD2" />
     </node>
   </node>
 </model>

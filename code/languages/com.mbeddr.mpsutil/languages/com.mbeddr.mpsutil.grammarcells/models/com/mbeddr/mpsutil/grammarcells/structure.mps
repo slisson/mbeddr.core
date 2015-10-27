@@ -385,5 +385,29 @@
     <property role="34LRSv" value="subconcept" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
+  <node concept="1TIwiD" id="6ASs6Ln2N$C">
+    <property role="1pbfSe" value="1060918892" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="IncludeParentSideTransformations" />
+    <property role="34LRSv" value="grammar.parentTransformations" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyi" id="6ASs6Ln45Jn" role="1TKVEl">
+      <property role="TrG5h" value="forceLeft" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="6ASs6Ln4653" role="1TKVEl">
+      <property role="TrG5h" value="forceRight" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="6ASs6Ln2NAp" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+    </node>
+    <node concept="1TJgyj" id="6ASs6Ln2NA6" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="wrapped" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBF1sR7" resolve="CellModel_RefNode" />
+    </node>
+  </node>
 </model>
 
