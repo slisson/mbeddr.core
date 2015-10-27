@@ -174,6 +174,7 @@
       <concept id="8243879142738608185" name="jetbrains.mps.baseLanguage.unitTest.structure.BeforeTest" flags="in" index="1KhYhu" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -1869,6 +1870,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="1PeMnANa5hw" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="6ASs6LmOPoQ" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -1881,6 +1885,9 @@
             <ref role="3cqZAo" node="6ASs6LmOPEj" resolve="myFixedTokenNumber" />
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="1PeMnANa5hz" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="6ASs6LmOPoX" role="jymVt">
@@ -1899,6 +1906,9 @@
           <node concept="3clFbT" id="6ASs6LmOPp4" role="3clFbG" />
         </node>
       </node>
+      <node concept="2AHcQZ" id="1PeMnANa5hy" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="2tJIrI" id="6ASs6LmOQxe" role="jymVt" />
     <node concept="3clFb_" id="6ASs6LmOPp6" role="jymVt">
@@ -1916,6 +1926,15 @@
           <ref role="3uigEE" to="czm:2TSIj8m0Ksb" resolve="Parser" />
         </node>
       </node>
+      <node concept="37vLTG" id="1PeMnANa9TL" role="3clF46">
+        <property role="TrG5h" value="symbolInParent" />
+        <node concept="3uibUv" id="1PeMnANaaRv" role="1tU5fm">
+          <ref role="3uigEE" to="czm:1PeMnANa92l" resolve="SymbolInRule" />
+        </node>
+        <node concept="2AHcQZ" id="1PeMnANafjk" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
       <node concept="3uibUv" id="6ASs6LmOPpb" role="3clF45">
         <ref role="3uigEE" to="czm:5OsvY4g$Xf2" resolve="PNode" />
       </node>
@@ -1927,6 +1946,9 @@
         <node concept="3clFbF" id="6ASs6LmOPph" role="3cqZAp">
           <node concept="10Nm6u" id="6ASs6LmOPpg" role="3clFbG" />
         </node>
+      </node>
+      <node concept="2AHcQZ" id="1PeMnANa5hu" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="6ASs6LmOPpi" role="jymVt">
@@ -1945,6 +1967,9 @@
           <node concept="10Nm6u" id="6ASs6LmOPpp" role="3clFbG" />
         </node>
       </node>
+      <node concept="2AHcQZ" id="1PeMnANa5hv" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="6ASs6LmOPpr" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -1962,6 +1987,23 @@
       <node concept="3cqZAl" id="6ASs6LmOPpw" role="3clF45" />
       <node concept="3Tm1VV" id="6ASs6LmOPpx" role="1B3o_S" />
       <node concept="3clFbS" id="6ASs6LmOPpz" role="3clF47" />
+      <node concept="2AHcQZ" id="1PeMnANa5hx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1PeMnANaozc" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getOutputConcept" />
+      <node concept="3bZ5Sz" id="1PeMnANaozd" role="3clF45" />
+      <node concept="3Tm1VV" id="1PeMnANaoze" role="1B3o_S" />
+      <node concept="2AHcQZ" id="1PeMnANaozg" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3clFbS" id="1PeMnANaozh" role="3clF47">
+        <node concept="3clFbF" id="1PeMnANaoIg" role="3cqZAp">
+          <node concept="10Nm6u" id="1PeMnANaoIf" role="3clFbG" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

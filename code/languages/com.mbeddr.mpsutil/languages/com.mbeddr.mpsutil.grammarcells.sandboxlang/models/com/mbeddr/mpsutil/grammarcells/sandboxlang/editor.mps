@@ -7,6 +7,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="ibwz" ref="r:ad27d4b4-fc2c-4b6d-9e22-455eb0ccf354(com.mbeddr.mpsutil.grammarcells.sandboxlang.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -39,8 +40,10 @@
       </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
+        <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
+      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -70,6 +73,7 @@
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
+      <concept id="1176809959526" name="jetbrains.mps.lang.editor.structure.QueryFunction_Color" flags="in" index="3ZlJ5R" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -88,9 +92,14 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
       <concept id="1716599163375643733" name="com.mbeddr.mpsutil.grammarcells.structure.BracketsCell" flags="ng" index="drBAd">
@@ -400,36 +409,6 @@
   <node concept="24kQdi" id="4qdNcH$3auC">
     <ref role="1XX52x" to="ibwz:2uT2PLmZYwS" resolve="BinaryExpression" />
     <node concept="1WcQYu" id="5OsvY4gwOqp" role="2wV5jI">
-      <node concept="3EZMnI" id="2uT2PLmZYxf" role="1LiK7o">
-        <node concept="1kIj98" id="2uT2PLmZYxg" role="3EZMnx">
-          <node concept="3F1sOY" id="2uT2PLmZYxh" role="1kIj9b">
-            <ref role="1NtTu8" to="ibwz:4qdNcH$3y96" />
-          </node>
-        </node>
-        <node concept="yw3OH" id="2uT2PLmZYxi" role="3EZMnx">
-          <node concept="1Lj6DL" id="2uT2PLn3dcu" role="yw3OG">
-            <node concept="1Lj6DC" id="2uT2PLn3dcw" role="1Lj8FM">
-              <node concept="3clFbS" id="2uT2PLn3dcy" role="2VODD2">
-                <node concept="3clFbF" id="2uT2PLn3ddQ" role="3cqZAp">
-                  <node concept="2OqwBi" id="2uT2PLn3dhk" role="3clFbG">
-                    <node concept="1Lj6YZ" id="2uT2PLn3ddP" role="2Oq$k0" />
-                    <node concept="3n3YKJ" id="2uT2PLn3drI" role="2OqNvi" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="VechU" id="5fhdISdNleJ" role="3F10Kt">
-              <property role="Vb096" value="blue" />
-            </node>
-          </node>
-        </node>
-        <node concept="1kIj98" id="2uT2PLmZYxk" role="3EZMnx">
-          <node concept="3F1sOY" id="2uT2PLmZYxl" role="1kIj9b">
-            <ref role="1NtTu8" to="ibwz:4qdNcH$3y99" />
-          </node>
-        </node>
-        <node concept="l2Vlx" id="2uT2PLmZYxm" role="2iSdaV" />
-      </node>
       <node concept="2ElW$n" id="77A3HzrI7kj" role="2El2Yn">
         <node concept="3EZMnI" id="2uT2PLmZYxS" role="2ElW$Z">
           <node concept="3F1sOY" id="2uT2PLmZYy5" role="3EZMnx">
@@ -464,6 +443,139 @@
             <ref role="37wK5l" to="r23f:77A3HzrK1bb" resolve="isLeftAssociative" />
           </node>
         </node>
+      </node>
+      <node concept="3EZMnI" id="1PeMnANftFy" role="1LiK7o">
+        <node concept="3EZMnI" id="2uT2PLmZYxf" role="3EZMnx">
+          <node concept="1kIj98" id="2uT2PLmZYxg" role="3EZMnx">
+            <node concept="3F1sOY" id="2uT2PLmZYxh" role="1kIj9b">
+              <ref role="1NtTu8" to="ibwz:4qdNcH$3y96" />
+              <node concept="Veino" id="1PeMnANeHGL" role="3F10Kt">
+                <node concept="3ZlJ5R" id="1PeMnANeXlY" role="VblUZ">
+                  <node concept="3clFbS" id="1PeMnANeXlZ" role="2VODD2">
+                    <node concept="3clFbF" id="1PeMnANeXn0" role="3cqZAp">
+                      <node concept="2ShNRf" id="1PeMnANeXmY" role="3clFbG">
+                        <node concept="1pGfFk" id="1PeMnANeX_f" role="2ShVmc">
+                          <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int,int)" resolve="Color" />
+                          <node concept="3cmrfG" id="1PeMnANeXAr" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="3cmrfG" id="1PeMnANeXIN" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="3cmrfG" id="1PeMnANeXMY" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="3cmrfG" id="1PeMnANeXTM" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="yw3OH" id="2uT2PLmZYxi" role="3EZMnx">
+            <node concept="1Lj6DL" id="2uT2PLn3dcu" role="yw3OG">
+              <node concept="1Lj6DC" id="2uT2PLn3dcw" role="1Lj8FM">
+                <node concept="3clFbS" id="2uT2PLn3dcy" role="2VODD2">
+                  <node concept="3clFbF" id="2uT2PLn3ddQ" role="3cqZAp">
+                    <node concept="2OqwBi" id="2uT2PLn3dhk" role="3clFbG">
+                      <node concept="1Lj6YZ" id="2uT2PLn3ddP" role="2Oq$k0" />
+                      <node concept="3n3YKJ" id="2uT2PLn3drI" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="VechU" id="5fhdISdNleJ" role="3F10Kt">
+                <property role="Vb096" value="blue" />
+              </node>
+              <node concept="Veino" id="1PeMnANeXYx" role="3F10Kt">
+                <node concept="3ZlJ5R" id="1PeMnANeXYy" role="VblUZ">
+                  <node concept="3clFbS" id="1PeMnANeXYz" role="2VODD2">
+                    <node concept="3clFbF" id="1PeMnANeXY$" role="3cqZAp">
+                      <node concept="2ShNRf" id="1PeMnANeXY_" role="3clFbG">
+                        <node concept="1pGfFk" id="1PeMnANeXYA" role="2ShVmc">
+                          <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int,int)" resolve="Color" />
+                          <node concept="3cmrfG" id="1PeMnANeXYB" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="3cmrfG" id="1PeMnANeXYC" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="3cmrfG" id="1PeMnANeXYD" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="3cmrfG" id="1PeMnANeXYE" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1kIj98" id="2uT2PLmZYxk" role="3EZMnx">
+            <node concept="3F1sOY" id="2uT2PLmZYxl" role="1kIj9b">
+              <ref role="1NtTu8" to="ibwz:4qdNcH$3y99" />
+              <node concept="Veino" id="1PeMnANeY2I" role="3F10Kt">
+                <node concept="3ZlJ5R" id="1PeMnANeY2J" role="VblUZ">
+                  <node concept="3clFbS" id="1PeMnANeY2K" role="2VODD2">
+                    <node concept="3clFbF" id="1PeMnANeY2L" role="3cqZAp">
+                      <node concept="2ShNRf" id="1PeMnANeY2M" role="3clFbG">
+                        <node concept="1pGfFk" id="1PeMnANeY2N" role="2ShVmc">
+                          <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int,int)" resolve="Color" />
+                          <node concept="3cmrfG" id="1PeMnANeY2O" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="3cmrfG" id="1PeMnANeY2P" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="3cmrfG" id="1PeMnANeY2Q" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="3cmrfG" id="1PeMnANeY2R" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="l2Vlx" id="2uT2PLmZYxm" role="2iSdaV" />
+          <node concept="Veino" id="1PeMnANe9$0" role="3F10Kt">
+            <node concept="3ZlJ5R" id="1PeMnANe9_y" role="VblUZ">
+              <node concept="3clFbS" id="1PeMnANe9_z" role="2VODD2">
+                <node concept="3clFbF" id="1PeMnANecua" role="3cqZAp">
+                  <node concept="2ShNRf" id="1PeMnANecu8" role="3clFbG">
+                    <node concept="1pGfFk" id="1PeMnANedtB" role="2ShVmc">
+                      <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int,int)" resolve="Color" />
+                      <node concept="3cmrfG" id="1PeMnANeduN" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="3cmrfG" id="1PeMnANedCF" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="3cmrfG" id="1PeMnANedK2" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="3cmrfG" id="1PeMnANedQQ" role="37wK5m">
+                        <property role="3cmrfH" value="20" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="l2Vlx" id="1PeMnANftFz" role="2iSdaV" />
       </node>
     </node>
   </node>
