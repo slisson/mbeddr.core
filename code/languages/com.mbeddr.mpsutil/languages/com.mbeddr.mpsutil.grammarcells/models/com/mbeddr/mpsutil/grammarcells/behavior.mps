@@ -88,6 +88,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -260,6 +263,21 @@
         </node>
       </node>
       <node concept="17QB3L" id="6oKG1kMxEEd" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="6ASs6LmWHHZ" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="generatesDeleteAction" />
+      <ref role="13i0hy" node="6ASs6LmWHDF" resolve="generatesDeleteAction" />
+      <node concept="3Tm1VV" id="6ASs6LmWHI0" role="1B3o_S" />
+      <node concept="3clFbS" id="6ASs6LmWHI5" role="3clF47">
+        <node concept="3clFbF" id="6ASs6LmWHNF" role="3cqZAp">
+          <node concept="3clFbT" id="6ASs6LmWHNE" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="6ASs6LmWHI6" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="6oKG1kMybL3">
@@ -903,6 +921,27 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="5WBKiSs9$Q2" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6ASs6LmWHDC">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+    <node concept="13hLZK" id="6ASs6LmWHDD" role="13h7CW">
+      <node concept="3clFbS" id="6ASs6LmWHDE" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6ASs6LmWHDF" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="generatesDeleteAction" />
+      <node concept="3Tm1VV" id="6ASs6LmWHDG" role="1B3o_S" />
+      <node concept="10P_77" id="6ASs6LmWHDV" role="3clF45" />
+      <node concept="3clFbS" id="6ASs6LmWHDI" role="3clF47">
+        <node concept="3clFbF" id="6ASs6LmWHEx" role="3cqZAp">
+          <node concept="3clFbT" id="6ASs6LmWHEw" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
