@@ -71,6 +71,7 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -196,10 +197,10 @@
       <node concept="1Z5TYs" id="77A3HzrJwsh" role="3cqZAp">
         <node concept="mw_s8" id="77A3HzrJwsN" role="1ZfhKB">
           <node concept="2c44tf" id="77A3HzrJwzG" role="mwGJk">
-            <node concept="3Tqbb2" id="77A3HzrJw$r" role="2c44tc">
-              <node concept="2c44tb" id="77A3HzrJw$U" role="lGtFl">
-                <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
-                <property role="2qtEX8" value="concept" />
+            <node concept="3bZ5Sz" id="6YjZr6QvxU1" role="2c44tc">
+              <node concept="2c44tb" id="6YjZr6QvxUp" role="lGtFl">
+                <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/6677504323281689838/6677504323281689839" />
+                <property role="2qtEX8" value="conceptDeclaraton" />
                 <node concept="2OqwBi" id="77A3HzrJwLV" role="2c44t1">
                   <node concept="2OqwBi" id="77A3HzrJwBt" role="2Oq$k0">
                     <node concept="1YBJjd" id="77A3HzrJw_A" role="2Oq$k0">
