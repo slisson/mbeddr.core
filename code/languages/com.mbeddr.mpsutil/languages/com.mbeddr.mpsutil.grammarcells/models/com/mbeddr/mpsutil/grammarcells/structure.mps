@@ -53,6 +53,10 @@
     <property role="34LRSv" value="grammar.flag" />
     <property role="3GE5qa" value="cells" />
     <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
+    <node concept="1TJgyi" id="6ASs6LmXZfR" role="1TKVEl">
+      <property role="TrG5h" value="flagText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="PrWs8" id="RbLMy6aM8Q" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
