@@ -68,6 +68,7 @@
     <dependency reexport="false">e78f91af-08a8-4a7a-bed6-b22739ed069a(com.mbeddr.mpsutil.spreferences.runtime)</dependency>
     <dependency reexport="true">984f0332-8a86-4f5c-9184-03eae96b5d16(com.mbeddr.core.expressions.runtime)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
+    <dependency reexport="false">7ac49bcb-77fb-4f0f-9036-e31b86b854b2(com.mbeddr.mpsutil.grammarcells.runtime)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
