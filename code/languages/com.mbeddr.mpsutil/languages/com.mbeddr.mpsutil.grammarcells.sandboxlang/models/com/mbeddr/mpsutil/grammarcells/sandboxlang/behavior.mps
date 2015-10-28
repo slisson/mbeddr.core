@@ -105,7 +105,7 @@
       <node concept="3clFbS" id="77A3HzrKdM3" role="3clF47">
         <node concept="3clFbF" id="77A3HzrKdQe" role="3cqZAp">
           <node concept="3cmrfG" id="77A3HzrKdQd" role="3clFbG">
-            <property role="3cmrfH" value="5" />
+            <property role="3cmrfH" value="-5" />
           </node>
         </node>
       </node>
@@ -127,7 +127,7 @@
       <node concept="3clFbS" id="77A3HzrKdR2" role="3clF47">
         <node concept="3clFbF" id="77A3HzrKdSN" role="3cqZAp">
           <node concept="3cmrfG" id="77A3HzrKdSM" role="3clFbG">
-            <property role="3cmrfH" value="6" />
+            <property role="3cmrfH" value="-6" />
           </node>
         </node>
       </node>
@@ -149,7 +149,7 @@
       <node concept="3clFbS" id="1PeMnANcDKU" role="3clF47">
         <node concept="3clFbF" id="1PeMnANcDO3" role="3cqZAp">
           <node concept="3cmrfG" id="1PeMnANcDO2" role="3clFbG">
-            <property role="3cmrfH" value="6" />
+            <property role="3cmrfH" value="-6" />
           </node>
         </node>
       </node>
