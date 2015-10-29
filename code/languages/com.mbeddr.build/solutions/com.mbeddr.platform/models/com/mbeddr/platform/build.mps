@@ -7265,6 +7265,12 @@
           <property role="3LESm3" value="79e1a72a-662e-4384-882a-49dd59eb455c" />
           <property role="2GAjPV" value="false" />
         </node>
+        <node concept="1SiIV0" id="7Zve23x2NDd" role="3bR37C">
+          <node concept="3bR9La" id="7Zve23x2NDe" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7rbvAnyGPae" role="2G$12L">
         <property role="BnDLt" value="true" />
