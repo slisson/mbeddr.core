@@ -51,10 +51,6 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1224071154655" name="jetbrains.mps.baseLanguage.structure.AsExpression" flags="nn" index="0kSF2">
-        <child id="1224071154657" name="classifierType" index="0kSFW" />
-        <child id="1224071154656" name="expression" index="0kSFX" />
-      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -76,6 +72,10 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
+        <child id="1081256993305" name="classType" index="2ZW6by" />
+        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -89,7 +89,6 @@
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
-      <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -97,6 +96,10 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -106,9 +109,6 @@
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
-      </concept>
-      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
-        <child id="1160998896846" name="condition" index="1gVkn0" />
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -122,9 +122,6 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-    </language>
-    <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
-      <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
       <concept id="5806551411806985509" name="com.mbeddr.core.statements.structure.ICanBeStoredInRegister" flags="ng" index="3emlUr">
@@ -178,6 +175,9 @@
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
       </concept>
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
+      <concept id="1171983834376" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertFalse" flags="nn" index="3vFxKo">
+        <child id="1171983854940" name="condition" index="3vFALc" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -843,23 +843,49 @@
       </node>
       <node concept="2$JKZl" id="7hpKUj3S36" role="3cqZAp">
         <node concept="3clFbS" id="7hpKUj3S38" role="2LFqv$">
-          <node concept="1gVbGN" id="7hpKUj3SkO" role="3cqZAp">
-            <node concept="17QLQc" id="7hpKUj3SHn" role="1gVkn0">
-              <node concept="Xl_RD" id="7hpKUj3SIq" role="3uHU7w">
-                <property role="Xl_RC" value="const" />
+          <node concept="3clFbJ" id="3kFWWRcX2zH" role="3cqZAp">
+            <node concept="3clFbS" id="3kFWWRcX2zJ" role="3clFbx">
+              <node concept="3cpWs8" id="3kFWWRcX36P" role="3cqZAp">
+                <node concept="3cpWsn" id="3kFWWRcX36Q" role="3cpWs9">
+                  <property role="TrG5h" value="text" />
+                  <node concept="17QB3L" id="3kFWWRcX3ah" role="1tU5fm" />
+                  <node concept="2OqwBi" id="3kFWWRcX36R" role="33vP2m">
+                    <node concept="1eOMI4" id="3kFWWRcX36S" role="2Oq$k0">
+                      <node concept="10QFUN" id="3kFWWRcX36T" role="1eOMHV">
+                        <node concept="3uibUv" id="3kFWWRcX36U" role="10QFUM">
+                          <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
+                        </node>
+                        <node concept="37vLTw" id="3kFWWRcX36V" role="10QFUP">
+                          <ref role="3cqZAo" node="7hpKUj3RXh" resolve="leaf" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3kFWWRcX36W" role="2OqNvi">
+                      <ref role="37wK5l" to="f4zo:~EditorCell_Label.getText():java.lang.String" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
               </node>
-              <node concept="2EnYce" id="7hpKUj3SBS" role="3uHU7B">
-                <node concept="0kSF2" id="7hpKUj3Sma" role="2Oq$k0">
-                  <node concept="3uibUv" id="7hpKUj3Sm_" role="0kSFW">
-                    <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
+              <node concept="3vFxKo" id="3kFWWRcX3$p" role="3cqZAp">
+                <node concept="2OqwBi" id="3kFWWRcX3BK" role="3vFALc">
+                  <node concept="Xl_RD" id="3kFWWRcX3_Y" role="2Oq$k0">
+                    <property role="Xl_RC" value="const" />
                   </node>
-                  <node concept="37vLTw" id="7hpKUj3SlA" role="0kSFX">
-                    <ref role="3cqZAo" node="7hpKUj3RXh" resolve="leaf" />
+                  <node concept="liA8E" id="3kFWWRcX3NI" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <node concept="37vLTw" id="3kFWWRcX3P8" role="37wK5m">
+                      <ref role="3cqZAo" node="3kFWWRcX36Q" resolve="text" />
+                    </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="7hpKUj3SFj" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell_Label.getText():java.lang.String" resolve="getText" />
-                </node>
+              </node>
+            </node>
+            <node concept="2ZW3vV" id="3kFWWRcX2AR" role="3clFbw">
+              <node concept="3uibUv" id="3kFWWRcX2Du" role="2ZW6by">
+                <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
+              </node>
+              <node concept="37vLTw" id="3kFWWRcX2A2" role="2ZW6bz">
+                <ref role="3cqZAo" node="7hpKUj3RXh" resolve="leaf" />
               </node>
             </node>
           </node>
