@@ -714,12 +714,6 @@
               </node>
             </node>
             <node concept="Vb9p2" id="5fhdISdP0Zl" role="3F10Kt" />
-            <node concept="VPxyj" id="7fwTjIAlb2I" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-            <node concept="VPRnO" id="7fwTjIAlNyo" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
           </node>
         </node>
         <node concept="3F0ifn" id="3_qrK00jd_d" role="3EZMnx">
