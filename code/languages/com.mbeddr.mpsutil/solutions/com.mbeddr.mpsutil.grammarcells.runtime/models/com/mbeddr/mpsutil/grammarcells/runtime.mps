@@ -3994,65 +3994,88 @@
       <node concept="3Tqbb2" id="6zqaFar1kiK" role="3clF45" />
       <node concept="3Tm1VV" id="6zqaFar1kiL" role="1B3o_S" />
       <node concept="3clFbS" id="6zqaFar1kiM" role="3clF47">
-        <node concept="3SKdUt" id="6D5JhjDmWUZ" role="3cqZAp">
-          <node concept="3SKdUq" id="6D5JhjDmYcC" role="3SKWNk">
-            <property role="3SKdUp" value="if the root node is an actual root node and not just the root of an expression (happens in editor tests)," />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="6D5JhjDmZsK" role="3cqZAp">
-          <node concept="3SKdUq" id="6D5JhjDn0KB" role="3SKWNk">
-            <property role="3SKdUp" value="we cannot replace that node" />
-          </node>
-        </node>
         <node concept="3cpWs8" id="6D5JhjDmIHM" role="3cqZAp">
           <node concept="3cpWsn" id="6D5JhjDmIHN" role="3cpWs9">
             <property role="TrG5h" value="nodeToParse" />
             <node concept="3Tqbb2" id="6D5JhjDmIHJ" role="1tU5fm" />
-            <node concept="1rXfSq" id="6D5JhjDmIHO" role="33vP2m">
-              <ref role="37wK5l" node="6zqaFar1Qq8" resolve="findNodeForReparse" />
-              <node concept="37vLTw" id="6D5JhjDmIHP" role="37wK5m">
-                <ref role="3cqZAo" node="6zqaFar1kjz" resolve="rootNode" />
-              </node>
+            <node concept="37vLTw" id="7hpKUiLUdd" role="33vP2m">
+              <ref role="3cqZAo" node="6zqaFar1kjz" resolve="rootNode" />
             </node>
           </node>
         </node>
-        <node concept="2$JKZl" id="6D5JhjDmTeA" role="3cqZAp">
-          <node concept="3clFbS" id="6D5JhjDmTeC" role="2LFqv$">
-            <node concept="3clFbF" id="6D5JhjDmVlC" role="3cqZAp">
-              <node concept="37vLTI" id="6D5JhjDmVq7" role="3clFbG">
-                <node concept="2OqwBi" id="6D5JhjDmVzi" role="37vLTx">
-                  <node concept="37vLTw" id="6D5JhjDmVvK" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6D5JhjDmIHN" resolve="nodeToParse" />
+        <node concept="3clFbJ" id="7hpKUiLMsl" role="3cqZAp">
+          <node concept="3clFbS" id="7hpKUiLMsn" role="3clFbx">
+            <node concept="3SKdUt" id="6D5JhjDmWUZ" role="3cqZAp">
+              <node concept="3SKdUq" id="6D5JhjDmYcC" role="3SKWNk">
+                <property role="3SKdUp" value="if the root node is an actual root node and not just the root of an expression (happens in editor tests)," />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="6D5JhjDmZsK" role="3cqZAp">
+              <node concept="3SKdUq" id="6D5JhjDn0KB" role="3SKWNk">
+                <property role="3SKdUp" value="we cannot replace that node" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="7hpKUiLRMn" role="3cqZAp">
+              <node concept="37vLTI" id="7hpKUiLRMp" role="3clFbG">
+                <node concept="1rXfSq" id="6D5JhjDmIHO" role="37vLTx">
+                  <ref role="37wK5l" node="6zqaFar1Qq8" resolve="findNodeForReparse" />
+                  <node concept="37vLTw" id="6D5JhjDmIHP" role="37wK5m">
+                    <ref role="3cqZAo" node="6zqaFar1kjz" resolve="rootNode" />
                   </node>
-                  <node concept="1mfA1w" id="6D5JhjDmV_j" role="2OqNvi" />
                 </node>
-                <node concept="37vLTw" id="6D5JhjDmVlB" role="37vLTJ">
+                <node concept="37vLTw" id="7hpKUiLRMt" role="37vLTJ">
                   <ref role="3cqZAo" node="6D5JhjDmIHN" resolve="nodeToParse" />
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="1Wc70l" id="6D5JhjDmUUO" role="2$JKZa">
-            <node concept="3y3z36" id="6D5JhjDmVbB" role="3uHU7w">
-              <node concept="10Nm6u" id="6D5JhjDmVf5" role="3uHU7w" />
-              <node concept="2OqwBi" id="K6dkdIuMa6" role="3uHU7B">
-                <node concept="2OqwBi" id="6D5JhjDmV5y" role="2Oq$k0">
-                  <node concept="37vLTw" id="6D5JhjDmV1B" role="2Oq$k0">
+            <node concept="2$JKZl" id="6D5JhjDmTeA" role="3cqZAp">
+              <node concept="3clFbS" id="6D5JhjDmTeC" role="2LFqv$">
+                <node concept="3clFbF" id="6D5JhjDmVlC" role="3cqZAp">
+                  <node concept="37vLTI" id="6D5JhjDmVq7" role="3clFbG">
+                    <node concept="2OqwBi" id="6D5JhjDmVzi" role="37vLTx">
+                      <node concept="37vLTw" id="6D5JhjDmVvK" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6D5JhjDmIHN" resolve="nodeToParse" />
+                      </node>
+                      <node concept="1mfA1w" id="6D5JhjDmV_j" role="2OqNvi" />
+                    </node>
+                    <node concept="37vLTw" id="6D5JhjDmVlB" role="37vLTJ">
+                      <ref role="3cqZAo" node="6D5JhjDmIHN" resolve="nodeToParse" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6D5JhjDmUUO" role="2$JKZa">
+                <node concept="3y3z36" id="6D5JhjDmVbB" role="3uHU7w">
+                  <node concept="10Nm6u" id="6D5JhjDmVf5" role="3uHU7w" />
+                  <node concept="2OqwBi" id="K6dkdIuMa6" role="3uHU7B">
+                    <node concept="2OqwBi" id="6D5JhjDmV5y" role="2Oq$k0">
+                      <node concept="37vLTw" id="6D5JhjDmV1B" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6D5JhjDmIHN" resolve="nodeToParse" />
+                      </node>
+                      <node concept="1mfA1w" id="6D5JhjDmV7N" role="2OqNvi" />
+                    </node>
+                    <node concept="1mfA1w" id="K6dkdIuMcL" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="3y3z36" id="6D5JhjDmUK4" role="3uHU7B">
+                  <node concept="37vLTw" id="6D5JhjDmU$1" role="3uHU7B">
                     <ref role="3cqZAo" node="6D5JhjDmIHN" resolve="nodeToParse" />
                   </node>
-                  <node concept="1mfA1w" id="6D5JhjDmV7N" role="2OqNvi" />
+                  <node concept="37vLTw" id="6D5JhjDmUQq" role="3uHU7w">
+                    <ref role="3cqZAo" node="6zqaFar1kjz" resolve="rootNode" />
+                  </node>
                 </node>
-                <node concept="1mfA1w" id="K6dkdIuMcL" role="2OqNvi" />
               </node>
             </node>
-            <node concept="3y3z36" id="6D5JhjDmUK4" role="3uHU7B">
-              <node concept="37vLTw" id="6D5JhjDmU$1" role="3uHU7B">
-                <ref role="3cqZAo" node="6D5JhjDmIHN" resolve="nodeToParse" />
-              </node>
-              <node concept="37vLTw" id="6D5JhjDmUQq" role="3uHU7w">
+          </node>
+          <node concept="2OqwBi" id="7hpKUiLO0R" role="3clFbw">
+            <node concept="2OqwBi" id="7hpKUiLNW5" role="2Oq$k0">
+              <node concept="37vLTw" id="7hpKUiLNLo" role="2Oq$k0">
                 <ref role="3cqZAo" node="6zqaFar1kjz" resolve="rootNode" />
               </node>
+              <node concept="1mfA1w" id="7hpKUiLNYe" role="2OqNvi" />
             </node>
+            <node concept="3w_OXm" id="7hpKUiLO5$" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbH" id="6D5JhjDmRUE" role="3cqZAp" />
