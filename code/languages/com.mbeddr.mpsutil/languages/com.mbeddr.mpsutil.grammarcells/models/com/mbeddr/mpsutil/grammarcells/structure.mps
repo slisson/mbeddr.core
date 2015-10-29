@@ -119,6 +119,9 @@
     <node concept="PrWs8" id="3MU4zYtqjct" role="PzmwI">
       <ref role="PrY4T" node="2uT2PLmXqYk" resolve="IGrammarCell" />
     </node>
+    <node concept="PrWs8" id="3O7ZvCZLRkq" role="PzmwI">
+      <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6oKG1kMyAVO">
     <property role="1pbfSe" value="1732567287" />
@@ -161,6 +164,9 @@
     </node>
     <node concept="PrWs8" id="4qdNcH$3v7E" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+    </node>
+    <node concept="PrWs8" id="3O7ZvCZLSwp" role="PzmwI">
+      <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
     </node>
   </node>
   <node concept="1TIwiD" id="1vi_twqJeLl">
@@ -307,6 +313,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5WBKiSs9xxf" resolve="InlineActionMapItem" />
     </node>
+    <node concept="PrWs8" id="3O7ZvCZLSPd" role="PzmwI">
+      <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5WBKiSs9xxf">
     <property role="1pbfSe" value="2068699517" />
@@ -408,6 +417,10 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpc2:fBF1sR7" resolve="CellModel_RefNode" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="3O7ZvCZLPYU">
+    <property role="1pbfSe" value="2093964724" />
+    <property role="TrG5h" value="ICellWrapper" />
   </node>
 </model>
 
