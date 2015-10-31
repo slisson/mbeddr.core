@@ -240,6 +240,7 @@
       </concept>
       <concept id="5763383285156373022" name="com.mbeddr.core.expressions.structure.DivExpression" flags="ng" index="2BOcih" />
       <concept id="5763383285156373020" name="com.mbeddr.core.expressions.structure.MultiExpression" flags="ng" index="2BOcij" />
+      <concept id="5763383285156373018" name="com.mbeddr.core.expressions.structure.MinusExpression" flags="ng" index="2BOcil" />
       <concept id="5763383285156373013" name="com.mbeddr.core.expressions.structure.PlusExpression" flags="ng" index="2BOciq" />
       <concept id="5763383285156533447" name="com.mbeddr.core.expressions.structure.ParensExpression" flags="ng" index="2BPB98" />
       <concept id="318113533128716675" name="com.mbeddr.core.expressions.structure.ITyped" flags="ng" index="2C2TGh">
@@ -353,10 +354,6 @@
     </node>
     <node concept="3XIRlf" id="7hpKUiMg94" role="LiZbd">
       <property role="TrG5h" value="a" />
-      <node concept="26Vqqz" id="7hpKUiMgd6" role="2C2TGm">
-        <property role="2caQfQ" value="false" />
-        <property role="2c7vTL" value="false" />
-      </node>
       <node concept="2BOciq" id="5fUKYjEN89Z" role="3XIe9u">
         <node concept="2BOcij" id="5fUKYjEN8pf" role="3TlMhJ">
           <node concept="3TlMh9" id="5fUKYjEN8pk" role="3TlMhJ">
@@ -369,6 +366,10 @@
         <node concept="3TlMh9" id="5fUKYjEN85L" role="3TlMhI">
           <property role="2hmy$m" value="1" />
         </node>
+      </node>
+      <node concept="26Vqqz" id="7hpKUiMgd6" role="2C2TGm">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
       </node>
     </node>
     <node concept="3XIRlf" id="7hpKUiMgBm" role="LiRBU">
@@ -1807,6 +1808,72 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1xDazL6RAlH" role="1B3o_S" />
+  </node>
+  <node concept="LiM7Y" id="3NNwv8WA8AC">
+    <property role="TrG5h" value="SideTransformations" />
+    <property role="3GE5qa" value="wrap" />
+    <node concept="3clFbS" id="3NNwv8WA8AD" role="LjaKd">
+      <node concept="2TK7Tu" id="3NNwv8WA8AE" role="3cqZAp">
+        <property role="2TTd_B" value="+2*3-4+5*6" />
+      </node>
+      <node concept="3SKdUt" id="3NNwv8WAetH" role="3cqZAp">
+        <node concept="3SKdUq" id="3NNwv8WAetR" role="3SKWNk">
+          <property role="3SKdUp" value="No caret position check required. If it is wrong, the side transformations will not work." />
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRlf" id="3NNwv8WA8AM" role="LiZbd">
+      <property role="TrG5h" value="a" />
+      <node concept="26Vqqz" id="3NNwv8WA8AS" role="2C2TGm">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
+      </node>
+      <node concept="2BOcil" id="3NNwv8WAbt0" role="3XIe9u">
+        <node concept="2BOciq" id="3NNwv8WAbt1" role="3TlMhI">
+          <node concept="3TlMh9" id="3NNwv8WAau$" role="3TlMhI">
+            <property role="2hmy$m" value="1" />
+          </node>
+          <node concept="2BOcij" id="3NNwv8WAbt2" role="3TlMhJ">
+            <node concept="3TlMh9" id="3NNwv8WAaze" role="3TlMhI">
+              <property role="2hmy$m" value="2" />
+            </node>
+            <node concept="3TlMh9" id="3NNwv8WAaKy" role="3TlMhJ">
+              <property role="2hmy$m" value="3" />
+            </node>
+          </node>
+        </node>
+        <node concept="2BOcij" id="3NNwv8WAbt3" role="3TlMhJ">
+          <node concept="2BOciq" id="3NNwv8WAbt4" role="3TlMhI">
+            <node concept="3TlMh9" id="3NNwv8WAaXC" role="3TlMhI">
+              <property role="2hmy$m" value="4" />
+            </node>
+            <node concept="3TlMh9" id="3NNwv8WAbc_" role="3TlMhJ">
+              <property role="2hmy$m" value="5" />
+            </node>
+          </node>
+          <node concept="3TlMh9" id="3NNwv8WAbt7" role="3TlMhJ">
+            <property role="2hmy$m" value="6" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRlf" id="3NNwv8WA8AT" role="LiRBU">
+      <property role="TrG5h" value="a" />
+      <node concept="26Vqqz" id="3NNwv8WA8AU" role="2C2TGm">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
+      </node>
+      <node concept="3TlMh9" id="3NNwv8WAaat" role="3XIe9u">
+        <property role="2hmy$m" value="1" />
+        <node concept="LIFWc" id="3NNwv8WAar8" role="lGtFl">
+          <property role="ZRATv" value="true" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="1" />
+          <property role="p6zMs" value="1" />
+          <property role="LIFWd" value="property_value" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
