@@ -55,6 +55,7 @@
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1186414999511" name="jetbrains.mps.lang.editor.structure.UnderlinedStyleClassItem" flags="ln" index="VQ3r3">
+        <property id="1214316229833" name="underlined" index="2USNnj" />
         <child id="1221219051630" name="query" index="1mkY_M" />
       </concept>
       <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
@@ -792,6 +793,33 @@
         </node>
       </node>
     </node>
+    <node concept="3EZMnI" id="7KznU_3P5ik" role="6VMZX">
+      <node concept="3F0ifn" id="7KznU_3P5il" role="3EZMnx">
+        <property role="3F0ifm" value="Optional Cell:" />
+        <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+      </node>
+      <node concept="3EZMnI" id="7KznU_3P5im" role="3EZMnx">
+        <property role="3EZMnw" value="true" />
+        <property role="3EZMnz" value="true" />
+        <node concept="3EZMnI" id="7KznU_3P5is" role="3EZMnx">
+          <property role="3EZMnw" value="false" />
+          <node concept="3F0ifn" id="7KznU_3P5it" role="3EZMnx">
+            <property role="3F0ifm" value="transformation text:" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F1sOY" id="7KznU_3P5mk" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;use first constant&gt;" />
+            <ref role="1NtTu8" to="teg0:7KznU_3OY7w" />
+          </node>
+          <node concept="VPXOz" id="7KznU_3P5iv" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2iRfu4" id="7KznU_3P5iw" role="2iSdaV" />
+        </node>
+        <node concept="2EHx9g" id="7KznU_3P5iA" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="7KznU_3P5iB" role="2iSdaV" />
+    </node>
   </node>
   <node concept="24kQdi" id="4qdNcH$3v85">
     <property role="3GE5qa" value="cells" />
@@ -1160,6 +1188,9 @@
         <node concept="VPXOz" id="6ASs6Ln4eC3" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="VQ3r3" id="7KznU_40UmL" role="3F10Kt">
+          <property role="2USNnj" value="2" />
+        </node>
       </node>
       <node concept="3F1sOY" id="6ASs6Ln3X$7" role="3EZMnx">
         <ref role="1NtTu8" to="teg0:6ASs6Ln2NA6" />
@@ -1211,7 +1242,7 @@
             <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
           </node>
           <node concept="3F0A7n" id="6ASs6Ln4752" role="3EZMnx">
-            <ref role="1NtTu8" to="teg0:6ASs6Ln45Jn" resolve="forceLeft" />
+            <ref role="1NtTu8" to="teg0:6ASs6Ln4653" resolve="forceRight" />
           </node>
           <node concept="VPM3Z" id="6ASs6Ln4753" role="3F10Kt">
             <property role="VOm3f" value="false" />

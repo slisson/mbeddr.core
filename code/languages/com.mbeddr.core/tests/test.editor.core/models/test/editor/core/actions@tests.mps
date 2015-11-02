@@ -161,8 +161,21 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
+      <concept id="6275792049641600983" name="com.mbeddr.core.statements.structure.IfStatement" flags="ng" index="c0U19">
+        <child id="6275792049641600984" name="condition" index="c0U16" />
+        <child id="6275792049641600985" name="thenPart" index="c0U17" />
+        <child id="3134547887598498723" name="elseIfs" index="gg_kh" />
+        <child id="3134547887598486571" name="elsePart" index="ggAap" />
+      </concept>
+      <concept id="3134547887598498470" name="com.mbeddr.core.statements.structure.ElseIfPart" flags="ng" index="gg_gk">
+        <child id="3134547887598498471" name="body" index="gg_gl" />
+        <child id="3134547887598498479" name="condition" index="gg_gt" />
+      </concept>
       <concept id="5806551411806985509" name="com.mbeddr.core.statements.structure.ICanBeStoredInRegister" flags="ng" index="3emlUr">
         <property id="5806551411806985511" name="storeInRegister" index="3emlUp" />
+      </concept>
+      <concept id="1494329074535282918" name="com.mbeddr.core.statements.structure.ElsePart" flags="ng" index="1ly_i6">
+        <child id="1494329074535283249" name="body" index="1ly_ph" />
       </concept>
       <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf">
         <property id="4129593283361406846" name="static" index="8PNL8" />
@@ -262,7 +275,9 @@
         <child id="8860443239512128064" name="left" index="3TlMhI" />
         <child id="8860443239512128065" name="right" index="3TlMhJ" />
       </concept>
+      <concept id="8860443239512128050" name="com.mbeddr.core.expressions.structure.Expression" flags="ng" index="3TlMgs" />
       <concept id="8860443239512128103" name="com.mbeddr.core.expressions.structure.NumberLiteral" flags="ng" index="3TlMh9" />
+      <concept id="8860443239512128094" name="com.mbeddr.core.expressions.structure.TrueLiteral" flags="ng" index="3TlMhK" />
       <concept id="4375898003726285486" name="com.mbeddr.core.expressions.structure.PostIncrementExpression" flags="ng" index="3TM6Ey" />
       <concept id="4375898003726285487" name="com.mbeddr.core.expressions.structure.PreIncrementExpression" flags="ng" index="3TM6Ez" />
     </language>
@@ -1872,6 +1887,280 @@
           <property role="p6zMs" value="1" />
           <property role="LIFWd" value="property_value" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="7KznU_4cCRp">
+    <property role="TrG5h" value="IfStatement_add_else" />
+    <property role="3GE5qa" value="IfStatement" />
+    <node concept="3XIRFW" id="7KznU_4cDYV" role="LiRBU">
+      <node concept="c0U19" id="7KznU_4cE4p" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4cE4q" role="c0U17">
+          <node concept="LIFWc" id="7KznU_4cECK" role="lGtFl">
+            <property role="ZRATv" value="true" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="1" />
+            <property role="p6zMs" value="1" />
+            <property role="LIFWd" value="Constant_u338ov_d0" />
+          </node>
+        </node>
+        <node concept="3TlMhK" id="7KznU_4cEjy" role="c0U16" />
+      </node>
+    </node>
+    <node concept="3XIRFW" id="7KznU_4cEui" role="LiZbd">
+      <node concept="c0U19" id="7KznU_4cEuj" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4cEuk" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4cEul" role="c0U16" />
+        <node concept="1ly_i6" id="7KznU_4cF7s" role="ggAap">
+          <node concept="3XIRFW" id="7KznU_4cF7t" role="1ly_ph" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="7KznU_4cF_3" role="LjaKd">
+      <node concept="2TK7Tu" id="7KznU_4cF_2" role="3cqZAp">
+        <property role="2TTd_B" value="else{" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="7KznU_4cL$o">
+    <property role="TrG5h" value="IfStatement_add_elseif" />
+    <property role="3GE5qa" value="IfStatement" />
+    <node concept="3XIRFW" id="7KznU_4cL$p" role="LiRBU">
+      <node concept="c0U19" id="7KznU_4cL$q" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4cL$r" role="c0U17">
+          <node concept="LIFWc" id="7KznU_4cL$s" role="lGtFl">
+            <property role="ZRATv" value="true" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="1" />
+            <property role="p6zMs" value="1" />
+            <property role="LIFWd" value="Constant_u338ov_d0" />
+          </node>
+        </node>
+        <node concept="3TlMhK" id="7KznU_4cL$t" role="c0U16" />
+      </node>
+    </node>
+    <node concept="3XIRFW" id="7KznU_4cL$u" role="LiZbd">
+      <node concept="c0U19" id="7KznU_4cL$v" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4cL$w" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4cL$x" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4cMFP" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4cMFQ" role="gg_gl" />
+          <node concept="3TlMgs" id="7KznU_4cMFR" role="gg_gt" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="7KznU_4cL$$" role="LjaKd">
+      <node concept="2TK7Tu" id="7KznU_4cL$_" role="3cqZAp">
+        <property role="2TTd_B" value="else if" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="7KznU_4cP1N">
+    <property role="TrG5h" value="IfStatement_add_second_elseif_before_first" />
+    <property role="3GE5qa" value="IfStatement" />
+    <node concept="3XIRFW" id="7KznU_4cP1O" role="LiRBU">
+      <node concept="c0U19" id="7KznU_4cP1P" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4cP1Q" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4cP1S" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4cR_X" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4cR_Y" role="gg_gl" />
+          <node concept="3TlMhK" id="7KznU_4cRFW" role="gg_gt" />
+          <node concept="LIFWc" id="7KznU_4cVrq" role="lGtFl">
+            <property role="LIFWa" value="0" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="0" />
+            <property role="p6zMs" value="0" />
+            <property role="LIFWd" value="Constant_qxz8gh_a0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRFW" id="7KznU_4cP1T" role="LiZbd">
+      <node concept="c0U19" id="7KznU_4cP1U" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4cP1V" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4cP1W" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4cVLQ" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4cVLR" role="gg_gl" />
+          <node concept="3TlMgs" id="7KznU_4cVLS" role="gg_gt" />
+        </node>
+        <node concept="gg_gk" id="7KznU_4cSAO" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4cSAP" role="gg_gl" />
+          <node concept="3TlMhK" id="7KznU_4cSMt" role="gg_gt" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="7KznU_4cP20" role="LjaKd">
+      <node concept="2TK7Tu" id="7KznU_4cP21" role="3cqZAp">
+        <property role="2TTd_B" value="else if" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="7KznU_4dfI7">
+    <property role="TrG5h" value="IfStatement_add_second_elseif_after_if" />
+    <property role="3GE5qa" value="IfStatement" />
+    <node concept="3XIRFW" id="7KznU_4dfI8" role="LiRBU">
+      <node concept="c0U19" id="7KznU_4dfI9" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4dfIa" role="c0U17">
+          <node concept="LIFWc" id="7KznU_4dgiJ" role="lGtFl">
+            <property role="ZRATv" value="true" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="1" />
+            <property role="p6zMs" value="1" />
+            <property role="LIFWd" value="Constant_u338ov_d0" />
+          </node>
+        </node>
+        <node concept="3TlMhK" id="7KznU_4dfIb" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4dfIc" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4dfId" role="gg_gl" />
+          <node concept="3TlMhK" id="7KznU_4dfIe" role="gg_gt" />
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRFW" id="7KznU_4dfIg" role="LiZbd">
+      <node concept="c0U19" id="7KznU_4dfIh" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4dfIi" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4dfIj" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4dfIk" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4dfIl" role="gg_gl" />
+          <node concept="3TlMgs" id="7KznU_4dfIm" role="gg_gt" />
+        </node>
+        <node concept="gg_gk" id="7KznU_4dfIn" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4dfIo" role="gg_gl" />
+          <node concept="3TlMhK" id="7KznU_4dfIp" role="gg_gt" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="7KznU_4dfIq" role="LjaKd">
+      <node concept="2TK7Tu" id="7KznU_4dfIr" role="3cqZAp">
+        <property role="2TTd_B" value="else if" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="7KznU_4dgLm">
+    <property role="TrG5h" value="IfStatement_add_second_elseif_after_first" />
+    <property role="3GE5qa" value="IfStatement" />
+    <node concept="3XIRFW" id="7KznU_4dgLn" role="LiRBU">
+      <node concept="c0U19" id="7KznU_4dgLo" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4dgLp" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4dgLq" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4dgLr" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4dgLs" role="gg_gl">
+            <node concept="LIFWc" id="7KznU_4dhE3" role="lGtFl">
+              <property role="ZRATv" value="true" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="1" />
+              <property role="p6zMs" value="1" />
+              <property role="LIFWd" value="Constant_u338ov_d0" />
+            </node>
+          </node>
+          <node concept="3TlMhK" id="7KznU_4dgLt" role="gg_gt" />
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRFW" id="7KznU_4dgLv" role="LiZbd">
+      <node concept="c0U19" id="7KznU_4dgLw" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4dgLx" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4dgLy" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4dgLz" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4dgL$" role="gg_gl" />
+          <node concept="3TlMhK" id="7KznU_4dgZ3" role="gg_gt" />
+        </node>
+        <node concept="gg_gk" id="7KznU_4dhiZ" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4dhj0" role="gg_gl" />
+          <node concept="3TlMgs" id="7KznU_4dhj1" role="gg_gt" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="7KznU_4dgLD" role="LjaKd">
+      <node concept="2TK7Tu" id="7KznU_4dgLE" role="3cqZAp">
+        <property role="2TTd_B" value="else if" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="7KznU_4dlGi">
+    <property role="TrG5h" value="IfStatement_add_second_elseif_after_first_with_else" />
+    <property role="3GE5qa" value="IfStatement" />
+    <node concept="3XIRFW" id="7KznU_4dlGj" role="LiRBU">
+      <node concept="c0U19" id="7KznU_4dlGk" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4dlGl" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4dlGm" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4dlGn" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4dlGo" role="gg_gl">
+            <node concept="LIFWc" id="7KznU_4dmSz" role="lGtFl">
+              <property role="ZRATv" value="true" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="1" />
+              <property role="p6zMs" value="1" />
+              <property role="LIFWd" value="Constant_u338ov_d0" />
+            </node>
+          </node>
+          <node concept="3TlMhK" id="7KznU_4dlGq" role="gg_gt" />
+        </node>
+        <node concept="1ly_i6" id="7KznU_4dmdQ" role="ggAap">
+          <node concept="3XIRFW" id="7KznU_4dmdR" role="1ly_ph" />
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRFW" id="7KznU_4dlGr" role="LiZbd">
+      <node concept="c0U19" id="7KznU_4dlGs" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4dlGt" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4dlGu" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4dlGv" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4dlGw" role="gg_gl" />
+          <node concept="3TlMhK" id="7KznU_4dlGx" role="gg_gt" />
+        </node>
+        <node concept="gg_gk" id="7KznU_4dlGy" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4dlGz" role="gg_gl" />
+          <node concept="3TlMgs" id="7KznU_4dlG$" role="gg_gt" />
+        </node>
+        <node concept="1ly_i6" id="7KznU_4dm1p" role="ggAap">
+          <node concept="3XIRFW" id="7KznU_4dm1q" role="1ly_ph" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="7KznU_4dlG_" role="LjaKd">
+      <node concept="2TK7Tu" id="7KznU_4dlGA" role="3cqZAp">
+        <property role="2TTd_B" value="else if" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="7KznU_4eJfr">
+    <property role="TrG5h" value="IfStatement_add_else_after_elseif" />
+    <property role="3GE5qa" value="IfStatement" />
+    <node concept="3XIRFW" id="7KznU_4eJfs" role="LiRBU">
+      <node concept="c0U19" id="7KznU_4eJft" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4eJfu" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4eJfw" role="c0U16" />
+        <node concept="gg_gk" id="7KznU_4eJFr" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4eJFs" role="gg_gl">
+            <node concept="LIFWc" id="7KznU_4eJVv" role="lGtFl">
+              <property role="ZRATv" value="true" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="1" />
+              <property role="p6zMs" value="1" />
+              <property role="LIFWd" value="Constant_u338ov_d0" />
+            </node>
+          </node>
+          <node concept="3TlMhK" id="7KznU_4eJLM" role="gg_gt" />
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRFW" id="7KznU_4eJfx" role="LiZbd">
+      <node concept="c0U19" id="7KznU_4eJfy" role="3XIRFZ">
+        <node concept="3XIRFW" id="7KznU_4eJfz" role="c0U17" />
+        <node concept="3TlMhK" id="7KznU_4eJf$" role="c0U16" />
+        <node concept="1ly_i6" id="7KznU_4eJf_" role="ggAap">
+          <node concept="3XIRFW" id="7KznU_4eJfA" role="1ly_ph" />
+        </node>
+        <node concept="gg_gk" id="7KznU_4eK7D" role="gg_kh">
+          <node concept="3XIRFW" id="7KznU_4eK7E" role="gg_gl" />
+          <node concept="3TlMhK" id="7KznU_4eKc4" role="gg_gt" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="7KznU_4eJfB" role="LjaKd">
+      <node concept="2TK7Tu" id="7KznU_4eJfC" role="3cqZAp">
+        <property role="2TTd_B" value="else{" />
       </node>
     </node>
   </node>
