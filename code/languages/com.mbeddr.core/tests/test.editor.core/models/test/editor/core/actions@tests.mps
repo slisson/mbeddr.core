@@ -218,6 +218,22 @@
       </concept>
       <concept id="4459718605982051980" name="com.mbeddr.core.util.structure.PrintfReportingStrategy" flags="ng" index="2Q9FjX" />
     </language>
+    <language id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt">
+      <concept id="7099329415459817973" name="com.mbeddr.core.udt.structure.SUDeclaration" flags="ng" index="HsMI8">
+        <child id="7099329415459888018" name="members" index="HszBJ" />
+      </concept>
+      <concept id="5882395403881875736" name="com.mbeddr.core.udt.structure.Member" flags="ng" index="1dpRTG" />
+      <concept id="6394819151180597807" name="com.mbeddr.core.udt.structure.StructDeclaration" flags="ng" index="1sgJKc" />
+      <concept id="6394819151180597816" name="com.mbeddr.core.udt.structure.StructType" flags="ng" index="1sgJKr">
+        <reference id="6394819151180597817" name="struct" index="1sgJKq" />
+      </concept>
+      <concept id="8811614583515725853" name="com.mbeddr.core.udt.structure.EnumLiteral" flags="ng" index="1AkAjq">
+        <child id="8811614583515725856" name="init" index="1AkAjB" />
+      </concept>
+      <concept id="8811614583515725851" name="com.mbeddr.core.udt.structure.EnumDeclaration" flags="ng" index="1AkAjs">
+        <child id="8811614583515725857" name="literals" index="1AkAjA" />
+      </concept>
+    </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
       <concept id="4459718605982007337" name="com.mbeddr.core.base.structure.IConfigurationContainer" flags="ng" index="2Q9xDo">
         <child id="4459718605982007338" name="configurationItems" index="2Q9xDr" />
@@ -2576,6 +2592,116 @@
     <node concept="3clFbS" id="49FqtR5XfiN" role="LjaKd">
       <node concept="2TK7Tu" id="49FqtR5XfiO" role="3cqZAp">
         <property role="2TTd_B" value="[" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="49FqtR5Xxhn">
+    <property role="TrG5h" value="Struct_wrap_type_with_member" />
+    <property role="3GE5qa" value="udt" />
+    <node concept="N3F5e" id="49FqtR5Xxkh" role="LiRBU">
+      <property role="TrG5h" value="A" />
+      <node concept="1sgJKc" id="49FqtR5Xxkn" role="N3F5h">
+        <property role="TrG5h" value="s1" />
+        <node concept="LIFWc" id="49FqtR5XxkA" role="lGtFl">
+          <property role="ZRATv" value="true" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="Constant_czjnxc_a6a" />
+        </node>
+      </node>
+    </node>
+    <node concept="N3F5e" id="49FqtR5Xxks" role="LiZbd">
+      <property role="TrG5h" value="A" />
+      <node concept="1sgJKc" id="49FqtR5Xxkt" role="N3F5h">
+        <property role="TrG5h" value="s1" />
+        <node concept="1dpRTG" id="49FqtR5XAJT" role="HszBJ">
+          <node concept="26Vqp4" id="49FqtR5XAJR" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="49FqtR5XAO6" role="LjaKd">
+      <node concept="2TK7Tu" id="49FqtR5XAO5" role="3cqZAp">
+        <property role="2TTd_B" value="uint8" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="49FqtR5XASc">
+    <property role="TrG5h" value="Struct_struct_as_member" />
+    <property role="3GE5qa" value="udt" />
+    <node concept="N3F5e" id="49FqtR5XASd" role="LiRBU">
+      <property role="TrG5h" value="A" />
+      <node concept="1sgJKc" id="49FqtR5XAVw" role="N3F5h">
+        <property role="TrG5h" value="s1" />
+      </node>
+      <node concept="1sgJKc" id="49FqtR5XAVM" role="N3F5h">
+        <property role="TrG5h" value="s2" />
+        <node concept="LIFWc" id="49FqtR5XAWr" role="lGtFl">
+          <property role="ZRATv" value="true" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="Constant_czjnxc_a6a" />
+        </node>
+      </node>
+    </node>
+    <node concept="N3F5e" id="49FqtR5XASg" role="LiZbd">
+      <property role="TrG5h" value="A" />
+      <node concept="1sgJKc" id="49FqtR5XASh" role="N3F5h">
+        <property role="TrG5h" value="s1" />
+      </node>
+      <node concept="1sgJKc" id="49FqtR5XAVV" role="N3F5h">
+        <property role="TrG5h" value="s2" />
+        <node concept="1dpRTG" id="49FqtR5XAWx" role="HszBJ">
+          <node concept="1sgJKr" id="49FqtR5XAWw" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+            <ref role="1sgJKq" node="49FqtR5XASh" resolve="s1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="49FqtR5XASk" role="LjaKd">
+      <node concept="2TK7Tu" id="49FqtR5XASl" role="3cqZAp">
+        <property role="2TTd_B" value="s1" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="49FqtR5XB4O">
+    <property role="TrG5h" value="Enum_add_initalizer" />
+    <property role="3GE5qa" value="udt" />
+    <node concept="N3F5e" id="49FqtR5XB4P" role="LiRBU">
+      <property role="TrG5h" value="A" />
+      <node concept="1AkAjs" id="49FqtR5XB80" role="N3F5h">
+        <property role="TrG5h" value="e1" />
+        <node concept="1AkAjq" id="49FqtR5XB86" role="1AkAjA">
+          <property role="TrG5h" value="a1" />
+          <node concept="LIFWc" id="49FqtR5XB8V" role="lGtFl">
+            <property role="ZRATv" value="true" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="2" />
+            <property role="p6zMs" value="2" />
+            <property role="LIFWd" value="property_name" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="49FqtR5XB4W" role="LjaKd">
+      <node concept="2TK7Tu" id="49FqtR5XB4X" role="3cqZAp">
+        <property role="2TTd_B" value="=" />
+      </node>
+    </node>
+    <node concept="N3F5e" id="49FqtR5XB8z" role="LiZbd">
+      <property role="TrG5h" value="A" />
+      <node concept="1AkAjs" id="49FqtR5XB8$" role="N3F5h">
+        <property role="TrG5h" value="e1" />
+        <node concept="1AkAjq" id="49FqtR5XB8_" role="1AkAjA">
+          <property role="TrG5h" value="a1" />
+          <node concept="3TlMgs" id="49FqtR5XB94" role="1AkAjB" />
+        </node>
       </node>
     </node>
   </node>
