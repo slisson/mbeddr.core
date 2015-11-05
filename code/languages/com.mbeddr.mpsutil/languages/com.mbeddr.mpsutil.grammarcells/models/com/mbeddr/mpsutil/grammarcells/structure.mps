@@ -113,6 +113,11 @@
       <property role="20kJfa" value="rightTransformationText" />
       <ref role="20lvS9" node="1Ia5rYlGwDa" resolve="WrapperCell_TransformationText" />
     </node>
+    <node concept="1TJgyj" id="6rhOS_xTjUw" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="substituteCondition" />
+      <ref role="20lvS9" node="6rhOS_xT3yl" resolve="WrapperCell_SubstituteCondition" />
+    </node>
     <node concept="PrWs8" id="6oKG1kMyAVP" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
@@ -626,6 +631,19 @@
     <node concept="PrWs8" id="6rhOS_xwHOh" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6rhOS_xT3yl">
+    <property role="1pbfSe" value="927593442" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="WrapperCell_SubstituteCondition" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="6rhOS_xT4Lf">
+    <property role="1pbfSe" value="927588392" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="WrapperCell_SubstituteCondition_expectedConcept" />
+    <property role="34LRSv" value="expectedConcept" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

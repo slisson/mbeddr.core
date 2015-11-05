@@ -1035,26 +1035,21 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F1sOY" id="2I09F8VKHCt" role="3EZMnx">
-        <ref role="1NtTu8" to="c4fa:2I09F8VKHC3" />
-        <ref role="1ERwB7" node="22fCzk0q3wf" resolve="SwitchCase_ActionMap" />
-        <node concept="pkWqt" id="22fCzk0wem6" role="pqm2j">
-          <node concept="3clFbS" id="22fCzk0wem7" role="2VODD2">
-            <node concept="3clFbF" id="22fCzk0wer5" role="3cqZAp">
-              <node concept="3y3z36" id="22fCzk0wfuO" role="3clFbG">
-                <node concept="10Nm6u" id="22fCzk0wfy1" role="3uHU7w" />
-                <node concept="2OqwBi" id="22fCzk0weyr" role="3uHU7B">
-                  <node concept="pncrf" id="22fCzk0wer4" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="22fCzk0weYP" role="2OqNvi">
-                    <ref role="3Tt5mk" to="c4fa:2I09F8VKHC3" />
-                  </node>
-                </node>
+      <node concept="_tjkj" id="6rhOS_xGWcZ" role="3EZMnx">
+        <node concept="3F1sOY" id="2I09F8VKHCt" role="_tjki">
+          <ref role="1NtTu8" to="c4fa:2I09F8VKHC3" />
+          <node concept="VPM3Z" id="2I09F8VKHCu" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+        </node>
+        <node concept="ZYGn8" id="6rhOS_xGWlT" role="ZWbT9">
+          <node concept="3clFbS" id="6rhOS_xGWlU" role="2VODD2">
+            <node concept="3clFbF" id="6rhOS_xGWn9" role="3cqZAp">
+              <node concept="Xl_RD" id="6rhOS_xGWn8" role="3clFbG">
+                <property role="Xl_RC" value="{" />
               </node>
             </node>
           </node>
-        </node>
-        <node concept="VPM3Z" id="2I09F8VKHCu" role="3F10Kt">
-          <property role="VOm3f" value="false" />
         </node>
       </node>
     </node>
@@ -2383,11 +2378,11 @@
       <node concept="3F0ifn" id="cwSfPztkgg" role="3EZMnx">
         <property role="3F0ifm" value="else" />
         <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
-        <node concept="2V7CMv" id="cwSfPztkgq" role="3F10Kt">
-          <property role="2V7CMs" value="ext_1_RTransform" />
-        </node>
         <node concept="2V7CMv" id="cwSfPzwOnI" role="3F10Kt">
           <property role="2V7CMs" value="default_RTransform" />
+        </node>
+        <node concept="2V7CMv" id="cwSfPztkgq" role="3F10Kt">
+          <property role="2V7CMs" value="ext_1_RTransform" />
         </node>
       </node>
       <node concept="YGO_4" id="7KznU_43CI5" role="3EZMnx">

@@ -696,6 +696,9 @@
               <node concept="3TUQnm" id="1Ia5rYl_AE2" role="HW$Y0">
                 <ref role="3TV0OU" to="teg0:1Ia5rYl_yXg" resolve="WrapperCell_Condition_wrappedNode" />
               </node>
+              <node concept="3TUQnm" id="6rhOS_xUk22" role="HW$Y0">
+                <ref role="3TV0OU" to="teg0:2uT2PLmXmjz" resolve="Parameter_SubConcept" />
+              </node>
             </node>
           </node>
         </node>
@@ -2062,6 +2065,80 @@
       </node>
       <node concept="3Tqbb2" id="6rhOS_xv7A3" role="3clF45">
         <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="6rhOS_xT3zI">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:6rhOS_xT3yl" resolve="WrapperCell_SubstituteCondition" />
+    <node concept="13hLZK" id="6rhOS_xT3zJ" role="13h7CW">
+      <node concept="3clFbS" id="6rhOS_xT3zK" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6rhOS_xT4F_" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="6rhOS_xT4FD" role="1B3o_S" />
+      <node concept="3clFbS" id="6rhOS_xT4FF" role="3clF47">
+        <node concept="3clFbF" id="6rhOS_xT4Is" role="3cqZAp">
+          <node concept="2c44tf" id="6rhOS_xT4Iq" role="3clFbG">
+            <node concept="10P_77" id="6rhOS_xT4IU" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6rhOS_xT4FG" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="6rhOS_xT4Q0" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="6rhOS_xT4Qx" role="1B3o_S" />
+      <node concept="3clFbS" id="6rhOS_xT4Qy" role="3clF47">
+        <node concept="3clFbF" id="6rhOS_xT4Uo" role="3cqZAp">
+          <node concept="2ShNRf" id="6rhOS_xT4Ue" role="3clFbG">
+            <node concept="Tc6Ow" id="6rhOS_xT576" role="2ShVmc">
+              <node concept="3THzug" id="6rhOS_xT5h1" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="6rhOS_xT5n0" role="HW$Y0">
+                <ref role="3TV0OU" to="teg0:6rhOS_xT4Lf" resolve="WrapperCell_SubstituteCondition_expectedConcept" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="6rhOS_xT4Qz" role="3clF45">
+        <node concept="3THzug" id="6rhOS_xT4Q$" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="6rhOS_xT4LC">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:6rhOS_xT4Lf" resolve="WrapperCell_SubstituteCondition_expectedConcept" />
+    <node concept="13hLZK" id="6rhOS_xT4LD" role="13h7CW">
+      <node concept="3clFbS" id="6rhOS_xT4LE" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6rhOS_xT4M5" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="6rhOS_xT4M6" role="1B3o_S" />
+      <node concept="3clFbS" id="6rhOS_xT4Mb" role="3clF47">
+        <node concept="3clFbF" id="6rhOS_xT4Or" role="3cqZAp">
+          <node concept="2c44tf" id="6rhOS_xT4Op" role="3clFbG">
+            <node concept="3bZ5Sz" id="6rhOS_xT4Pd" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6rhOS_xT4Mc" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
       </node>
     </node>
   </node>
