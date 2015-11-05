@@ -1507,7 +1507,7 @@
                     <ref role="3cqZAo" node="73exJLGPLqN" resolve="cell1" />
                   </node>
                   <node concept="liA8E" id="73exJLGPMTk" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell.getX():int" resolve="getX" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getY():int" resolve="getY" />
                   </node>
                 </node>
               </node>
@@ -1516,7 +1516,7 @@
                   <ref role="3cqZAo" node="73exJLGPLst" resolve="cell2" />
                 </node>
                 <node concept="liA8E" id="73exJLGPMv0" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getX():int" resolve="getX" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getY():int" resolve="getY" />
                 </node>
               </node>
             </node>
@@ -1526,7 +1526,7 @@
                   <ref role="3cqZAo" node="73exJLGPLqN" resolve="cell1" />
                 </node>
                 <node concept="liA8E" id="73exJLGPLzc" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getX():int" resolve="getX" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getY():int" resolve="getY" />
                 </node>
               </node>
               <node concept="3cpWs3" id="73exJLGPLX$" role="3uHU7w">
@@ -1535,7 +1535,7 @@
                     <ref role="3cqZAo" node="73exJLGPLst" resolve="cell2" />
                   </node>
                   <node concept="liA8E" id="73exJLGPLQU" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell.getX():int" resolve="getX" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getY():int" resolve="getY" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="73exJLGPM44" role="3uHU7w">
