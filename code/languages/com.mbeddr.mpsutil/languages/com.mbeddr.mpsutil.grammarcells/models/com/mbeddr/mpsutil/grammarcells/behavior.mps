@@ -2038,5 +2038,32 @@
       <node concept="3Tqbb2" id="4eBi5gdooGg" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="6rhOS_xv7_V">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:6rhOS_xv7_i" resolve="SideTransformationCell3" />
+    <node concept="13hLZK" id="6rhOS_xv7_W" role="13h7CW">
+      <node concept="3clFbS" id="6rhOS_xv7_X" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6rhOS_xv7_Y" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getWrappedCell" />
+      <ref role="13i0hy" node="3O7ZvCZLQjf" resolve="getWrappedCell" />
+      <node concept="3Tm1VV" id="6rhOS_xv7_Z" role="1B3o_S" />
+      <node concept="3clFbS" id="6rhOS_xv7A2" role="3clF47">
+        <node concept="3clFbF" id="6rhOS_xv7Al" role="3cqZAp">
+          <node concept="2OqwBi" id="6rhOS_xv7Do" role="3clFbG">
+            <node concept="13iPFW" id="6rhOS_xv7Ak" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6rhOS_xv7Qs" role="2OqNvi">
+              <ref role="3Tt5mk" to="teg0:6rhOS_xv7_j" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6rhOS_xv7A3" role="3clF45">
+        <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+      </node>
+    </node>
+  </node>
 </model>
 

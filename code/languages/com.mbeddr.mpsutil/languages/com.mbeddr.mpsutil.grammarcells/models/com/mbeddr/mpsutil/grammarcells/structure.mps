@@ -467,6 +467,9 @@
     <node concept="PrWs8" id="6jH9yJK30BB" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
+    <node concept="PrWs8" id="6rhOS_xv6Ak" role="PzmwI">
+      <ref role="PrY4T" node="6rhOS_xv5cy" resolve="IGeneratorOnly" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6jH9yJK3gMu">
     <property role="1pbfSe" value="1425683145" />
@@ -505,6 +508,9 @@
       <property role="20kJfa" value="factory" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6jH9yJK5usy" resolve="NodeSubstituteCell_Factory" />
+    </node>
+    <node concept="PrWs8" id="6rhOS_xv6AX" role="PzmwI">
+      <ref role="PrY4T" node="6rhOS_xv5cy" resolve="IGeneratorOnly" />
     </node>
   </node>
   <node concept="1TIwiD" id="6jH9yJK5usy">
@@ -550,6 +556,9 @@
     <node concept="PrWs8" id="4eBi5gdBmA1" role="PzmwI">
       <ref role="PrY4T" node="4eBi5gdADMe" resolve="INotALeaf" />
     </node>
+    <node concept="PrWs8" id="6rhOS_xv6AJ" role="PzmwI">
+      <ref role="PrY4T" node="6rhOS_xv5cy" resolve="IGeneratorOnly" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4eBi5gdn8p_">
     <property role="1pbfSe" value="1359204025" />
@@ -573,6 +582,50 @@
     <property role="1pbfSe" value="1363272930" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="INotALeaf" />
+  </node>
+  <node concept="PlHQZ" id="6rhOS_xv5cy">
+    <property role="1pbfSe" value="934402389" />
+    <property role="TrG5h" value="IGeneratorOnly" />
+  </node>
+  <node concept="1TIwiD" id="6rhOS_xv7_i">
+    <property role="1pbfSe" value="934392613" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="SideTransformationCell3" />
+    <property role="34LRSv" value="grammar.sideTransformation3" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="6rhOS_xv7_j" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="wrapped" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+    <node concept="1TJgyj" id="6rhOS_xvr8r" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="isApplicable" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4eBi5gdnkSD" resolve="SideTransformationCell2_IsApplicable" />
+    </node>
+    <node concept="1TJgyj" id="6rhOS_xvr8s" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="matchingText" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4eBi5gdn8p_" resolve="SideTransformationCell2_MatchingText" />
+    </node>
+    <node concept="1TJgyj" id="6rhOS_xvr8t" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="execute" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4eBi5gdnlo4" resolve="SideTransformationCell2_Execute" />
+    </node>
+    <node concept="PrWs8" id="6rhOS_xv7_t" role="PzmwI">
+      <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
+    </node>
+    <node concept="PrWs8" id="6rhOS_xvre3" role="PzmwI">
+      <ref role="PrY4T" node="6rhOS_xv5cy" resolve="IGeneratorOnly" />
+    </node>
+    <node concept="PrWs8" id="6rhOS_xwHOh" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+    </node>
   </node>
 </model>
 
