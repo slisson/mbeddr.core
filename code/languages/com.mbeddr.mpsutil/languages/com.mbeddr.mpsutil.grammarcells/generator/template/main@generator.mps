@@ -5045,15 +5045,14 @@
                                   <node concept="1WS0z7" id="5OsvY4gxP0r" role="lGtFl">
                                     <node concept="3JmXsc" id="5OsvY4gxP0t" role="3Jn$fo">
                                       <node concept="3clFbS" id="5OsvY4gxP0v" role="2VODD2">
-                                        <node concept="3clFbF" id="5OsvY4gxPNm" role="3cqZAp">
-                                          <node concept="2YIFZM" id="4eBi5gdAnTs" role="3clFbG">
-                                            <ref role="37wK5l" to="cmsr:5OsvY4gxRdc" resolve="collectDescendantLeafs" />
-                                            <ref role="1Pybhc" to="cmsr:4eBi5gdAicV" resolve="CellModelTraversalUtil" />
-                                            <node concept="2OqwBi" id="4eBi5gdAnTt" role="37wK5m">
-                                              <node concept="30H73N" id="4eBi5gdAnTu" role="2Oq$k0" />
-                                              <node concept="3TrEf2" id="4eBi5gdAnTv" role="2OqNvi">
-                                                <ref role="3Tt5mk" to="teg0:77A3HzrGsvB" />
-                                              </node>
+                                        <node concept="3clFbF" id="5ewxJLJnAIr" role="3cqZAp">
+                                          <node concept="2OqwBi" id="5ewxJLJnBmh" role="3clFbG">
+                                            <node concept="1PxgMI" id="5ewxJLJnBgr" role="2Oq$k0">
+                                              <ref role="1PxNhF" to="teg0:77A3HzrGsvf" resolve="CellBasedRule" />
+                                              <node concept="30H73N" id="5ewxJLJnAIq" role="1PxMeX" />
+                                            </node>
+                                            <node concept="2qgKlT" id="5ewxJLJnBw6" role="2OqNvi">
+                                              <ref role="37wK5l" to="karh:5ewxJLJn0WX" resolve="getSymbolCells" />
                                             </node>
                                           </node>
                                         </node>
@@ -5256,8 +5255,8 @@
                         <node concept="3clFbF" id="1Ia5rYlwy_k" role="3cqZAp">
                           <node concept="2OqwBi" id="77A3HzrGAwN" role="3clFbG">
                             <node concept="30H73N" id="1Ia5rYlwy_j" role="2Oq$k0" />
-                            <node concept="3Tsc0h" id="77A3HzrGAFS" role="2OqNvi">
-                              <ref role="3TtcxE" to="teg0:77A3HzrGy5f" />
+                            <node concept="2qgKlT" id="5ewxJLJnAgS" role="2OqNvi">
+                              <ref role="37wK5l" to="karh:5ewxJLJn0EB" resolve="getRules" />
                             </node>
                           </node>
                         </node>
