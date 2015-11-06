@@ -121,9 +121,6 @@
     <node concept="PrWs8" id="6oKG1kMyAVP" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
-    <node concept="PrWs8" id="3MU4zYtqjct" role="PzmwI">
-      <ref role="PrY4T" node="2uT2PLmXqYk" resolve="IGrammarCell" />
-    </node>
     <node concept="PrWs8" id="3O7ZvCZLRkq" role="PzmwI">
       <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
     </node>
