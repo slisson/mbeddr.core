@@ -940,6 +940,9 @@
               <node concept="3TUQnm" id="1Ia5rYlG$CZ" role="HW$Y0">
                 <ref role="3TV0OU" to="teg0:1Ia5rYl_yXg" resolve="WrapperCell_Condition_wrappedNode" />
               </node>
+              <node concept="3TUQnm" id="2ReeOqtWjSZ" role="HW$Y0">
+                <ref role="3TV0OU" to="teg0:2uT2PLmXmjz" resolve="Parameter_SubConcept" />
+              </node>
             </node>
           </node>
         </node>
