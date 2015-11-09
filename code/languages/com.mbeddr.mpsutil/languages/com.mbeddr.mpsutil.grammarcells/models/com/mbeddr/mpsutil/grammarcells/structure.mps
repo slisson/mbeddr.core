@@ -140,7 +140,7 @@
     <property role="1pbfSe" value="1434007901" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="OptionalCell" />
-    <property role="34LRSv" value="optional" />
+    <property role="34LRSv" value="grammar.optional" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="4qdNcHzYfBp" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -217,7 +217,7 @@
     <property role="1pbfSe" value="2144047008" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="GrammarInfoCell" />
-    <property role="34LRSv" value="grammar" />
+    <property role="34LRSv" value="grammar.rules" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="77A3HzrGy5f" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -445,7 +445,7 @@
     <property role="1pbfSe" value="1425616518" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="SideTransformationCell" />
-    <property role="34LRSv" value="grammar.sideTransform" />
+    <property role="34LRSv" value="grammar.sideTransform0" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="6jH9yJK30Bk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -532,7 +532,7 @@
     <property role="1pbfSe" value="1359203626" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="SideTransformationCell2" />
-    <property role="34LRSv" value="grammar.sideTransformation2" />
+    <property role="34LRSv" value="grammar.sideTransformation" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="4eBi5gdnl32" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -557,9 +557,6 @@
     </node>
     <node concept="PrWs8" id="4eBi5gdBmA1" role="PzmwI">
       <ref role="PrY4T" node="4eBi5gdADMe" resolve="INotALeaf" />
-    </node>
-    <node concept="PrWs8" id="6rhOS_xv6AJ" role="PzmwI">
-      <ref role="PrY4T" node="6rhOS_xv5cy" resolve="IGeneratorOnly" />
     </node>
   </node>
   <node concept="1TIwiD" id="4eBi5gdn8p_">
