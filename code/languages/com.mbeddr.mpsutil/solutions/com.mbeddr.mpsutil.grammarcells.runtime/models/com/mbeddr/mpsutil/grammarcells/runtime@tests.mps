@@ -15,6 +15,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -124,6 +125,9 @@
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
+      </concept>
+      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
+        <property id="8355037393041754995" name="isNative" index="2aFKle" />
       </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
@@ -2025,6 +2029,23 @@
       <node concept="3clFbS" id="420g0gW003D" role="3clF47">
         <node concept="3clFbF" id="420g0gW003F" role="3cqZAp">
           <node concept="10Nm6u" id="420g0gW003E" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5pzVkrpGJHo" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getLink" />
+      <node concept="3Tm1VV" id="5pzVkrpGJHq" role="1B3o_S" />
+      <node concept="3uibUv" id="5pzVkrpGJHr" role="3clF45">
+        <ref role="3uigEE" to="c17a:~SAbstractLink" resolve="SAbstractLink" />
+      </node>
+      <node concept="2AHcQZ" id="5pzVkrpGJHs" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3clFbS" id="5pzVkrpGJHt" role="3clF47">
+        <node concept="3clFbF" id="5pzVkrpGJHv" role="3cqZAp">
+          <node concept="10Nm6u" id="5pzVkrpGJHu" role="3clFbG" />
         </node>
       </node>
     </node>
