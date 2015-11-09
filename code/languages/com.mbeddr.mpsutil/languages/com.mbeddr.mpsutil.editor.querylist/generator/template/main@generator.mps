@@ -4072,8 +4072,8 @@
                     <ref role="3uigEE" to="exr9:~EditorManager" resolve="EditorManager" />
                   </node>
                   <node concept="2YIFZM" id="g_CeiML" role="33vP2m">
-                    <ref role="37wK5l" to="exr9:~EditorManager.getInstanceFromContext(jetbrains.mps.smodel.IOperationContext):jetbrains.mps.nodeEditor.EditorManager" resolve="getInstanceFromContext" />
                     <ref role="1Pybhc" to="exr9:~EditorManager" resolve="EditorManager" />
+                    <ref role="37wK5l" to="exr9:~EditorManager.getInstanceFromContext(jetbrains.mps.openapi.editor.EditorContext):jetbrains.mps.nodeEditor.EditorManager" resolve="getInstanceFromContext" />
                     <node concept="37vLTw" id="3GM_nagTyco" role="37wK5m">
                       <ref role="3cqZAo" node="g_CeiME" resolve="opContext" />
                     </node>
