@@ -370,11 +370,16 @@
       <concept id="5083944728298846680" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell" flags="ng" index="_tjkj">
         <child id="5083944728298846681" name="option" index="_tjki" />
       </concept>
+      <concept id="8207263695490893775" name="com.mbeddr.mpsutil.grammarcells.structure.CellBasedRule" flags="ng" index="2ElW$n" />
       <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G">
         <property id="7617962380315063287" name="flagText" index="ZjSer" />
       </concept>
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
+      </concept>
+      <concept id="3011849438420226693" name="com.mbeddr.mpsutil.grammarcells.structure.GrammarInfoCell" flags="ng" index="1WcQYu">
+        <child id="8207263695490916687" name="rules" index="2El2Yn" />
+        <child id="2862331529394260612" name="projection" index="1LiK7o" />
       </concept>
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
@@ -2778,34 +2783,40 @@
   <node concept="24kQdi" id="3xi4v11YmEs">
     <property role="3GE5qa" value="intf.cs.ppc" />
     <ref role="1XX52x" to="v7ag:5HTuIUP_k1R" resolve="PreCondition" />
-    <node concept="3EZMnI" id="3xi4v11YmEu" role="2wV5jI">
-      <node concept="3F0ifn" id="3xi4v11YmEW" role="3EZMnx">
-        <property role="3F0ifm" value="pre" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
-      </node>
-      <node concept="PMmxH" id="2azu63OPWNE" role="3EZMnx">
-        <ref role="PMmxG" to="cl6c:2azu63OPQ$J" resolve="CodeLocationIndex" />
-      </node>
-      <node concept="l2Vlx" id="3xi4v11YmEJ" role="2iSdaV" />
-      <node concept="3F1sOY" id="3xi4v11YmEK" role="3EZMnx">
-        <ref role="1NtTu8" to="v7ag:5HTuIUP_k1S" />
+    <node concept="1WcQYu" id="5$jJV5eooMd" role="2wV5jI">
+      <node concept="2ElW$n" id="5$jJV5eooMf" role="2El2Yn" />
+      <node concept="3EZMnI" id="3xi4v11YmEu" role="1LiK7o">
+        <node concept="3F0ifn" id="3xi4v11YmEW" role="3EZMnx">
+          <property role="3F0ifm" value="pre" />
+          <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        </node>
+        <node concept="PMmxH" id="2azu63OPWNE" role="3EZMnx">
+          <ref role="PMmxG" to="cl6c:2azu63OPQ$J" resolve="CodeLocationIndex" />
+        </node>
+        <node concept="l2Vlx" id="3xi4v11YmEJ" role="2iSdaV" />
+        <node concept="3F1sOY" id="3xi4v11YmEK" role="3EZMnx">
+          <ref role="1NtTu8" to="v7ag:5HTuIUP_k1S" />
+        </node>
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="3xi4v11YmEX">
     <property role="3GE5qa" value="intf.cs.ppc" />
     <ref role="1XX52x" to="v7ag:5HTuIUPAiAH" resolve="PostCondition" />
-    <node concept="3EZMnI" id="3xi4v11YmEZ" role="2wV5jI">
-      <node concept="3F0ifn" id="3xi4v11YmFu" role="3EZMnx">
-        <property role="3F0ifm" value="post" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
-      </node>
-      <node concept="PMmxH" id="2azu63OPWNC" role="3EZMnx">
-        <ref role="PMmxG" to="cl6c:2azu63OPQ$J" resolve="CodeLocationIndex" />
-      </node>
-      <node concept="l2Vlx" id="3xi4v11YmFg" role="2iSdaV" />
-      <node concept="3F1sOY" id="3xi4v11YmFh" role="3EZMnx">
-        <ref role="1NtTu8" to="v7ag:5HTuIUP_k1S" />
+    <node concept="1WcQYu" id="5$jJV5eo5X5" role="2wV5jI">
+      <node concept="2ElW$n" id="5$jJV5eo5X6" role="2El2Yn" />
+      <node concept="3EZMnI" id="3xi4v11YmEZ" role="1LiK7o">
+        <node concept="3F0ifn" id="3xi4v11YmFu" role="3EZMnx">
+          <property role="3F0ifm" value="post" />
+          <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        </node>
+        <node concept="PMmxH" id="2azu63OPWNC" role="3EZMnx">
+          <ref role="PMmxG" to="cl6c:2azu63OPQ$J" resolve="CodeLocationIndex" />
+        </node>
+        <node concept="l2Vlx" id="3xi4v11YmFg" role="2iSdaV" />
+        <node concept="3F1sOY" id="3xi4v11YmFh" role="3EZMnx">
+          <ref role="1NtTu8" to="v7ag:5HTuIUP_k1S" />
+        </node>
       </node>
     </node>
   </node>

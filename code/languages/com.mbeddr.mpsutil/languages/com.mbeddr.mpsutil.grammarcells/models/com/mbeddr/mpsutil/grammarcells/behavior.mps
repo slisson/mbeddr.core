@@ -245,6 +245,7 @@
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
+      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
@@ -2364,8 +2365,59 @@
           </node>
         </node>
         <node concept="3cpWs6" id="5ewxJLJn4aL" role="3cqZAp">
-          <node concept="37vLTw" id="5ewxJLJn4gR" role="3cqZAk">
-            <ref role="3cqZAo" node="5ewxJLJn3LT" resolve="symbols" />
+          <node concept="2OqwBi" id="5$jJV5eohdj" role="3cqZAk">
+            <node concept="2OqwBi" id="5$jJV5eo9e7" role="2Oq$k0">
+              <node concept="37vLTw" id="5ewxJLJn4gR" role="2Oq$k0">
+                <ref role="3cqZAo" node="5ewxJLJn3LT" resolve="symbols" />
+              </node>
+              <node concept="3zZkjj" id="5$jJV5eobm2" role="2OqNvi">
+                <node concept="1bVj0M" id="5$jJV5eobm4" role="23t8la">
+                  <node concept="3clFbS" id="5$jJV5eobm5" role="1bW5cS">
+                    <node concept="3clFbF" id="5$jJV5eobuT" role="3cqZAp">
+                      <node concept="22lmx$" id="5$jJV5eog5G" role="3clFbG">
+                        <node concept="2OqwBi" id="5$jJV5eoguu" role="3uHU7w">
+                          <node concept="37vLTw" id="5$jJV5eogju" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5$jJV5eobm6" resolve="it" />
+                          </node>
+                          <node concept="1mIQ4w" id="5$jJV5eogNg" role="2OqNvi">
+                            <node concept="chp4Y" id="5$jJV5eogZ_" role="cj9EA">
+                              <ref role="cht4Q" to="teg0:2uT2PLmXqYk" resolve="IGrammarCell" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="22lmx$" id="5$jJV5eof6f" role="3uHU7B">
+                          <node concept="2OqwBi" id="5$jJV5eobAO" role="3uHU7B">
+                            <node concept="37vLTw" id="5$jJV5eobuS" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5$jJV5eobm6" resolve="it" />
+                            </node>
+                            <node concept="1mIQ4w" id="5$jJV5eobSc" role="2OqNvi">
+                              <node concept="chp4Y" id="5$jJV5eoc1m" role="cj9EA">
+                                <ref role="cht4Q" to="tpc2:fBF0icI" resolve="CellModel_Constant" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="5$jJV5eofqz" role="3uHU7w">
+                            <node concept="37vLTw" id="5$jJV5eofh7" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5$jJV5eobm6" resolve="it" />
+                            </node>
+                            <node concept="1mIQ4w" id="5$jJV5eofHJ" role="2OqNvi">
+                              <node concept="chp4Y" id="5$jJV5eofSu" role="cj9EA">
+                                <ref role="cht4Q" to="tpc2:fBF1sR7" resolve="CellModel_RefNode" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="5$jJV5eobm6" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="5$jJV5eobm7" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="ANE8D" id="5$jJV5eohxn" role="2OqNvi" />
           </node>
         </node>
       </node>
