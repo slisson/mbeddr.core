@@ -548,6 +548,10 @@
     <property role="TrG5h" value="SideTransformationCell2" />
     <property role="34LRSv" value="grammar.sideTransformation" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyi" id="5$jJV5dZWG$" role="1TKVEl">
+      <property role="TrG5h" value="multipleEntries" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="4eBi5gdnl32" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="isApplicable" />
@@ -606,6 +610,10 @@
     <property role="TrG5h" value="SideTransformationCell3" />
     <property role="34LRSv" value="grammar.sideTransformation3" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyi" id="5$jJV5e0$Zz" role="1TKVEl">
+      <property role="TrG5h" value="multipleEntries" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="6rhOS_xv7_j" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="wrapped" />
@@ -658,6 +666,13 @@
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="IncludeParentSideTransformations_Condition" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5$jJV5dOi9A">
+    <property role="1pbfSe" value="1494949353" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="Parameter_Pattern" />
+    <property role="34LRSv" value="pattern" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

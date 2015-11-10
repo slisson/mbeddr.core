@@ -900,8 +900,34 @@
             <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
           </node>
           <node concept="3F1sOY" id="7KznU_3P5mk" role="3EZMnx">
-            <property role="1$x2rV" value="&lt;use first constant&gt;" />
             <ref role="1NtTu8" to="teg0:7KznU_3OY7w" />
+          </node>
+          <node concept="1HlG4h" id="5$jJV5dOHLp" role="3EZMnx">
+            <node concept="1HfYo3" id="5$jJV5dOHLr" role="1HlULh">
+              <node concept="3TQlhw" id="5$jJV5dOHLt" role="1Hhtcw">
+                <node concept="3clFbS" id="5$jJV5dOHLv" role="2VODD2">
+                  <node concept="3clFbF" id="5$jJV5dOHNe" role="3cqZAp">
+                    <node concept="3cpWs3" id="5$jJV5dOHTl" role="3clFbG">
+                      <node concept="2OqwBi" id="5$jJV5dOI0O" role="3uHU7w">
+                        <node concept="pncrf" id="5$jJV5dOHWv" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="5$jJV5dOIjL" role="2OqNvi">
+                          <ref role="37wK5l" to="karh:5$jJV5dODFo" resolve="getTransformationTextDescription" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="5$jJV5dOHNd" role="3uHU7B">
+                        <property role="Xl_RC" value="   " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="VechU" id="5$jJV5dOTWt" role="3F10Kt">
+              <property role="Vb096" value="lightGray" />
+            </node>
+            <node concept="VPM3Z" id="5$jJV5dOU5f" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
           </node>
           <node concept="VPXOz" id="7KznU_3P5iv" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -1628,13 +1654,26 @@
           <ref role="1NtTu8" to="teg0:4eBi5gdnl37" />
         </node>
       </node>
+      <node concept="3EZMnI" id="5$jJV5dZWGF" role="3EZMnx">
+        <node concept="2iRfu4" id="5$jJV5dZWGG" role="2iSdaV" />
+        <node concept="VPM3Z" id="5$jJV5dZWGH" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="5$jJV5dZWGI" role="3EZMnx">
+          <property role="3F0ifm" value="show multiple entries:" />
+        </node>
+        <node concept="3F0A7n" id="5$jJV5dZWIV" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;best match only&gt;" />
+          <ref role="1NtTu8" to="teg0:5$jJV5dZWG$" resolve="multipleEntries" />
+        </node>
+      </node>
       <node concept="3EZMnI" id="4eBi5gdnlnn" role="3EZMnx">
         <node concept="2iRfu4" id="4eBi5gdnlno" role="2iSdaV" />
         <node concept="VPM3Z" id="4eBi5gdnlnp" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="4eBi5gdnlnq" role="3EZMnx">
-          <property role="3F0ifm" value="is appicable:" />
+          <property role="3F0ifm" value="is applicable:" />
         </node>
         <node concept="3F1sOY" id="4eBi5gdnlnr" role="3EZMnx">
           <ref role="1NtTu8" to="teg0:4eBi5gdnl32" />
@@ -1686,6 +1725,19 @@
         </node>
         <node concept="3F1sOY" id="6rhOS_xv$_1" role="3EZMnx">
           <ref role="1NtTu8" to="teg0:6rhOS_xvr8s" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5$jJV5e0$ZE" role="3EZMnx">
+        <node concept="2iRfu4" id="5$jJV5e0$ZF" role="2iSdaV" />
+        <node concept="VPM3Z" id="5$jJV5e0$ZG" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="5$jJV5e0$ZH" role="3EZMnx">
+          <property role="3F0ifm" value="show multiple entries:" />
+        </node>
+        <node concept="3F0A7n" id="5$jJV5e0_1U" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;best match only&gt;" />
+          <ref role="1NtTu8" to="teg0:5$jJV5e0$Zz" resolve="multipleEntries" />
         </node>
       </node>
       <node concept="3EZMnI" id="6rhOS_xv$_2" role="3EZMnx">
