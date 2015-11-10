@@ -2003,8 +2003,8 @@
       <node concept="l2Vlx" id="71UKpntoo8d" role="2iSdaV" />
       <node concept="3F0ifn" id="71UKpntoo8g" role="3EZMnx">
         <property role="3F0ifm" value="." />
-        <ref role="1ERwB7" node="5Thpq267jQg" resolve="replaceOperationCallWithExpression" />
         <ref role="1k5W1q" to="r4b4:y826GHffn9" resolve="Op" />
+        <ref role="1ERwB7" node="5Thpq267jQg" resolve="replaceOperationCallWithExpression" />
         <node concept="11L4FC" id="71UKpntoo8n" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -2024,8 +2024,8 @@
       </node>
       <node concept="3F0ifn" id="71UKpntosSf" role="3EZMnx">
         <property role="3F0ifm" value="(" />
-        <ref role="1ERwB7" node="5Thpq267jQg" resolve="replaceOperationCallWithExpression" />
         <ref role="1k5W1q" to="r4b4:2CEi94dh36z" resolve="Parens" />
+        <ref role="1ERwB7" node="5Thpq267jQg" resolve="replaceOperationCallWithExpression" />
         <node concept="11L4FC" id="71UKpntosSi" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -2054,8 +2054,8 @@
       </node>
       <node concept="3F0ifn" id="71UKpntosSh" role="3EZMnx">
         <property role="3F0ifm" value=")" />
-        <ref role="1ERwB7" node="5Thpq267jQg" resolve="replaceOperationCallWithExpression" />
         <ref role="1k5W1q" to="r4b4:2CEi94dh36z" resolve="Parens" />
+        <ref role="1ERwB7" node="5Thpq267jQg" resolve="replaceOperationCallWithExpression" />
         <node concept="11L4FC" id="71UKpntosSl" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
