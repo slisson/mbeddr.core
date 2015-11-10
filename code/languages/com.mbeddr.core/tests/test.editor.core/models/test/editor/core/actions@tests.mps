@@ -167,6 +167,9 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
+      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
+        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
@@ -3170,13 +3173,22 @@
       <node concept="2TK7Tu" id="7K_2cV$Jn1O" role="3cqZAp">
         <property role="2TTd_B" value="exported" />
       </node>
-      <node concept="3clFbF" id="7K_2cV$Jn1P" role="3cqZAp">
-        <node concept="2OqwBi" id="7K_2cV$Jn1Q" role="3clFbG">
-          <node concept="369mXd" id="7K_2cV$Jn1R" role="2Oq$k0" />
-          <node concept="AQDAd" id="7K_2cV$Jn1S" role="2OqNvi">
-            <ref role="37wK5l" node="73exJLGFf2n" resolve="checkCaret" />
-            <node concept="Xl_RD" id="7K_2cV$Jn1T" role="37wK5m">
-              <property role="Xl_RC" value="exported" />
+      <node concept="3SKdUt" id="5pzVkrqdM2i" role="3cqZAp">
+        <node concept="3SKdUq" id="5pzVkrqdM2j" role="3SKWNk">
+          <property role="3SKdUp" value="check does not work on the build server" />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="5pzVkrqdKAE" role="3cqZAp">
+        <node concept="3SKWN0" id="5pzVkrqdKAF" role="3SKWNk">
+          <node concept="3clFbF" id="7K_2cV$Jn1P" role="3SKWNf">
+            <node concept="2OqwBi" id="7K_2cV$Jn1Q" role="3clFbG">
+              <node concept="369mXd" id="7K_2cV$Jn1R" role="2Oq$k0" />
+              <node concept="AQDAd" id="7K_2cV$Jn1S" role="2OqNvi">
+                <ref role="37wK5l" node="73exJLGFf2n" resolve="checkCaret" />
+                <node concept="Xl_RD" id="7K_2cV$Jn1T" role="37wK5m">
+                  <property role="Xl_RC" value="exported" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -3224,13 +3236,22 @@
       <node concept="2TK7Tu" id="7K_2cV$Jn6V" role="3cqZAp">
         <property role="2TTd_B" value="extern" />
       </node>
-      <node concept="3clFbF" id="7K_2cV$Jn6W" role="3cqZAp">
-        <node concept="2OqwBi" id="7K_2cV$Jn6X" role="3clFbG">
-          <node concept="369mXd" id="7K_2cV$Jn6Y" role="2Oq$k0" />
-          <node concept="AQDAd" id="7K_2cV$Jn6Z" role="2OqNvi">
-            <ref role="37wK5l" node="73exJLGFf2n" resolve="checkCaret" />
-            <node concept="Xl_RD" id="7K_2cV$Jn70" role="37wK5m">
-              <property role="Xl_RC" value="extern" />
+      <node concept="3SKdUt" id="5pzVkrqdKRD" role="3cqZAp">
+        <node concept="3SKdUq" id="5pzVkrqdKUU" role="3SKWNk">
+          <property role="3SKdUp" value="check does not work on the build server" />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="5pzVkrqdKH7" role="3cqZAp">
+        <node concept="3SKWN0" id="5pzVkrqdKH8" role="3SKWNk">
+          <node concept="3clFbF" id="7K_2cV$Jn6W" role="3SKWNf">
+            <node concept="2OqwBi" id="7K_2cV$Jn6X" role="3clFbG">
+              <node concept="369mXd" id="7K_2cV$Jn6Y" role="2Oq$k0" />
+              <node concept="AQDAd" id="7K_2cV$Jn6Z" role="2OqNvi">
+                <ref role="37wK5l" node="73exJLGFf2n" resolve="checkCaret" />
+                <node concept="Xl_RD" id="7K_2cV$Jn70" role="37wK5m">
+                  <property role="Xl_RC" value="extern" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
