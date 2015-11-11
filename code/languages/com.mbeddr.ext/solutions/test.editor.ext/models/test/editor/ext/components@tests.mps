@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b8423fde-9681-49ac-b372-eb21bacf6077(test.editor.ext.actions@tests)">
+<model ref="r:b8423fde-9681-49ac-b372-eb21bacf6077(test.editor.ext.components@tests)">
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
