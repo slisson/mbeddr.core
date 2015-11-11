@@ -731,6 +731,9 @@
       <node concept="L2wRC" id="vg5qBBJJPa" role="39821P">
         <ref role="L2wRA" node="vg5qBBrT$k" resolve="test.ts.ext.concurrency" />
       </node>
+      <node concept="L2wRC" id="5$jJV5ebCok" role="39821P">
+        <ref role="L2wRA" node="5$jJV5ebzFb" resolve="test.editor.ext" />
+      </node>
     </node>
     <node concept="2G$12M" id="7Vt15sLW_ol" role="3989C9">
       <property role="TrG5h" value="com.mbeddr.ext.ts.tests" />
@@ -809,6 +812,37 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="5$jJV5ebzFb" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.editor.ext" />
+        <property role="3LESm3" value="578ac46a-d23e-4d41-919e-312fa2683e3f" />
+        <property role="2GAjPV" value="false" />
+        <property role="aoJFB" value="sources and tests" />
+        <node concept="398BVA" id="5$jJV5ebzIf" role="3LF7KH">
+          <ref role="398BVh" node="7Vt15sLW_nb" resolve="mbeddr.ext" />
+          <node concept="2Ry0Ak" id="5$jJV5ebzM6" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="5$jJV5ebzO1" role="2Ry0An">
+              <property role="2Ry0Am" value="test.editor.ext" />
+              <node concept="2Ry0Ak" id="5$jJV5ebzPW" role="2Ry0An">
+                <property role="2Ry0Am" value="test.editor.ext.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5$jJV5ebzQT" role="3bR37C">
+          <node concept="3bR9La" id="5$jJV5ebzQU" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5$jJV5ebzQV" role="3bR37C">
+          <node concept="3bR9La" id="5$jJV5ebzQW" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="22LTRH" id="7Vt15sLW_oB" role="1hWBAP">
       <property role="TrG5h" value="com.mbeddr.ext.tests" />
@@ -820,6 +854,9 @@
       </node>
       <node concept="22LTRM" id="vg5qBBJJRU" role="22LTRK">
         <ref role="22LTRN" node="vg5qBBrT$k" resolve="test.ts.ext.concurrency" />
+      </node>
+      <node concept="22LTRM" id="5$jJV5ebCwy" role="22LTRK">
+        <ref role="22LTRN" node="5$jJV5ebzFb" resolve="test.editor.ext" />
       </node>
     </node>
   </node>
