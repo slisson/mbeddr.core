@@ -209,6 +209,9 @@
                     <node concept="35c_gC" id="2uT2PLmWTmG" role="3g7hyw">
                       <ref role="35c_gD" to="tpc2:fBF1sR7" resolve="CellModel_RefNode" />
                     </node>
+                    <node concept="35c_gC" id="4MmBx0anK3l" role="3g7hyw">
+                      <ref role="35c_gD" to="tpc2:fPiCG$y" resolve="CellModel_RefCell" />
+                    </node>
                   </node>
                 </node>
               </node>
