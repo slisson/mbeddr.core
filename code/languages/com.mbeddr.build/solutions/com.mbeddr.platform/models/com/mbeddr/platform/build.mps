@@ -7503,6 +7503,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4MmBx0aLzHp" role="3bR37C">
+          <node concept="1Busua" id="4MmBx0aLzHq" role="1SiIV1">
+            <ref role="1Busuk" node="7rbvAnyGAfv" resolve="com.mbeddr.mpsutil.grammarcells.runtimelang" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="4gGXGcLV$l$" role="3989C9">
