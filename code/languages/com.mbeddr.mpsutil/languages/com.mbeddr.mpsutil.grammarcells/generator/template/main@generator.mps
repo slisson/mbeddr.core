@@ -15748,7 +15748,8 @@
                     <node concept="YeOm9" id="5WBKiSsa$RD" role="2ShVmc">
                       <node concept="1Y3b0j" id="5WBKiSsa$RG" role="YeSDq">
                         <property role="2bfB8j" value="true" />
-                        <ref role="1Y3XeK" to="3ahc:~AbstractCellAction" resolve="AbstractCellAction" />
+                        <ref role="1Y3XeK" to="czm:7Q6ZOiKKoRz" resolve="CellActionWithReadAccess" />
+                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                         <node concept="3clFb_" id="heKbDcv" role="jymVt">
                           <property role="TrG5h" value="execute" />
                           <node concept="37vLTG" id="heKbDcC" role="3clF46">
@@ -15790,7 +15791,7 @@
                         </node>
                         <node concept="3clFb_" id="301qoOzKyws" role="jymVt">
                           <property role="1EzhhJ" value="false" />
-                          <property role="TrG5h" value="canExecute" />
+                          <property role="TrG5h" value="canExecute_inReadAction" />
                           <property role="DiZV1" value="false" />
                           <property role="IEkAT" value="false" />
                           <node concept="3Tm1VV" id="301qoOzKywt" role="1B3o_S" />
