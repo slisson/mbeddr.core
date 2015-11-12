@@ -4621,7 +4621,12 @@
       <node concept="3clFbS" id="4MmBx0aLNT9" role="3clF47">
         <node concept="3SKdUt" id="7Q6ZOiKITt8" role="3cqZAp">
           <node concept="3SKdUq" id="7Q6ZOiKITFm" role="3SKWNk">
-            <property role="3SKdUp" value="If there are subconcepts have the same rule. For a given input we cannot know which is the correct subconcept." />
+            <property role="3SKdUp" value="If there are subconcepts that have the same rule. For a given input we cannot know which is the" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7Q6ZOiKWBVQ" role="3cqZAp">
+          <node concept="3SKdUq" id="7Q6ZOiKWCe8" role="3SKWNk">
+            <property role="3SKdUp" value="correct subconcept." />
           </node>
         </node>
         <node concept="3SKdUt" id="7Q6ZOiKIYlr" role="3cqZAp">
@@ -4819,10 +4824,34 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3y3z36" id="4MmBx0aMJMq" role="3clFbw">
-                            <node concept="10Nm6u" id="4MmBx0aMJPO" role="3uHU7w" />
-                            <node concept="37vLTw" id="4MmBx0aMJHR" role="3uHU7B">
-                              <ref role="3cqZAo" node="4MmBx0aMJsn" resolve="specializedRule" />
+                          <node concept="1Wc70l" id="7Q6ZOiKWYWj" role="3clFbw">
+                            <node concept="2OqwBi" id="7Q6ZOiKXlMp" role="3uHU7w">
+                              <node concept="37vLTw" id="7Q6ZOiKXlGe" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4MmBx0aMNSc" resolve="existingNode" />
+                              </node>
+                              <node concept="1mIQ4w" id="7Q6ZOiKXlS4" role="2OqNvi">
+                                <node concept="25Kdxt" id="7Q6ZOiKXlUp" role="cj9EA">
+                                  <node concept="2OqwBi" id="7Q6ZOiKXlZI" role="25KhWn">
+                                    <node concept="2OqwBi" id="7Q6ZOiKXlZJ" role="2Oq$k0">
+                                      <node concept="37vLTw" id="7Q6ZOiKXlZK" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="4MmBx0aM0Sj" resolve="newTree" />
+                                      </node>
+                                      <node concept="liA8E" id="7Q6ZOiKXlZL" role="2OqNvi">
+                                        <ref role="37wK5l" node="5OsvY4gCIs7" resolve="getRule" />
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="7Q6ZOiKXlZM" role="2OqNvi">
+                                      <ref role="37wK5l" node="2TSIj8m02yZ" resolve="getOutputConcept" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3y3z36" id="4MmBx0aMJMq" role="3uHU7B">
+                              <node concept="37vLTw" id="4MmBx0aMJHR" role="3uHU7B">
+                                <ref role="3cqZAo" node="4MmBx0aMJsn" resolve="specializedRule" />
+                              </node>
+                              <node concept="10Nm6u" id="4MmBx0aMJPO" role="3uHU7w" />
                             </node>
                           </node>
                         </node>
