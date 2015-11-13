@@ -34,9 +34,16 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
-      <concept id="994107119628459644" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformGenerator" flags="ig" index="2bVX_k" />
+      <concept id="7621529404680554370" name="com.mbeddr.mpsutil.grammarcells.structure.GeneratedSideTransformRemovals" flags="ng" index="22UdGu" />
+      <concept id="994107119628459644" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformGenerator" flags="ig" index="2bVX_k">
+        <child id="7621529404680555921" name="removals" index="22Ud4d" />
+      </concept>
       <concept id="7363578995839261502" name="com.mbeddr.mpsutil.grammarcells.structure.SubstituteActionsGenerator" flags="ig" index="1kHAGF" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
@@ -54,6 +61,10 @@
         <child id="1177498207384" name="handler" index="Cncma" />
       </concept>
       <concept id="1177498227294" name="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_Handler" flags="in" index="Cnhdc" />
+      <concept id="1197454418909" name="jetbrains.mps.lang.actions.structure.QueryFunction_ST_RemoveBy_Condition" flags="in" index="3dQ6bb" />
+      <concept id="1197454626277" name="jetbrains.mps.lang.actions.structure.RemoveSTByConditionPart" flags="ng" index="3dQSNN">
+        <child id="1197454635481" name="condition" index="3dQV3f" />
+      </concept>
       <concept id="1112056943463" name="jetbrains.mps.lang.actions.structure.NodeSubstituteActions" flags="ng" index="3FK_9_">
         <child id="1112058057696" name="actionsBuilder" index="3FOPby" />
       </concept>
@@ -122,31 +133,85 @@
     <node concept="2bVX_k" id="RbLMy693s5" role="3UOs0v">
       <property role="7I3sp" value="both" />
       <ref role="3UNGvu" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="22UdGu" id="6B579NFwMtv" role="22Ud4d">
+        <node concept="3dQ6bb" id="6B579NFwMtw" role="3dQV3f">
+          <node concept="3clFbS" id="6B579NFwMtx" role="2VODD2">
+            <node concept="3cpWs6" id="6B579NFwMty" role="3cqZAp">
+              <node concept="3clFbT" id="6B579NFwMtz" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2bVX_k" id="RbLMy6bW35" role="3UOs0v">
       <property role="7I3sp" value="both" />
       <property role="2uHTBK" value="ext_1_RTransform" />
       <ref role="3UNGvu" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="22UdGu" id="6B579NFwMt$" role="22Ud4d">
+        <node concept="3dQ6bb" id="6B579NFwMt_" role="3dQV3f">
+          <node concept="3clFbS" id="6B579NFwMtA" role="2VODD2">
+            <node concept="3cpWs6" id="6B579NFwMtB" role="3cqZAp">
+              <node concept="3clFbT" id="6B579NFwMtC" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2bVX_k" id="RbLMy6bW3K" role="3UOs0v">
       <property role="7I3sp" value="both" />
       <property role="2uHTBK" value="ext_2_RTransform" />
       <ref role="3UNGvu" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="22UdGu" id="6B579NFwMtD" role="22Ud4d">
+        <node concept="3dQ6bb" id="6B579NFwMtE" role="3dQV3f">
+          <node concept="3clFbS" id="6B579NFwMtF" role="2VODD2">
+            <node concept="3cpWs6" id="6B579NFwMtG" role="3cqZAp">
+              <node concept="3clFbT" id="6B579NFwMtH" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2bVX_k" id="RbLMy6bW4u" role="3UOs0v">
       <property role="7I3sp" value="both" />
       <property role="2uHTBK" value="ext_3_RTransform" />
       <ref role="3UNGvu" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="22UdGu" id="6B579NFwMtI" role="22Ud4d">
+        <node concept="3dQ6bb" id="6B579NFwMtJ" role="3dQV3f">
+          <node concept="3clFbS" id="6B579NFwMtK" role="2VODD2">
+            <node concept="3cpWs6" id="6B579NFwMtL" role="3cqZAp">
+              <node concept="3clFbT" id="6B579NFwMtM" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2bVX_k" id="RbLMy6bW5f" role="3UOs0v">
       <property role="7I3sp" value="both" />
       <property role="2uHTBK" value="ext_4_RTransform" />
       <ref role="3UNGvu" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="22UdGu" id="6B579NFwMtN" role="22Ud4d">
+        <node concept="3dQ6bb" id="6B579NFwMtO" role="3dQV3f">
+          <node concept="3clFbS" id="6B579NFwMtP" role="2VODD2">
+            <node concept="3cpWs6" id="6B579NFwMtQ" role="3cqZAp">
+              <node concept="3clFbT" id="6B579NFwMtR" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2bVX_k" id="RbLMy6bW63" role="3UOs0v">
       <property role="7I3sp" value="both" />
       <property role="2uHTBK" value="ext_5_RTransform" />
       <ref role="3UNGvu" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="22UdGu" id="6B579NFwMtS" role="22Ud4d">
+        <node concept="3dQ6bb" id="6B579NFwMtT" role="3dQV3f">
+          <node concept="3clFbS" id="6B579NFwMtU" role="2VODD2">
+            <node concept="3cpWs6" id="6B579NFwMtV" role="3cqZAp">
+              <node concept="3clFbT" id="6B579NFwMtW" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

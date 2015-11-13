@@ -22,6 +22,7 @@
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
@@ -196,6 +197,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6oKG1kMxHHn">
+    <property role="3GE5qa" value="actionsAspect" />
     <ref role="1XX52x" to="teg0:6oKG1kMxHGY" resolve="SubstituteActionsGenerator" />
     <node concept="3EZMnI" id="6oKG1kMycMZ" role="2wV5jI">
       <node concept="PMmxH" id="6oKG1kMxHHp" role="3EZMnx">
@@ -297,31 +299,52 @@
           </node>
           <node concept="2iRfu4" id="1Ia5rYlzmA1" role="2iSdaV" />
         </node>
+        <node concept="3EZMnI" id="7Q6ZOiKJPJN" role="3EZMnx">
+          <property role="3EZMnw" value="false" />
+          <node concept="3F0ifn" id="7Q6ZOiKJPJO" role="3EZMnx">
+            <property role="3F0ifm" value="remove:" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F2HdR" id="7Q6ZOiKJRjO" role="3EZMnx">
+            <property role="2czwfO" value="," />
+            <ref role="1NtTu8" to="teg0:7Q6ZOiKJNMG" />
+            <node concept="2iRfu4" id="7Q6ZOiKJRjQ" role="2czzBx" />
+          </node>
+          <node concept="VPXOz" id="7Q6ZOiKJPJQ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2iRfu4" id="7Q6ZOiKJPJR" role="2iSdaV" />
+        </node>
         <node concept="3EZMnI" id="1Ia5rYlGCXI" role="3EZMnx">
           <property role="3EZMnw" value="false" />
           <node concept="3F0ifn" id="1Ia5rYlGCXJ" role="3EZMnx">
             <property role="3F0ifm" value="left text:" />
             <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
           </node>
-          <node concept="3F1sOY" id="1Ia5rYlGCXK" role="3EZMnx">
-            <property role="1$x2rV" value="&lt;use neighbour cell&gt;" />
-            <ref role="1NtTu8" to="teg0:1Ia5rYlGAt_" />
-          </node>
-          <node concept="1HlG4h" id="1p6ZfyCPdRs" role="3EZMnx">
-            <node concept="1HfYo3" id="1p6ZfyCPdRu" role="1HlULh">
-              <node concept="3TQlhw" id="1p6ZfyCPdRw" role="1Hhtcw">
-                <node concept="3clFbS" id="1p6ZfyCPdRy" role="2VODD2">
-                  <node concept="3clFbF" id="1p6ZfyCPdYr" role="3cqZAp">
-                    <node concept="3cpWs3" id="1p6ZfyCPjH$" role="3clFbG">
-                      <node concept="Xl_RD" id="1p6ZfyCPjJ7" role="3uHU7B">
-                        <property role="Xl_RC" value="   " />
-                      </node>
-                      <node concept="2OqwBi" id="1p6ZfyCPe2O" role="3uHU7w">
-                        <node concept="pncrf" id="1p6ZfyCPdYq" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="1p6ZfyCPekv" role="2OqNvi">
-                          <ref role="37wK5l" to="karh:1p6ZfyCOSXX" resolve="getTransformationTextSourceDescription" />
-                          <node concept="3clFbT" id="1p6ZfyCPenC" role="37wK5m">
-                            <property role="3clFbU" value="true" />
+          <node concept="3EZMnI" id="7Q6ZOiKJP_8" role="3EZMnx">
+            <node concept="VPM3Z" id="7Q6ZOiKJP_a" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="3F1sOY" id="1Ia5rYlGCXK" role="3EZMnx">
+              <property role="1$x2rV" value="&lt;use neighbour cell&gt;" />
+              <ref role="1NtTu8" to="teg0:1Ia5rYlGAt_" />
+            </node>
+            <node concept="1HlG4h" id="1p6ZfyCPdRs" role="3EZMnx">
+              <node concept="1HfYo3" id="1p6ZfyCPdRu" role="1HlULh">
+                <node concept="3TQlhw" id="1p6ZfyCPdRw" role="1Hhtcw">
+                  <node concept="3clFbS" id="1p6ZfyCPdRy" role="2VODD2">
+                    <node concept="3clFbF" id="1p6ZfyCPdYr" role="3cqZAp">
+                      <node concept="3cpWs3" id="1p6ZfyCPjH$" role="3clFbG">
+                        <node concept="Xl_RD" id="1p6ZfyCPjJ7" role="3uHU7B">
+                          <property role="Xl_RC" value="   " />
+                        </node>
+                        <node concept="2OqwBi" id="1p6ZfyCPe2O" role="3uHU7w">
+                          <node concept="pncrf" id="1p6ZfyCPdYq" role="2Oq$k0" />
+                          <node concept="2qgKlT" id="1p6ZfyCPekv" role="2OqNvi">
+                            <ref role="37wK5l" to="karh:1p6ZfyCOSXX" resolve="getTransformationTextSourceDescription" />
+                            <node concept="3clFbT" id="1p6ZfyCPenC" role="37wK5m">
+                              <property role="3clFbU" value="true" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -329,13 +352,14 @@
                   </node>
                 </node>
               </node>
+              <node concept="VPM3Z" id="1p6ZfyCPdUG" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="VechU" id="1p6ZfyCPdYe" role="3F10Kt">
+                <property role="Vb096" value="lightGray" />
+              </node>
             </node>
-            <node concept="VPM3Z" id="1p6ZfyCPdUG" role="3F10Kt">
-              <property role="VOm3f" value="false" />
-            </node>
-            <node concept="VechU" id="1p6ZfyCPdYe" role="3F10Kt">
-              <property role="Vb096" value="lightGray" />
-            </node>
+            <node concept="2iRfu4" id="7Q6ZOiKJP_d" role="2iSdaV" />
           </node>
           <node concept="VPXOz" id="1Ia5rYlGCXL" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -348,37 +372,43 @@
             <property role="3F0ifm" value="right text:" />
             <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
           </node>
-          <node concept="3F1sOY" id="1Ia5rYlGFq3" role="3EZMnx">
-            <property role="1$x2rV" value="&lt;use neighbour cell&gt;" />
-            <ref role="1NtTu8" to="teg0:1Ia5rYlGBkJ" />
-          </node>
-          <node concept="1HlG4h" id="1p6ZfyCPezn" role="3EZMnx">
-            <node concept="1HfYo3" id="1p6ZfyCPezo" role="1HlULh">
-              <node concept="3TQlhw" id="1p6ZfyCPezp" role="1Hhtcw">
-                <node concept="3clFbS" id="1p6ZfyCPezq" role="2VODD2">
-                  <node concept="3clFbF" id="1p6ZfyCPezr" role="3cqZAp">
-                    <node concept="3cpWs3" id="1p6ZfyCPjxm" role="3clFbG">
-                      <node concept="Xl_RD" id="1p6ZfyCPj_b" role="3uHU7B">
-                        <property role="Xl_RC" value="   " />
-                      </node>
-                      <node concept="2OqwBi" id="1p6ZfyCPezs" role="3uHU7w">
-                        <node concept="pncrf" id="1p6ZfyCPezt" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="1p6ZfyCPezu" role="2OqNvi">
-                          <ref role="37wK5l" to="karh:1p6ZfyCOSXX" resolve="getTransformationTextSourceDescription" />
-                          <node concept="3clFbT" id="1p6ZfyCPezv" role="37wK5m" />
+          <node concept="3EZMnI" id="7Q6ZOiKJPEA" role="3EZMnx">
+            <node concept="VPM3Z" id="7Q6ZOiKJPEC" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="3F1sOY" id="1Ia5rYlGFq3" role="3EZMnx">
+              <property role="1$x2rV" value="&lt;use neighbour cell&gt;" />
+              <ref role="1NtTu8" to="teg0:1Ia5rYlGBkJ" />
+            </node>
+            <node concept="1HlG4h" id="1p6ZfyCPezn" role="3EZMnx">
+              <node concept="1HfYo3" id="1p6ZfyCPezo" role="1HlULh">
+                <node concept="3TQlhw" id="1p6ZfyCPezp" role="1Hhtcw">
+                  <node concept="3clFbS" id="1p6ZfyCPezq" role="2VODD2">
+                    <node concept="3clFbF" id="1p6ZfyCPezr" role="3cqZAp">
+                      <node concept="3cpWs3" id="1p6ZfyCPjxm" role="3clFbG">
+                        <node concept="Xl_RD" id="1p6ZfyCPj_b" role="3uHU7B">
+                          <property role="Xl_RC" value="   " />
+                        </node>
+                        <node concept="2OqwBi" id="1p6ZfyCPezs" role="3uHU7w">
+                          <node concept="pncrf" id="1p6ZfyCPezt" role="2Oq$k0" />
+                          <node concept="2qgKlT" id="1p6ZfyCPezu" role="2OqNvi">
+                            <ref role="37wK5l" to="karh:1p6ZfyCOSXX" resolve="getTransformationTextSourceDescription" />
+                            <node concept="3clFbT" id="1p6ZfyCPezv" role="37wK5m" />
+                          </node>
                         </node>
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="VPM3Z" id="1p6ZfyCPezw" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="VechU" id="1p6ZfyCPezx" role="3F10Kt">
+                <property role="Vb096" value="lightGray" />
+              </node>
             </node>
-            <node concept="VPM3Z" id="1p6ZfyCPezw" role="3F10Kt">
-              <property role="VOm3f" value="false" />
-            </node>
-            <node concept="VechU" id="1p6ZfyCPezx" role="3F10Kt">
-              <property role="Vb096" value="lightGray" />
-            </node>
+            <node concept="2iRfu4" id="7Q6ZOiKJPEF" role="2iSdaV" />
           </node>
           <node concept="VPXOz" id="1Ia5rYlGFq4" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -416,6 +446,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="RbLMy691Uo">
+    <property role="3GE5qa" value="actionsAspect" />
     <ref role="1XX52x" to="teg0:RbLMy691TW" resolve="SideTransformGenerator" />
     <node concept="3EZMnI" id="RbLMy691Uq" role="2wV5jI">
       <node concept="PMmxH" id="RbLMy691UB" role="3EZMnx">
@@ -471,6 +502,9 @@
       </node>
       <node concept="3F0A7n" id="RbLMy691Vp" role="3EZMnx">
         <ref role="1NtTu8" to="tpdg:gAuHTzT" resolve="transformTag" />
+      </node>
+      <node concept="3F1sOY" id="6B579NFcPdg" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:6B579NFbsQh" />
       </node>
       <node concept="l2Vlx" id="RbLMy691Ut" role="2iSdaV" />
     </node>
@@ -1764,6 +1798,26 @@
         </node>
         <node concept="2iRfu4" id="6rhOS_xv$_b" role="2iSdaV" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7Q6ZOiKJNMi">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:7Q6ZOiKJNM7" resolve="WrapperCell_RemoveSideTransform" />
+    <node concept="1iCGBv" id="7Q6ZOiKJNMk" role="2wV5jI">
+      <ref role="1NtTu8" to="teg0:7Q6ZOiKJNM8" />
+      <node concept="1sVBvm" id="7Q6ZOiKJNMm" role="1sWHZn">
+        <node concept="3F0A7n" id="7Q6ZOiKJNMA" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6B579NFd837">
+    <property role="3GE5qa" value="actionsAspect" />
+    <ref role="1XX52x" to="teg0:6B579NFbsu2" resolve="GeneratedSideTransformRemovals" />
+    <node concept="PMmxH" id="6B579NFd839" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>

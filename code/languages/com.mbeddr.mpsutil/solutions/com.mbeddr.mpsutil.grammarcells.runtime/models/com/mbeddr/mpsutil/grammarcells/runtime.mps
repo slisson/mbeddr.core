@@ -264,6 +264,7 @@
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
       <concept id="1214918975462" name="jetbrains.mps.baseLanguage.structure.PostfixDecrementExpression" flags="nn" index="3uO5VW" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4" />
       <concept id="1184950988562" name="jetbrains.mps.baseLanguage.structure.ArrayCreator" flags="nn" index="3$_iS1">
         <child id="1184951007469" name="componentType" index="3$_nBY" />
         <child id="1184952969026" name="dimensionExpression" index="3$GQph" />
@@ -616,6 +617,27 @@
       </node>
       <node concept="3Tm1VV" id="RbLMy69l$K" role="1B3o_S" />
       <node concept="3clFbS" id="RbLMy69l$L" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6B579NFbWTw" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="removeSideTransformActions" />
+      <node concept="37vLTG" id="6B579NFbWTx" role="3clF46">
+        <property role="TrG5h" value="operationContext" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="6B579NFbWTy" role="1tU5fm">
+          <ref role="3uigEE" to="w1kc:~IOperationContext" resolve="IOperationContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6B579NFbWTz" role="3clF46">
+        <property role="TrG5h" value="_context" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="6B579NFbZLe" role="1tU5fm">
+          <ref role="3uigEE" to="zce0:~RemoveSideTransformActionByConditionContext" resolve="RemoveSideTransformActionByConditionContext" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6B579NFc0DY" role="3clF45" />
+      <node concept="3Tm1VV" id="6B579NFbWTB" role="1B3o_S" />
+      <node concept="3clFbS" id="6B579NFbWTC" role="3clF47" />
     </node>
     <node concept="3clFb_" id="4qdNcH$3RWW" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -2173,6 +2195,59 @@
     <property role="TrG5h" value="AbstractGrammarActionDescriptor" />
     <property role="1sVAO0" value="true" />
     <property role="3GE5qa" value="descriptor" />
+    <node concept="2tJIrI" id="6B579NFdZdr" role="jymVt" />
+    <node concept="312cEg" id="6B579NFdZ_0" role="jymVt">
+      <property role="TrG5h" value="myActiveRemovalConditions" />
+      <node concept="3Tmbuc" id="6B579NFef5T" role="1B3o_S" />
+      <node concept="_YKpA" id="6B579NFdZLW" role="1tU5fm">
+        <node concept="3uibUv" id="6B579NFdZRC" role="_ZDj9">
+          <ref role="3uigEE" to="y49u:~Condition" resolve="Condition" />
+          <node concept="3uibUv" id="6B579NFe02O" role="11_B2D">
+            <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+          </node>
+        </node>
+      </node>
+      <node concept="2ShNRf" id="6B579NFe0_F" role="33vP2m">
+        <node concept="Tc6Ow" id="6B579NFe0ws" role="2ShVmc">
+          <node concept="3uibUv" id="6B579NFe0wt" role="HW$YZ">
+            <ref role="3uigEE" to="y49u:~Condition" resolve="Condition" />
+            <node concept="3uibUv" id="6B579NFe0wu" role="11_B2D">
+              <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6B579NFdZok" role="jymVt" />
+    <node concept="3clFb_" id="6B579NFefOC" role="jymVt">
+      <property role="TrG5h" value="addSideTransformRemovalCondition" />
+      <node concept="37vLTG" id="6B579NFeiGd" role="3clF46">
+        <property role="TrG5h" value="condition" />
+        <node concept="3uibUv" id="6B579NFeiXQ" role="1tU5fm">
+          <ref role="3uigEE" to="y49u:~Condition" resolve="Condition" />
+          <node concept="3uibUv" id="6B579NFeiXR" role="11_B2D">
+            <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6B579NFefOE" role="3clF45" />
+      <node concept="3Tmbuc" id="6B579NFeghk" role="1B3o_S" />
+      <node concept="3clFbS" id="6B579NFefOG" role="3clF47">
+        <node concept="3clFbF" id="6B579NFejdW" role="3cqZAp">
+          <node concept="2OqwBi" id="6B579NFejJG" role="3clFbG">
+            <node concept="37vLTw" id="6B579NFejdV" role="2Oq$k0">
+              <ref role="3cqZAo" node="6B579NFdZ_0" resolve="myActiveRemovalConditions" />
+            </node>
+            <node concept="TSZUe" id="6B579NFekvI" role="2OqNvi">
+              <node concept="37vLTw" id="6B579NFekIj" role="25WWJ7">
+                <ref role="3cqZAo" node="6B579NFeiGd" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6B579NFefsg" role="jymVt" />
     <node concept="3Tm1VV" id="RbLMy69lMy" role="1B3o_S" />
     <node concept="3uibUv" id="RbLMy69lN0" role="EKbjA">
       <ref role="3uigEE" node="6oKG1kMyASU" resolve="IGrammarActionsDescriptor" />
@@ -2240,18 +2315,73 @@
       </node>
       <node concept="3Tm1VV" id="4qdNcH$3VnL" role="1B3o_S" />
       <node concept="3clFbS" id="4qdNcH$3VnN" role="3clF47">
-        <node concept="3clFbF" id="4qdNcH$3VMW" role="3cqZAp">
-          <node concept="2YIFZM" id="4qdNcH$3VMX" role="3clFbG">
-            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-            <ref role="37wK5l" to="33ny:~Collections.emptyList():java.util.List" resolve="emptyList" />
-            <node concept="3uibUv" id="4qdNcH$3VMY" role="3PaCim">
-              <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+        <node concept="3clFbF" id="6B579NFe6JA" role="3cqZAp">
+          <node concept="37vLTI" id="6B579NFe75v" role="3clFbG">
+            <node concept="2ShNRf" id="6B579NFe7kQ" role="37vLTx">
+              <node concept="Tc6Ow" id="6B579NFe7eT" role="2ShVmc">
+                <node concept="3uibUv" id="6B579NFe7eU" role="HW$YZ">
+                  <ref role="3uigEE" to="y49u:~Condition" resolve="Condition" />
+                  <node concept="3uibUv" id="6B579NFe7eV" role="11_B2D">
+                    <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="6B579NFe6J$" role="37vLTJ">
+              <ref role="3cqZAo" node="6B579NFdZ_0" resolve="myActiveRemovalConditions" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6B579NFe7Td" role="3cqZAp">
+          <node concept="1rXfSq" id="6B579NFe7Tb" role="3clFbG">
+            <ref role="37wK5l" node="6B579NFe4d6" resolve="doGetSideTransformActions" />
+            <node concept="37vLTw" id="6B579NFe890" role="37wK5m">
+              <ref role="3cqZAo" node="4qdNcH$3VnF" resolve="operationContext" />
+            </node>
+            <node concept="37vLTw" id="6B579NFe8n0" role="37wK5m">
+              <ref role="3cqZAo" node="4qdNcH$3VnH" resolve="_context" />
             </node>
           </node>
         </node>
       </node>
       <node concept="2AHcQZ" id="2TSIj8m0K5i" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6B579NFe5aJ" role="jymVt" />
+    <node concept="3clFb_" id="6B579NFe4d6" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="doGetSideTransformActions" />
+      <node concept="37vLTG" id="6B579NFe4d7" role="3clF46">
+        <property role="TrG5h" value="operationContext" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="6B579NFe4d8" role="1tU5fm">
+          <ref role="3uigEE" to="w1kc:~IOperationContext" resolve="IOperationContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6B579NFe4d9" role="3clF46">
+        <property role="TrG5h" value="_context" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="6B579NFe4da" role="1tU5fm">
+          <ref role="3uigEE" to="zce0:~SideTransformActionsBuilderContext" resolve="SideTransformActionsBuilderContext" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="6B579NFe4db" role="3clF45">
+        <node concept="3uibUv" id="6B579NFe4dc" role="_ZDj9">
+          <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="6B579NFe6sD" role="1B3o_S" />
+      <node concept="3clFbS" id="6B579NFe4de" role="3clF47">
+        <node concept="3clFbF" id="6B579NFe4df" role="3cqZAp">
+          <node concept="2YIFZM" id="6B579NFe4dg" role="3clFbG">
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <ref role="37wK5l" to="33ny:~Collections.emptyList():java.util.List" resolve="emptyList" />
+            <node concept="3uibUv" id="6B579NFe4dh" role="3PaCim">
+              <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="4qdNcH$3W8a" role="jymVt" />
@@ -2337,6 +2467,115 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="2TSIj8m0K5h" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6B579NFc0mn" role="jymVt" />
+    <node concept="3clFb_" id="6B579NFc052" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="removeSideTransformActions" />
+      <node concept="37vLTG" id="6B579NFc053" role="3clF46">
+        <property role="TrG5h" value="operationContext" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="6B579NFc054" role="1tU5fm">
+          <ref role="3uigEE" to="w1kc:~IOperationContext" resolve="IOperationContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6B579NFc055" role="3clF46">
+        <property role="TrG5h" value="_context" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="6B579NFc056" role="1tU5fm">
+          <ref role="3uigEE" to="zce0:~RemoveSideTransformActionByConditionContext" resolve="RemoveSideTransformActionByConditionContext" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6B579NFc114" role="3clF45" />
+      <node concept="3Tm1VV" id="6B579NFc059" role="1B3o_S" />
+      <node concept="3clFbS" id="6B579NFc05b" role="3clF47">
+        <node concept="3cpWs8" id="6B579NFe1jp" role="3cqZAp">
+          <node concept="3cpWsn" id="6B579NFe1jq" role="3cpWs9">
+            <property role="TrG5h" value="actionsItr" />
+            <node concept="3uibUv" id="6B579NFe1jg" role="1tU5fm">
+              <ref role="3uigEE" to="33ny:~Iterator" resolve="Iterator" />
+              <node concept="3uibUv" id="6B579NFe1jj" role="11_B2D">
+                <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6B579NFe1jr" role="33vP2m">
+              <node concept="37vLTw" id="6B579NFe1js" role="2Oq$k0">
+                <ref role="3cqZAo" node="6B579NFc055" resolve="_context" />
+              </node>
+              <node concept="liA8E" id="6B579NFe1jt" role="2OqNvi">
+                <ref role="37wK5l" to="zce0:~RemoveSideTransformActionByConditionContext.getSideTransformActions():java.util.Iterator" resolve="getSideTransformActions" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2$JKZl" id="6B579NFe1Ea" role="3cqZAp">
+          <node concept="3clFbS" id="6B579NFe1Ec" role="2LFqv$">
+            <node concept="3cpWs8" id="6B579NFe2kZ" role="3cqZAp">
+              <node concept="3cpWsn" id="6B579NFe2l0" role="3cpWs9">
+                <property role="TrG5h" value="action" />
+                <node concept="3uibUv" id="6B579NFe2kT" role="1tU5fm">
+                  <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+                </node>
+                <node concept="2OqwBi" id="6B579NFe2l1" role="33vP2m">
+                  <node concept="37vLTw" id="6B579NFe2l2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6B579NFe1jq" resolve="actionsItr" />
+                  </node>
+                  <node concept="liA8E" id="6B579NFe2l3" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~Iterator.next():java.lang.Object" resolve="next" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2Gpval" id="6B579NFe2Qp" role="3cqZAp">
+              <node concept="2GrKxI" id="6B579NFe2Qr" role="2Gsz3X">
+                <property role="TrG5h" value="condition" />
+              </node>
+              <node concept="3clFbS" id="6B579NFe2Qt" role="2LFqv$">
+                <node concept="3clFbJ" id="6B579NFe3aQ" role="3cqZAp">
+                  <node concept="3clFbS" id="6B579NFe3aR" role="3clFbx">
+                    <node concept="3clFbF" id="6B579NFe3Do" role="3cqZAp">
+                      <node concept="2OqwBi" id="6B579NFe3Hb" role="3clFbG">
+                        <node concept="37vLTw" id="6B579NFe3Dn" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6B579NFe1jq" resolve="actionsItr" />
+                        </node>
+                        <node concept="liA8E" id="6B579NFe3Ol" role="2OqNvi">
+                          <ref role="37wK5l" to="33ny:~Iterator.remove():void" resolve="remove" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3zACq4" id="6B579NFe3Su" role="3cqZAp" />
+                  </node>
+                  <node concept="2OqwBi" id="6B579NFe3kc" role="3clFbw">
+                    <node concept="2GrUjf" id="6B579NFe3gg" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="6B579NFe2Qr" resolve="condition" />
+                    </node>
+                    <node concept="liA8E" id="6B579NFe3sP" role="2OqNvi">
+                      <ref role="37wK5l" to="y49u:~Condition.met(java.lang.Object):boolean" resolve="met" />
+                      <node concept="37vLTw" id="6B579NFe3yt" role="37wK5m">
+                        <ref role="3cqZAo" node="6B579NFe2l0" resolve="action" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="6B579NFe2Z8" role="2GsD0m">
+                <ref role="3cqZAo" node="6B579NFdZ_0" resolve="myActiveRemovalConditions" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6B579NFe1Rw" role="2$JKZa">
+            <node concept="37vLTw" id="6B579NFe1Mn" role="2Oq$k0">
+              <ref role="3cqZAo" node="6B579NFe1jq" resolve="actionsItr" />
+            </node>
+            <node concept="liA8E" id="6B579NFe1Z4" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Iterator.hasNext():boolean" resolve="hasNext" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6B579NFe404" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

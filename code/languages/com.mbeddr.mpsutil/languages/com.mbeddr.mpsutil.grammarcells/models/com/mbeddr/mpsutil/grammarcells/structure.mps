@@ -11,6 +11,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpdg" ref="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -88,7 +89,11 @@
     <property role="1pbfSe" value="1732801709" />
     <property role="TrG5h" value="SubstituteActionsGenerator" />
     <property role="34LRSv" value="generated" />
+    <property role="3GE5qa" value="actionsAspect" />
     <ref role="1TJDcQ" to="tpdg:gbFOIBE" resolve="NodeSubstituteActionsBuilder" />
+    <node concept="PrWs8" id="6B579NFvMSg" role="PzmwI">
+      <ref role="PrY4T" node="6B579NFvMS6" resolve="IActionGenerationProxy" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6oKG1kMyo9t">
     <property role="1pbfSe" value="1732627854" />
@@ -122,6 +127,12 @@
       <property role="20kJfa" value="substituteCondition" />
       <ref role="20lvS9" node="6rhOS_xT3yl" resolve="WrapperCell_SubstituteCondition" />
     </node>
+    <node concept="1TJgyj" id="7Q6ZOiKJNMG" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="sideTransformRemovals" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7Q6ZOiKJNM7" resolve="WrapperCell_RemoveSideTransform" />
+    </node>
     <node concept="PrWs8" id="6oKG1kMyAVP" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
@@ -133,12 +144,25 @@
     <property role="1pbfSe" value="1732567287" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="IActionGeneratingCell" />
+    <node concept="PrWs8" id="6B579NFwlpj" role="PrDN$">
+      <ref role="PrY4T" node="6B579NFwlpi" resolve="ICheckActionsModel" />
+    </node>
   </node>
   <node concept="1TIwiD" id="RbLMy691TW">
     <property role="1pbfSe" value="1812994652" />
     <property role="TrG5h" value="SideTransformGenerator" />
     <property role="34LRSv" value="generated" />
+    <property role="3GE5qa" value="actionsAspect" />
     <ref role="1TJDcQ" to="tpdg:gzUNGri" resolve="SideTransformHintSubstituteActionsBuilder" />
+    <node concept="1TJgyj" id="6B579NFbsQh" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="removals" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6B579NFbsu2" resolve="GeneratedSideTransformRemovals" />
+    </node>
+    <node concept="PrWs8" id="6B579NFvMSa" role="PzmwI">
+      <ref role="PrY4T" node="6B579NFvMS6" resolve="IActionGenerationProxy" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4qdNcHzYfBo">
     <property role="1pbfSe" value="1434007901" />
@@ -235,6 +259,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
+    <node concept="PrWs8" id="6B579NFwlpv" role="PzmwI">
+      <ref role="PrY4T" node="6B579NFwlpi" resolve="ICheckActionsModel" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2uT2PLmXm4H">
     <property role="1pbfSe" value="2125360265" />
@@ -272,6 +299,9 @@
     <property role="1pbfSe" value="2125380336" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="IGrammarCell" />
+    <node concept="PrWs8" id="6B579NFwlpp" role="PrDN$">
+      <ref role="PrY4T" node="6B579NFwlpi" resolve="ICheckActionsModel" />
+    </node>
   </node>
   <node concept="PlHQZ" id="2uT2PLn1Z87">
     <property role="1pbfSe" value="2126576995" />
@@ -681,6 +711,41 @@
     <property role="TrG5h" value="Parameter_Pattern" />
     <property role="34LRSv" value="pattern" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="7Q6ZOiKJNM7">
+    <property role="1pbfSe" value="776354763" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="WrapperCell_RemoveSideTransform" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7Q6ZOiKJNM8" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="conceptToRemove" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6B579NFbsu2">
+    <property role="1pbfSe" value="1425204254" />
+    <property role="3GE5qa" value="actionsAspect" />
+    <property role="TrG5h" value="GeneratedSideTransformRemovals" />
+    <property role="34LRSv" value="removals" />
+    <ref role="1TJDcQ" to="tpdg:hrdQSR_" resolve="RemoveSTByConditionPart" />
+    <node concept="PrWs8" id="6B579NFvMSm" role="PzmwI">
+      <ref role="PrY4T" node="6B579NFvMS6" resolve="IActionGenerationProxy" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6B579NFvMS6">
+    <property role="1pbfSe" value="1430538914" />
+    <property role="3GE5qa" value="actionsAspect" />
+    <property role="TrG5h" value="IActionGenerationProxy" />
+    <node concept="PrWs8" id="6B579NFwzYe" role="PrDN$">
+      <ref role="PrY4T" node="6B579NFwlpi" resolve="ICheckActionsModel" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6B579NFwlpi">
+    <property role="1pbfSe" value="1430680302" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="ICheckActionsModel" />
   </node>
 </model>
 

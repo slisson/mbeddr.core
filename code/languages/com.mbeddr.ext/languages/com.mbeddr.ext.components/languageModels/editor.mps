@@ -376,11 +376,15 @@
         <child id="8207263695491670784" name="priority" index="2EmURo" />
       </concept>
       <concept id="8207263695491691232" name="com.mbeddr.mpsutil.grammarcells.structure.SubconceptExpression" flags="ng" index="2EmZKS" />
+      <concept id="9045197572108401799" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell_RemoveSideTransform" flags="ng" index="3desf3">
+        <reference id="9045197572108401800" name="conceptToRemove" index="3desfc" />
+      </concept>
       <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G">
         <property id="7617962380315063287" name="flagText" index="ZjSer" />
       </concept>
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
         <child id="1984422498402083610" name="sideTransformationCondition" index="2e1Fq_" />
+        <child id="9045197572108401836" name="sideTransformRemovals" index="3desfC" />
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
       </concept>
       <concept id="2862331529394480355" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_SubConcept" flags="ng" index="1Lj6YZ" />
@@ -3738,6 +3742,9 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="3desf3" id="6B579NFpqJT" role="3desfC">
+            <ref role="3desfc" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
           </node>
         </node>
         <node concept="3F0ifn" id="RsLjUnO2c5" role="3EZMnx">
