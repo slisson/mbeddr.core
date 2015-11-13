@@ -103,6 +103,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.globalgenerators.runtime/com.mbeddr.mpsutil.globalgenerators.runtime.msd" folder="globalGenerators" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.grammarcells.runtime/com.mbeddr.mpsutil.grammarcells.runtime.msd" folder="grammarCells" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.grammarcells.sandbox/com.mbeddr.mpsutil.grammarcells.sandbox.msd" folder="grammarCells" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.grammarcells.tests/com.mbeddr.mpsutil.grammarcells.tests.msd" folder="grammarCells" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.httpserver/com.mbeddr.mpsutil.httpserver.msd" folder="httpSupport" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.httpsupport.rt/com.mbeddr.mpsutil.httpsupport.rt.msd" folder="httpSupport" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.intentions.runtime/com.mbeddr.mpsutil.intentions.runtime.msd" folder="intentions" />

@@ -291,13 +291,7 @@
     <property role="1pbfSe" value="1431631268" />
     <property role="TrG5h" value="ParenthesesExpression" />
     <property role="34LRSv" value="(" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4qdNcH$7jQr" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="inner" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6oKG1kMxn8A" resolve="IExpression" />
-    </node>
+    <ref role="1TJDcQ" node="6B579NFHqZT" resolve="UnaryExpression" />
     <node concept="PrWs8" id="4qdNcH$7jQo" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMxn8A" resolve="IExpression" />
     </node>
@@ -369,6 +363,26 @@
     <property role="TrG5h" value="MinusExpression" />
     <property role="34LRSv" value="-" />
     <ref role="1TJDcQ" node="2uT2PLmZYwS" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="6B579NFHqZT">
+    <property role="1pbfSe" value="1434111125" />
+    <property role="TrG5h" value="UnaryExpression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6B579NFHr4y" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="inner" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+    <node concept="PrWs8" id="6B579NFHqZU" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6B579NFHX9r">
+    <property role="1pbfSe" value="1434250999" />
+    <property role="TrG5h" value="PreIncrementExpression" />
+    <property role="34LRSv" value="++" />
+    <ref role="1TJDcQ" node="6B579NFHqZT" resolve="UnaryExpression" />
   </node>
 </model>
 

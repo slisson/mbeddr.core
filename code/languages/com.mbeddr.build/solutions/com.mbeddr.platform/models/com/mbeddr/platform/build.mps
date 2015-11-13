@@ -9633,6 +9633,12 @@
       <node concept="L2wRC" id="7eUZPevvU80" role="39821P">
         <ref role="L2wRA" node="Um6saBVXnk" resolve="com.mbeddr.mpsutil.compare.pattern.test" />
       </node>
+      <node concept="L2wRC" id="6B579NFLt3d" role="39821P">
+        <ref role="L2wRA" node="6B579NFLoIl" resolve="com.mbeddr.mpsutil.grammarcells.sandboxlang" />
+      </node>
+      <node concept="L2wRC" id="6B579NFLlmk" role="39821P">
+        <ref role="L2wRA" node="6B579NFLjUq" resolve="com.mbeddr.mpsutil.grammarcells.tests" />
+      </node>
       <node concept="398223" id="2GRHOLIUBUT" role="39821P">
         <node concept="3_J27D" id="2GRHOLIUBUV" role="Nbhlr">
           <node concept="3Mxwew" id="2GRHOLIUC5d" role="3MwsjC">
@@ -10214,6 +10220,84 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="6B579NFLoIl" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.grammarcells.sandboxlang" />
+        <property role="3LESm3" value="a257f68c-93a3-47b0-838b-6905dd9c20f6" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="6B579NFLoZZ" role="3LF7KH">
+          <ref role="398BVh" node="7hVsScEQJ6E" resolve="mbeddr.mpsutil" />
+          <node concept="2Ry0Ak" id="6B579NFLp7_" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="6B579NFLpm$" role="2Ry0An">
+              <property role="2Ry0Am" value="com.mbeddr.mpsutil.grammarcells.sandboxlang" />
+              <node concept="2Ry0Ak" id="6B579NFLp_z" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.grammarcells.sandboxlang.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6B579NFLpH2" role="3bR37C">
+          <node concept="3bR9La" id="6B579NFLpH3" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6B579NFLpH4" role="3bR37C">
+          <node concept="3bR9La" id="6B579NFLpH5" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="7rbvAnyGPae" resolve="com.mbeddr.mpsutil.grammarcells.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6B579NFLpH6" role="3bR37C">
+          <node concept="3bR9La" id="6B579NFLpH7" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6B579NFLpPc" role="3bR37C">
+          <node concept="3bR9La" id="6B579NFLpPd" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6B579NFLoIl" resolve="com.mbeddr.mpsutil.grammarcells.sandboxlang" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6B579NFLpPe" role="3bR37C">
+          <node concept="3bR9La" id="6B579NFLpPf" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="7rbvAnyGAfv" resolve="com.mbeddr.mpsutil.grammarcells.runtimelang" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="6B579NFLpPg" role="1TViLv">
+          <property role="TrG5h" value="com.mbeddr.mpsutil.grammarcells.sandboxlang#1749127723000259754" />
+          <property role="3LESm3" value="70c639aa-2028-47e9-88c9-7d69c9b405e3" />
+          <property role="2GAjPV" value="false" />
+        </node>
+      </node>
+      <node concept="1E1JtA" id="6B579NFLjUq" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.grammarcells.tests" />
+        <property role="3LESm3" value="c24d4a42-505e-4ffb-a24c-28919615a5bc" />
+        <property role="2GAjPV" value="false" />
+        <property role="aoJFB" value="sources and tests" />
+        <node concept="398BVA" id="6B579NFLkbm" role="3LF7KH">
+          <ref role="398BVh" node="7hVsScEQJ6E" resolve="mbeddr.mpsutil" />
+          <node concept="2Ry0Ak" id="6B579NFLkwU" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="6B579NFLkJl" role="2Ry0An">
+              <property role="2Ry0Am" value="com.mbeddr.mpsutil.grammarcells.tests" />
+              <node concept="2Ry0Ak" id="6B579NFLkXK" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.grammarcells.tests.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6B579NFLkXP" role="3bR37C">
+          <node concept="3bR9La" id="6B579NFLkXQ" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="22LTRH" id="7eF9rfAnzVt" role="1hWBAP">
       <property role="TrG5h" value="com.mbeddr.platform.tests" />
@@ -10243,6 +10327,9 @@
       </node>
       <node concept="22LTRM" id="7eUZPevvUva" role="22LTRK">
         <ref role="22LTRN" node="Um6saBVXnk" resolve="com.mbeddr.mpsutil.compare.pattern.test" />
+      </node>
+      <node concept="22LTRM" id="6B579NFLlJ1" role="22LTRK">
+        <ref role="22LTRN" node="6B579NFLjUq" resolve="com.mbeddr.mpsutil.grammarcells.tests" />
       </node>
     </node>
     <node concept="2igEWh" id="3HpWboH_Z$G" role="1hWBAP">
