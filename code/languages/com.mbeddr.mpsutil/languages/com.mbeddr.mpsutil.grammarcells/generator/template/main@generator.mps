@@ -68,11 +68,6 @@
         <child id="1238857834412" name="index" index="1LF_Uc" />
       </concept>
     </language>
-    <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
-      <concept id="8473566765275063380" name="de.slisson.mps.reflection.structure.ReflectionFieldAccess" flags="ng" index="1PnCL0">
-        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
-      </concept>
-    </language>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
       <concept id="1194033889146" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1XNTG" />
     </language>
@@ -3971,21 +3966,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="6B579NFNMnA" role="3cqZAp">
-                <node concept="37vLTI" id="6B579NFNNwr" role="3clFbG">
-                  <node concept="37vLTw" id="6B579NFNNMs" role="37vLTx">
-                    <ref role="3cqZAo" node="6B579NFNN_t" resolve="text" />
-                  </node>
-                  <node concept="2OqwBi" id="6B579NFNMrF" role="37vLTJ">
-                    <node concept="37vLTw" id="6B579NFNMn$" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6B579NFNM1T" resolve="constant" />
-                    </node>
-                    <node concept="1PnCL0" id="6B579NFNNla" role="2OqNvi">
-                      <ref role="2Oxat5" to="g51k:~EditorCell_Constant.myOriginalText" resolve="myOriginalText" />
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="3clFbF" id="2uT2PLn3oRi" role="3cqZAp">
                 <node concept="2OqwBi" id="2uT2PLn3pGa" role="3clFbG">
                   <node concept="37vLTw" id="6B579NFNM1Y" role="2Oq$k0">
@@ -3996,6 +3976,18 @@
                     <node concept="37vLTw" id="6B579NFNN_w" role="37wK5m">
                       <ref role="3cqZAo" node="6B579NFNN_t" resolve="text" />
                     </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="6B579NFOO0$" role="3cqZAp">
+                <node concept="2YIFZM" id="6B579NFOO5a" role="3clFbG">
+                  <ref role="37wK5l" to="czm:6B579NFOHjk" resolve="setOriginalText" />
+                  <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                  <node concept="37vLTw" id="6B579NFOO6H" role="37wK5m">
+                    <ref role="3cqZAo" node="6B579NFNM1T" resolve="constant" />
+                  </node>
+                  <node concept="37vLTw" id="6B579NFOOa4" role="37wK5m">
+                    <ref role="3cqZAo" node="6B579NFNN_t" resolve="text" />
                   </node>
                 </node>
               </node>
