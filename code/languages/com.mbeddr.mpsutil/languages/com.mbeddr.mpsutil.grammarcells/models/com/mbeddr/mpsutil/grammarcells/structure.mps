@@ -250,7 +250,7 @@
     <node concept="1TJgyj" id="77A3HzrGy5f" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="rules" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="77A3HzrGsvf" resolve="CellBasedRule" />
     </node>
     <node concept="1TJgyj" id="2uT2PLmWwE4" role="1TKVEi">

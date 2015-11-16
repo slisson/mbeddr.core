@@ -4,6 +4,8 @@
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="0" />
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="1" />
+    <use id="766348f7-6a67-4b85-9323-384840132299" name="de.itemis.mps.editor.math" version="0" />
+    <use id="e359e0a2-368a-4c40-ae2a-e5a09f9cfd58" name="de.itemis.mps.editor.math.notations" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -131,6 +133,12 @@
       <concept id="3011849438420226693" name="com.mbeddr.mpsutil.grammarcells.structure.GrammarInfoCell" flags="ng" index="1WcQYu">
         <child id="8207263695490916687" name="rules" index="2El2Yn" />
         <child id="2862331529394260612" name="projection" index="1LiK7o" />
+      </concept>
+    </language>
+    <language id="e359e0a2-368a-4c40-ae2a-e5a09f9cfd58" name="de.itemis.mps.editor.math.notations">
+      <concept id="8658283006837848169" name="de.itemis.mps.editor.math.notations.structure.DivisionEditor" flags="ng" index="jtDVG">
+        <child id="8658283006838052215" name="lower" index="jiBfM" />
+        <child id="8658283006838052220" name="upper" index="jiBfT" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -717,6 +725,19 @@
           <ref role="1NtTu8" to="ibwz:6B579NFHr4y" />
         </node>
         <node concept="l2Vlx" id="6B579NFHr0r" role="2iSdaV" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4mHeUYNaYuG">
+    <ref role="1XX52x" to="ibwz:4mHeUYNaYrf" resolve="FractionExpression" />
+    <node concept="1WcQYu" id="4mHeUYNeAap" role="2wV5jI">
+      <node concept="jtDVG" id="4mHeUYNaZ14" role="1LiK7o">
+        <node concept="3F1sOY" id="4mHeUYNaZ1o" role="jiBfM">
+          <ref role="1NtTu8" to="ibwz:4mHeUYNaYuo" />
+        </node>
+        <node concept="3F1sOY" id="4mHeUYNaZ1j" role="jiBfT">
+          <ref role="1NtTu8" to="ibwz:4mHeUYNaYuk" />
+        </node>
       </node>
     </node>
   </node>

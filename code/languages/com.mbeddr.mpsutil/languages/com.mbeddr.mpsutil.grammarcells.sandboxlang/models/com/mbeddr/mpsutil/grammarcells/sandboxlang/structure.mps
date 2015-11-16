@@ -37,6 +37,7 @@
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -383,6 +384,29 @@
     <property role="TrG5h" value="PreIncrementExpression" />
     <property role="34LRSv" value="++" />
     <ref role="1TJDcQ" node="6B579NFHqZT" resolve="UnaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="4mHeUYNaYrf">
+    <property role="1pbfSe" value="119987586" />
+    <property role="TrG5h" value="FractionExpression" />
+    <property role="34LRSv" value="frac" />
+    <ref role="1TJDcQ" node="4mHeUYNaYrg" resolve="DivExpression" />
+    <node concept="1TJgyj" id="4mHeUYNaYuk" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="numerator" />
+      <ref role="20ksaX" node="4qdNcH$3y96" />
+      <ref role="20lvS9" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+    <node concept="1TJgyj" id="4mHeUYNaYuo" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="denominator" />
+      <ref role="20ksaX" node="4qdNcH$3y99" />
+      <ref role="20lvS9" node="6oKG1kMxn8A" resolve="IExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4mHeUYNaYrg">
+    <property role="1pbfSe" value="119987585" />
+    <property role="TrG5h" value="DivExpression" />
+    <ref role="1TJDcQ" node="2uT2PLmZYwS" resolve="BinaryExpression" />
   </node>
 </model>
 
