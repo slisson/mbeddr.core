@@ -3358,5 +3358,54 @@
       </node>
     </node>
   </node>
+  <node concept="LiM7Y" id="6B579NGqxfY">
+    <property role="TrG5h" value="BinaryExpression_SideTransform_operator" />
+    <node concept="3XIRFW" id="6B579NGqxg0" role="LiRBU">
+      <node concept="3XIRlf" id="6B579NGqxgo" role="3XIRFZ">
+        <property role="TrG5h" value="a" />
+        <node concept="26Vqp4" id="6B579NGqxgn" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="2BOciq" id="6B579NGqxhM" role="3XIe9u">
+          <node concept="3TlMh9" id="6B579NGqxhR" role="3TlMhJ">
+            <property role="2hmy$m" value="2" />
+          </node>
+          <node concept="3TlMh9" id="6B579NGqxgV" role="3TlMhI">
+            <property role="2hmy$m" value="1" />
+          </node>
+          <node concept="LIFWc" id="6B579NGqygm" role="lGtFl">
+            <property role="LIFWa" value="0" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="0" />
+            <property role="p6zMs" value="0" />
+            <property role="LIFWd" value="Constant_uefsp_a0a3a" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRFW" id="6B579NGqxU0" role="LiZbd">
+      <node concept="3XIRlf" id="6B579NGqxU1" role="3XIRFZ">
+        <property role="TrG5h" value="a" />
+        <node concept="26Vqp4" id="6B579NGqxU2" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="2BOciq" id="6B579NGqxU3" role="3XIe9u">
+          <node concept="3TlMh9" id="6B579NGqxU4" role="3TlMhJ">
+            <property role="2hmy$m" value="2" />
+          </node>
+          <node concept="3TlMh9" id="6B579NGqxU5" role="3TlMhI">
+            <property role="2hmy$m" value="1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="6B579NGqyxq" role="LjaKd">
+      <node concept="2TK7Tu" id="6B579NGqyxp" role="3cqZAp">
+        <property role="2TTd_B" value="*3" />
+      </node>
+    </node>
+  </node>
 </model>
 
