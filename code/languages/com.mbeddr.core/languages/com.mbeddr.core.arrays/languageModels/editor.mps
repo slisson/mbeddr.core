@@ -215,6 +215,7 @@
       <concept id="1984422498402698431" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell_Condition" flags="ig" index="2e7140" />
       <concept id="1984422498402709328" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell_Condition_wrappedNode" flags="ng" index="2e73FJ" />
       <concept id="8207263695490893775" name="com.mbeddr.mpsutil.grammarcells.structure.CellBasedRule" flags="ng" index="2ElW$n">
+        <child id="8207263695490893799" name="symbols" index="2ElW$Z" />
         <child id="8207263695491670784" name="priority" index="2EmURo" />
       </concept>
       <concept id="8207263695491691232" name="com.mbeddr.mpsutil.grammarcells.structure.SubconceptExpression" flags="ng" index="2EmZKS" />
@@ -619,7 +620,23 @@
       <node concept="2iRkQZ" id="3xqp6yfp5Cy" role="2iSdaV" />
     </node>
     <node concept="1WcQYu" id="6rhOS_xKFny" role="2wV5jI">
-      <node concept="2ElW$n" id="6rhOS_xKFn$" role="2El2Yn" />
+      <node concept="2ElW$n" id="6rhOS_xKFn$" role="2El2Yn">
+        <node concept="3EZMnI" id="4_o0IXqFtpH" role="2ElW$Z">
+          <node concept="3F1sOY" id="4_o0IXqFtq1" role="3EZMnx">
+            <ref role="1NtTu8" to="c4fa:6IWRcVPT6tm" />
+          </node>
+          <node concept="3F0ifn" id="4_o0IXqFtqg" role="3EZMnx">
+            <property role="3F0ifm" value="[" />
+          </node>
+          <node concept="3F1sOY" id="4_o0IXqFtr6" role="3EZMnx">
+            <ref role="1NtTu8" to="yq40:1gDNXlE1$cN" />
+          </node>
+          <node concept="3F0ifn" id="4_o0IXqFtqB" role="3EZMnx">
+            <property role="3F0ifm" value="]" />
+          </node>
+          <node concept="l2Vlx" id="4_o0IXqFtpK" role="2iSdaV" />
+        </node>
+      </node>
       <node concept="3EZMnI" id="4VhroexOKMk" role="1LiK7o">
         <node concept="l2Vlx" id="4VhroexOKMm" role="2iSdaV" />
         <node concept="1kIj98" id="6rhOS_xKFrg" role="3EZMnx">
