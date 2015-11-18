@@ -41,6 +41,9 @@
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -99,6 +102,29 @@
   </node>
   <node concept="1M2fIO" id="4qdNcH$5qFv">
     <ref role="1M2myG" to="ibwz:4qdNcH$0Xwh" resolve="FloatLiteral" />
+  </node>
+  <node concept="1M2fIO" id="3pFNVizHnY_">
+    <ref role="1M2myG" to="ibwz:6oKG1kMxn8B" resolve="StringLiteral" />
+    <node concept="EnEH3" id="3pFNVizHnYA" role="1MhHOB">
+      <ref role="EomxK" to="ibwz:6oKG1kMxn8Q" resolve="value" />
+      <node concept="QB0g5" id="3pFNVizHnYF" role="QCWH9">
+        <node concept="3clFbS" id="3pFNVizHnYG" role="2VODD2">
+          <node concept="3clFbF" id="3pFNVizHnZR" role="3cqZAp">
+            <node concept="3fqX7Q" id="3pFNVizHonx" role="3clFbG">
+              <node concept="2OqwBi" id="3pFNVizHonz" role="3fr31v">
+                <node concept="1Wqviy" id="3pFNVizHon$" role="2Oq$k0" />
+                <node concept="liA8E" id="3pFNVizHon_" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <node concept="Xl_RD" id="3pFNVizHonA" role="37wK5m">
+                    <property role="Xl_RC" value="\&quot;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

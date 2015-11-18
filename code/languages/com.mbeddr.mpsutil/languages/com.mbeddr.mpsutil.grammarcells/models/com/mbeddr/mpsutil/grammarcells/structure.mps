@@ -747,5 +747,59 @@
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="ICheckActionsModel" />
   </node>
+  <node concept="1TIwiD" id="3pFNVizDvwD">
+    <property role="1pbfSe" value="636368931" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="SplitableCell" />
+    <property role="34LRSv" value="grammar.splitable" />
+    <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
+    <node concept="1TJgyj" id="3pFNVizNUrt" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tokenizer" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3pFNVizNUrs" resolve="ITokenizer" />
+    </node>
+    <node concept="PrWs8" id="3pFNVizDvwE" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3pFNVizDvwJ">
+    <property role="TrG5h" value="StubSplitableCell" />
+    <property role="3GE5qa" value="cells" />
+    <ref role="1TJDcQ" node="3pFNVizDvwD" resolve="SplitableCell" />
+    <node concept="PrWs8" id="3pFNVizDvwK" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+    <node concept="PrWs8" id="3pFNVizDvwL" role="PzmwI">
+      <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3pFNVizNUrr">
+    <property role="1pbfSe" value="633637233" />
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="TokenizerFunction" />
+    <property role="34LRSv" value="function" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="3pFNVizOKRJ" role="PzmwI">
+      <ref role="PrY4T" node="3pFNVizNUrs" resolve="ITokenizer" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3pFNVizNUrs">
+    <property role="1pbfSe" value="633637232" />
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="ITokenizer" />
+  </node>
+  <node concept="1TIwiD" id="3pFNVizNUQy">
+    <property role="1pbfSe" value="633635498" />
+    <property role="TrG5h" value="TokenizerFunction_textBeforeCaret" />
+    <property role="34LRSv" value="textBeforeCaret" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3pFNVizNUTR">
+    <property role="1pbfSe" value="633635285" />
+    <property role="TrG5h" value="TokenizerFunction_textAfterCaret" />
+    <property role="34LRSv" value="textAfterCaret" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 
