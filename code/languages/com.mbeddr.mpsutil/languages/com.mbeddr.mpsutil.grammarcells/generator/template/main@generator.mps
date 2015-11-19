@@ -1773,7 +1773,18 @@
                                             <ref role="Rm8GQ" to="f4zo:~CellActionType.DELETE" resolve="DELETE" />
                                             <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
                                           </node>
-                                          <node concept="10Nm6u" id="5V9BP5IYhcF" role="37wK5m" />
+                                          <node concept="2ShNRf" id="4UbrmdUJuXG" role="37wK5m">
+                                            <node concept="1pGfFk" id="4UbrmdUJK7_" role="2ShVmc">
+                                              <ref role="37wK5l" to="czm:4UbrmdUI2qC" resolve="DelegateToParentCellAction" />
+                                              <node concept="37vLTw" id="4UbrmdUJK90" role="37wK5m">
+                                                <ref role="3cqZAo" node="5V9BP5IYgiA" resolve="descendantCell" />
+                                              </node>
+                                              <node concept="Rm8GO" id="4UbrmdUJKdF" role="37wK5m">
+                                                <ref role="Rm8GQ" to="f4zo:~CellActionType.DELETE" resolve="DELETE" />
+                                                <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                                              </node>
+                                            </node>
+                                          </node>
                                         </node>
                                       </node>
                                     </node>
@@ -1788,7 +1799,18 @@
                                             <ref role="Rm8GQ" to="f4zo:~CellActionType.BACKSPACE" resolve="BACKSPACE" />
                                             <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
                                           </node>
-                                          <node concept="10Nm6u" id="5V9BP5IYhdG" role="37wK5m" />
+                                          <node concept="2ShNRf" id="4UbrmdUJKeI" role="37wK5m">
+                                            <node concept="1pGfFk" id="4UbrmdUJKeJ" role="2ShVmc">
+                                              <ref role="37wK5l" to="czm:4UbrmdUI2qC" resolve="DelegateToParentCellAction" />
+                                              <node concept="37vLTw" id="4UbrmdUJKeK" role="37wK5m">
+                                                <ref role="3cqZAo" node="5V9BP5IYgiA" resolve="descendantCell" />
+                                              </node>
+                                              <node concept="Rm8GO" id="4UbrmdUJKgZ" role="37wK5m">
+                                                <ref role="Rm8GQ" to="f4zo:~CellActionType.BACKSPACE" resolve="BACKSPACE" />
+                                                <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                                              </node>
+                                            </node>
+                                          </node>
                                         </node>
                                       </node>
                                     </node>
