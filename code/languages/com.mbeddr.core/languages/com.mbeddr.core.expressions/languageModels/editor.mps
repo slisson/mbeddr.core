@@ -369,12 +369,16 @@
       </concept>
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
+      <concept id="1381973545438177171" name="com.mbeddr.mpsutil.grammarcells.structure.NumberLiteralTokenizer" flags="ng" index="bYqod" />
       <concept id="1716599163375643733" name="com.mbeddr.mpsutil.grammarcells.structure.BracketsCell" flags="ng" index="drBAd">
         <child id="1716599163375643743" name="left" index="drBA7" />
         <child id="1716599163375643746" name="inner" index="drBAU" />
         <child id="1716599163375643751" name="right" index="drBAZ" />
       </concept>
       <concept id="1984422498404534858" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell_TransformationText" flags="ig" index="2ee1ZP" />
+      <concept id="3921456275302774825" name="com.mbeddr.mpsutil.grammarcells.structure.SplitableCell" flags="sg" stub="3921456275302774831" index="2lNzut">
+        <child id="3921456275305506525" name="tokenizer" index="2lD6_D" />
+      </concept>
       <concept id="5083944728300220902" name="com.mbeddr.mpsutil.grammarcells.structure.SubstituteCell" flags="ng" index="yw3OH">
         <child id="5083944728300220903" name="wrapped" index="yw3OG" />
       </concept>
@@ -605,17 +609,21 @@
   <node concept="24kQdi" id="7FQByU3CrDD">
     <property role="3GE5qa" value="literals" />
     <ref role="1XX52x" to="mj1l:7FQByU3CrDB" resolve="NumberLiteral" />
-    <node concept="3EZMnI" id="53_W9lll902" role="2wV5jI">
-      <node concept="1kIj98" id="1Ia5rYltMfn" role="3EZMnx">
-        <node concept="3F0A7n" id="53_W9lll905" role="1kIj9b">
-          <ref role="1k5W1q" to="r4b4:2CEi94dgUHC" resolve="Number" />
-          <ref role="1NtTu8" to="mj1l:1UQ4qqfV3yK" resolve="value" />
-        </node>
-      </node>
-      <node concept="2iRfu4" id="53_W9lll903" role="2iSdaV" />
-    </node>
     <node concept="PMmxH" id="5CDgsyZckhX" role="6VMZX">
       <ref role="PMmxG" node="5CDgsyZbE9V" resolve="staticValueComponent" />
+    </node>
+    <node concept="1WcQYu" id="D5oLwMtua0" role="2wV5jI">
+      <node concept="2ElW$n" id="D5oLwMtuay" role="2El2Yn" />
+      <node concept="3EZMnI" id="53_W9lll902" role="1LiK7o">
+        <node concept="1kIj98" id="1Ia5rYltMfn" role="3EZMnx">
+          <node concept="2lNzut" id="D5oLwMtubt" role="1kIj9b">
+            <ref role="1k5W1q" to="r4b4:2CEi94dgUHC" resolve="Number" />
+            <ref role="1NtTu8" to="mj1l:1UQ4qqfV3yK" resolve="value" />
+            <node concept="bYqod" id="D5oLwMT$B9" role="2lD6_D" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="53_W9lll903" role="2iSdaV" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7FQByU3CrWG">
