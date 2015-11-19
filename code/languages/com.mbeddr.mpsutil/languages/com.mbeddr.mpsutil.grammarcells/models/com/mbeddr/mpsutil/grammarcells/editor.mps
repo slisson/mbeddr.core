@@ -2197,5 +2197,17 @@
       <node concept="2iRkQZ" id="3pFNVizDwUb" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1cHKpSoP6ub">
+    <ref role="1XX52x" to="teg0:1cHKpSoP6tZ" resolve="StringLiteralTokenizer" />
+    <node concept="PMmxH" id="1cHKpSoP6ud" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1cHKpSoP6uv">
+    <ref role="1XX52x" to="teg0:1cHKpSoP6uj" resolve="NumberLiteralTokenizer" />
+    <node concept="PMmxH" id="1cHKpSoP6ux" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
 </model>
 

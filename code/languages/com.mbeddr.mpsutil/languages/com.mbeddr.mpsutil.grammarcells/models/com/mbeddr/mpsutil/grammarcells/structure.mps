@@ -801,5 +801,23 @@
     <property role="34LRSv" value="textAfterCaret" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="1cHKpSoP6tZ">
+    <property role="1pbfSe" value="738339101" />
+    <property role="TrG5h" value="StringLiteralTokenizer" />
+    <property role="34LRSv" value="stringLiteral" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1cHKpSoP6u0" role="PzmwI">
+      <ref role="PrY4T" node="3pFNVizNUrs" resolve="ITokenizer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1cHKpSoP6uj">
+    <property role="1pbfSe" value="738339121" />
+    <property role="TrG5h" value="NumberLiteralTokenizer" />
+    <property role="34LRSv" value="numberLiteral" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1cHKpSoP6uk" role="PzmwI">
+      <ref role="PrY4T" node="3pFNVizNUrs" resolve="ITokenizer" />
+    </node>
+  </node>
 </model>
 

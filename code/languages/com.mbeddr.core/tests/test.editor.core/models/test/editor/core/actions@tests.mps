@@ -216,6 +216,9 @@
       </concept>
     </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
+      <concept id="6113173064526131575" name="com.mbeddr.core.pointers.structure.StringLiteral" flags="ng" index="PhEJO">
+        <property id="6113173064526131578" name="value" index="PhEJT" />
+      </concept>
       <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
     </language>
@@ -308,6 +311,7 @@
       <concept id="3005510381523579442" name="com.mbeddr.core.expressions.structure.UnaryExpression" flags="ng" index="2aKSnQ">
         <child id="7254843406768839760" name="expression" index="1_9fRO" />
       </concept>
+      <concept id="1664480272136207708" name="com.mbeddr.core.expressions.structure.CharType" flags="ng" index="biTqx" />
       <concept id="2212975673976017893" name="com.mbeddr.core.expressions.structure.NumericLiteral" flags="ng" index="2hns93">
         <property id="2212975673976043696" name="value" index="2hmy$m" />
       </concept>
@@ -3449,6 +3453,74 @@
             <ref role="37wK5l" node="73exJLGFf2n" resolve="checkCaret" />
             <node concept="Xl_RD" id="5V9BP5IU$uQ" role="37wK5m">
               <property role="Xl_RC" value="a" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="1cHKpSpdGEC">
+    <property role="TrG5h" value="SplitStringLiteral" />
+    <node concept="N3F5e" id="1cHKpSpdGED" role="LiRBU">
+      <property role="TrG5h" value="M" />
+      <node concept="1S7NMz" id="1cHKpSpdGEE" role="N3F5h">
+        <property role="TrG5h" value="a" />
+        <node concept="3wxxNl" id="1cHKpSpdGFY" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <node concept="biTqx" id="1cHKpSpdGFH" role="2umbIo">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="PhEJO" id="1cHKpSpdGHb" role="1cecVj">
+          <property role="PhEJT" value="abcdef" />
+          <node concept="LIFWc" id="1cHKpSpdGMv" role="lGtFl">
+            <property role="LIFWa" value="3" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="3" />
+            <property role="p6zMs" value="3" />
+            <property role="LIFWd" value="property_value" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="N3F5e" id="1cHKpSpdGEH" role="LiZbd">
+      <property role="TrG5h" value="M" />
+      <node concept="1S7NMz" id="1cHKpSpdGNa" role="N3F5h">
+        <property role="TrG5h" value="a" />
+        <node concept="3wxxNl" id="1cHKpSpdGNb" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <node concept="biTqx" id="1cHKpSpdGNc" role="2umbIo">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="2BOciq" id="D5oLwMtdyp" role="1cecVj">
+          <node concept="PhEJO" id="D5oLwMtdyq" role="3TlMhI">
+            <property role="PhEJT" value="abc" />
+          </node>
+          <node concept="PhEJO" id="D5oLwMtdyr" role="3TlMhJ">
+            <property role="PhEJT" value="def" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="1cHKpSpdGEK" role="LjaKd">
+      <node concept="2TK7Tu" id="1cHKpSpdGEL" role="3cqZAp">
+        <property role="2TTd_B" value="&quot;+&quot;" />
+      </node>
+      <node concept="3clFbF" id="1cHKpSpdGEM" role="3cqZAp">
+        <node concept="2OqwBi" id="1cHKpSpdGEN" role="3clFbG">
+          <node concept="369mXd" id="1cHKpSpdGEO" role="2Oq$k0" />
+          <node concept="AQDAd" id="1cHKpSpdGEP" role="2OqNvi">
+            <ref role="37wK5l" node="73exJLGFeal" resolve="checkCaret" />
+            <node concept="Xl_RD" id="1cHKpSpdGEQ" role="37wK5m">
+              <property role="Xl_RC" value="def" />
+            </node>
+            <node concept="3cmrfG" id="D5oLwMtg2b" role="37wK5m">
+              <property role="3cmrfH" value="0" />
             </node>
           </node>
         </node>
