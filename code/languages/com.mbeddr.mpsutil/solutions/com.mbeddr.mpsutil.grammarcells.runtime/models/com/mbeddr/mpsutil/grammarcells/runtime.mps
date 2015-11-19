@@ -545,6 +545,7 @@
         <child id="1225711182005" name="list" index="1y566C" />
         <child id="1225711191269" name="index" index="1y58nS" />
       </concept>
+      <concept id="1208542034276" name="jetbrains.mps.baseLanguage.collections.structure.MapClearOperation" flags="nn" index="1yHZxX" />
       <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1225730411176" name="jetbrains.mps.baseLanguage.collections.structure.FindLastOperation" flags="nn" index="1zesIP" />
@@ -17723,6 +17724,24 @@
         <ref role="3uigEE" node="3VuMMxTwgbn" resolve="RulesCache" />
       </node>
       <node concept="3Tm1VV" id="3VuMMxTxGUE" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="1q2ZuLRiqA$" role="jymVt" />
+    <node concept="2YIFZL" id="1q2ZuLRiy8m" role="jymVt">
+      <property role="TrG5h" value="invalidateAll" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="1q2ZuLRiuxU" role="3clF47">
+        <node concept="3clFbF" id="1q2ZuLRiyOC" role="3cqZAp">
+          <node concept="2OqwBi" id="1q2ZuLRiyTR" role="3clFbG">
+            <node concept="37vLTw" id="1q2ZuLRiyOB" role="2Oq$k0">
+              <ref role="3cqZAo" node="3VuMMxTxFUo" resolve="ourInstances" />
+            </node>
+            <node concept="1yHZxX" id="1q2ZuLRizct" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1q2ZuLRiuxS" role="3clF45" />
+      <node concept="3Tm1VV" id="1q2ZuLRiuxT" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="3VuMMxTxExh" role="jymVt" />
     <node concept="312cEg" id="3VuMMxTy4dq" role="jymVt">
