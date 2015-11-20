@@ -220,7 +220,9 @@
         <property id="6113173064526131578" name="value" index="PhEJT" />
       </concept>
       <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
-      <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+      <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42">
+        <child id="1452920870317474611" name="sizeExpr" index="1YbSNA" />
+      </concept>
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -3620,6 +3622,81 @@
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="qT5MFmTsCy">
+    <property role="TrG5h" value="LVD_CreatePointerVar" />
+    <node concept="3XIRFW" id="qT5MFmTsCz" role="LiRBU">
+      <node concept="3XISUE" id="qT5MFmTsDh" role="3XIRFZ">
+        <node concept="LIFWc" id="qT5MFmTsDG" role="lGtFl">
+          <property role="ZRATv" value="true" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="Constant_7h2wce_a" />
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRFW" id="qT5MFmTsCB" role="LiZbd">
+      <node concept="3XIRlf" id="qT5MFmTsEe" role="3XIRFZ">
+        <property role="TrG5h" value="abc" />
+        <node concept="3wxxNl" id="qT5MFmUpTl" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <node concept="26Vqp4" id="qT5MFmTsEc" role="2umbIo">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="qT5MFmTsCF" role="LjaKd">
+      <node concept="2TK7Tu" id="qT5MFmTsCG" role="3cqZAp">
+        <property role="2TTd_B" value="uint8* abc" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="qT5MFmUDiC">
+    <property role="TrG5h" value="LVD_CreateArrayVar" />
+    <node concept="3XIRFW" id="qT5MFmUDiD" role="LiRBU">
+      <node concept="3XISUE" id="qT5MFmUDiE" role="3XIRFZ">
+        <node concept="LIFWc" id="qT5MFmUDiF" role="lGtFl">
+          <property role="ZRATv" value="true" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="Constant_7h2wce_a" />
+        </node>
+      </node>
+    </node>
+    <node concept="3XIRFW" id="qT5MFmUDiG" role="LiZbd">
+      <node concept="3XIRlf" id="qT5MFmUDjx" role="3XIRFZ">
+        <property role="TrG5h" value="abc" />
+        <node concept="3J0A42" id="qT5MFmUDjQ" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <node concept="26Vqp4" id="qT5MFmUDjv" role="2umbIo">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+          <node concept="3TlMh9" id="qT5MFmUDlh" role="1YbSNA">
+            <property role="2hmy$m" value="10" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="qT5MFmUDiK" role="LjaKd">
+      <node concept="2TK7Tu" id="qT5MFmUDiL" role="3cqZAp">
+        <property role="2TTd_B" value="uint8[10" />
+      </node>
+      <node concept="yd1bK" id="qT5MFmUGmz" role="3cqZAp">
+        <node concept="pLAjd" id="qT5MFmUGm_" role="yd6KS">
+          <property role="pLAjf" value="VK_TAB" />
+        </node>
+      </node>
+      <node concept="2TK7Tu" id="qT5MFmUGrx" role="3cqZAp">
+        <property role="2TTd_B" value="abc" />
       </node>
     </node>
   </node>

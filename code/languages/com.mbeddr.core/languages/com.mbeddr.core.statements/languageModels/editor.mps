@@ -289,6 +289,7 @@
         <child id="484443907672828832" name="substituteCondition" index="3gMvMa" />
       </concept>
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
+        <property id="484443907677193054" name="focusWrapped" index="3g2DhO" />
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
       </concept>
       <concept id="2862331529394480355" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_SubConcept" flags="ng" index="1Lj6YZ" />
@@ -406,6 +407,7 @@
       </node>
       <node concept="l2Vlx" id="3CmSUB7FprI" role="2iSdaV" />
       <node concept="1kIj98" id="6ASs6Ln7be9" role="3EZMnx">
+        <property role="3g2DhO" value="true" />
         <node concept="YGO_4" id="6ASs6Ln45rL" role="1kIj9b">
           <property role="YE2IV" value="true" />
           <node concept="3F1sOY" id="3CmSUB7FprJ" role="YGOBE">

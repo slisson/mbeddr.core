@@ -106,6 +106,10 @@
     <property role="TrG5h" value="WrapperCell" />
     <property role="34LRSv" value="grammar.wrap" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyi" id="qT5MFmGSdu" role="1TKVEl">
+      <property role="TrG5h" value="focusWrapped" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="6oKG1kMyo9u" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="wrapped" />
