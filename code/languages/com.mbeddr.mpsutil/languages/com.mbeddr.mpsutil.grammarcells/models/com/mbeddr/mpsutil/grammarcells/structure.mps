@@ -58,6 +58,11 @@
     <property role="34LRSv" value="grammar.flag" />
     <property role="3GE5qa" value="cells" />
     <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
+    <node concept="1TJgyj" id="qT5MFmseIw" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="substituteCondition" />
+      <ref role="20lvS9" node="qT5MFmsdDu" resolve="FlagCell_SubstituteCondition" />
+    </node>
     <node concept="1TJgyi" id="6ASs6LmXZfR" role="1TKVEl">
       <property role="TrG5h" value="flagText" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -818,6 +823,19 @@
     <node concept="PrWs8" id="1cHKpSoP6uk" role="PzmwI">
       <ref role="PrY4T" node="3pFNVizNUrs" resolve="ITokenizer" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="qT5MFmsdDu">
+    <property role="1pbfSe" value="584453752" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="FlagCell_SubstituteCondition" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="qT5MFmswdL">
+    <property role="1pbfSe" value="584377701" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="FlagCell_SubstituteCondition_substitutedNode" />
+    <property role="34LRSv" value="substitutedNode" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

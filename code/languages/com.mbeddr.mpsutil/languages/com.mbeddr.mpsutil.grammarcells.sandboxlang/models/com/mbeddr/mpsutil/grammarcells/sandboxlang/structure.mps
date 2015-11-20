@@ -182,6 +182,10 @@
     <property role="1pbfSe" value="1732894185" />
     <property role="TrG5h" value="LocalVariableDeclaration" />
     <ref role="1TJDcQ" node="6oKG1kMxn7T" resolve="VariableDeclaration" />
+    <node concept="1TJgyi" id="qT5MFml3Gb" role="1TKVEl">
+      <property role="TrG5h" value="static" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="6oKG1kMxn83" role="PzmwI">
       <ref role="PrY4T" node="1x69AmkdYA2" resolve="IStatement" />
     </node>

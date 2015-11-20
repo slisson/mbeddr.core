@@ -283,12 +283,15 @@
         <child id="4874944647490524677" name="execute" index="1eYxTh" />
       </concept>
       <concept id="4874944647490471525" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_MatchingText" flags="ig" index="1eYWSL" />
+      <concept id="484443907672824414" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell_SubstituteCondition" flags="ig" index="3gMsPO" />
       <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G">
         <property id="7617962380315063287" name="flagText" index="ZjSer" />
+        <child id="484443907672828832" name="substituteCondition" index="3gMvMa" />
       </concept>
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
       </concept>
+      <concept id="2862331529394480355" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_SubConcept" flags="ng" index="1Lj6YZ" />
       <concept id="3011849438420226693" name="com.mbeddr.mpsutil.grammarcells.structure.GrammarInfoCell" flags="ng" index="1WcQYu">
         <child id="8207263695490916687" name="rules" index="2El2Yn" />
         <child id="2862331529394260612" name="projection" index="1LiK7o" />
@@ -383,6 +386,20 @@
     <node concept="3EZMnI" id="3CmSUB7FprG" role="2wV5jI">
       <node concept="1kHk_G" id="6ASs6LmXVey" role="3EZMnx">
         <ref role="1NtTu8" to="c4fa:3_fgNoLA7XY" resolve="static" />
+        <node concept="3gMsPO" id="qT5MFmtH$7" role="3gMvMa">
+          <node concept="3clFbS" id="qT5MFmtH$8" role="2VODD2">
+            <node concept="3clFbF" id="qT5MFmtHAl" role="3cqZAp">
+              <node concept="2OqwBi" id="qT5MFmtHMc" role="3clFbG">
+                <node concept="1Lj6YZ" id="qT5MFmtHAk" role="2Oq$k0" />
+                <node concept="3O6GUB" id="qT5MFmtIrM" role="2OqNvi">
+                  <node concept="chp4Y" id="qT5MFmtIWj" role="3QVz_e">
+                    <ref role="cht4Q" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="PMmxH" id="52l0VUuNjO$" role="3EZMnx">
         <ref role="PMmxG" node="52l0VUuN8lr" resolve="IStoreInRegisterComponent" />
@@ -2592,6 +2609,15 @@
       <ref role="1ERwB7" node="58TcxRGslYj" resolve="deleteForVarDecl" />
       <node concept="1kHk_G" id="6ASs6LmYwvn" role="3EZMnx">
         <ref role="1NtTu8" to="c4fa:3_fgNoLA7XY" resolve="static" />
+        <node concept="3gMsPO" id="qT5MFmtHkv" role="3gMvMa">
+          <node concept="3clFbS" id="qT5MFmtHkw" role="2VODD2">
+            <node concept="3clFbF" id="qT5MFmtHlJ" role="3cqZAp">
+              <node concept="3clFbT" id="qT5MFmtHlI" role="3clFbG">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="PMmxH" id="58TcxRGEN6$" role="3EZMnx">
         <ref role="PMmxG" node="52l0VUuN8lr" resolve="IStoreInRegisterComponent" />
