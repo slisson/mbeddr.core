@@ -2240,5 +2240,29 @@
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
+  <node concept="24kQdi" id="20mebiUzFdm">
+    <ref role="1XX52x" to="teg0:20mebiUzEPg" resolve="ConceptEditorClassReference" />
+    <node concept="3EZMnI" id="20mebiUzFdo" role="2wV5jI">
+      <node concept="PMmxH" id="20mebiUzFeh" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="20mebiUzFeR" role="3EZMnx">
+        <property role="3F0ifm" value="&lt;" />
+      </node>
+      <node concept="1iCGBv" id="20mebiUzFdC" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:20mebiUzFdc" />
+        <node concept="1sVBvm" id="20mebiUzFdE" role="1sWHZn">
+          <node concept="3F0A7n" id="20mebiUzFdU" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="20mebiUzFfA" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;" />
+      </node>
+      <node concept="2iRfu4" id="20mebiUzFdr" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

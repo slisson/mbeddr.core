@@ -841,5 +841,17 @@
     <property role="34LRSv" value="substitutedNode" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="20mebiUzEPg">
+    <property role="1pbfSe" value="626727420" />
+    <property role="TrG5h" value="ConceptEditorClassReference" />
+    <property role="34LRSv" value="conceptEditorClass" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="20mebiUzFdc" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="editor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+    </node>
+  </node>
 </model>
 

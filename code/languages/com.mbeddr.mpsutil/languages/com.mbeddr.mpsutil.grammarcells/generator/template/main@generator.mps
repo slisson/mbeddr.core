@@ -53,6 +53,7 @@
     <import index="epaj" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.selection(MPS.Editor/)" />
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="emqf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellProviders(MPS.Editor/)" />
+    <import index="iwf0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.descriptor(MPS.Editor/)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
@@ -307,6 +308,9 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
+      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
+        <reference id="1116615189566" name="classifier" index="3VsUkX" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
@@ -448,6 +452,7 @@
         <child id="7272510943426635585" name="wrapped" index="2kYc5E" />
       </concept>
       <concept id="7272510943426635595" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_NodeSubstituteActionsFactoryContext" flags="ng" index="2kYc5w" />
+      <concept id="2312097807576509776" name="com.mbeddr.mpsutil.grammarcells.structure.ConceptEditorClassReference" flags="ng" index="2qA9n$" />
       <concept id="6856661361479784881" name="com.mbeddr.mpsutil.grammarcells.structure.InlineActionMapItem_Param_node" flags="ng" index="130tyv" />
       <concept id="6856661361479784527" name="com.mbeddr.mpsutil.grammarcells.structure.InlineActionMapItem" flags="ng" index="130t_x">
         <property id="1139535298778" name="actionId" index="1hAc7j" />
@@ -487,6 +492,10 @@
       </concept>
       <concept id="5190093307972723402" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ParameterRef" flags="nn" index="3cR$yn">
         <reference id="5190093307972736266" name="parameter" index="3cRzXn" />
+      </concept>
+      <concept id="1216860049627" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" flags="nn" index="1iwH70">
+        <reference id="1216860049628" name="label" index="1iwH77" />
+        <child id="1216860049632" name="inputNode" index="1iwH7V" />
       </concept>
       <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
       <concept id="1217004708011" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetInputModel" flags="nn" index="1r8y6K" />
@@ -1263,8 +1272,8 @@
                         <node concept="3bZ5Sz" id="qT5MFmsTlY" role="1tU5fm" />
                       </node>
                       <node concept="2YIFZM" id="20mebiUgYgR" role="1DdaDG">
-                        <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                         <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                        <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
                         <node concept="37vLTw" id="20mebiUgYgS" role="37wK5m">
                           <ref role="3cqZAo" node="qT5MFmnLhQ" resolve="outputConcept" />
                         </node>
@@ -1272,6 +1281,28 @@
                           <node concept="2kYc5w" id="20mebiUgYgU" role="2Oq$k0" />
                           <node concept="liA8E" id="20mebiUgYgV" role="2OqNvi">
                             <ref role="37wK5l" to="zce0:~NodeSubstituteActionsFactoryContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                          </node>
+                        </node>
+                        <node concept="2qA9n$" id="20mebiUAa1W" role="37wK5m">
+                          <node concept="1ZhdrF" id="20mebiUAa1X" role="lGtFl">
+                            <property role="P3scX" value="9d69e719-78c8-4286-90db-fb19c107d049/2312097807576509776/2312097807576511308" />
+                            <property role="2qtEX8" value="editor" />
+                            <node concept="3$xsQk" id="20mebiUAa1Y" role="3$ytzL">
+                              <node concept="3clFbS" id="20mebiUAa1Z" role="2VODD2">
+                                <node concept="3clFbF" id="20mebiUAa20" role="3cqZAp">
+                                  <node concept="2OqwBi" id="20mebiUAa21" role="3clFbG">
+                                    <node concept="30H73N" id="20mebiUAa22" role="2Oq$k0" />
+                                    <node concept="2Xjw5R" id="20mebiUAa23" role="2OqNvi">
+                                      <node concept="1xMEDy" id="20mebiUAa24" role="1xVPHs">
+                                        <node concept="chp4Y" id="20mebiUAa25" role="ri$Ld">
+                                          <ref role="cht4Q" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -2989,8 +3020,8 @@
                     <property role="TrG5h" value="subconcept" />
                     <node concept="2OqwBi" id="5$jJV5dPrHS" role="33vP2m">
                       <node concept="2YIFZM" id="20mebiUgXtr" role="2Oq$k0">
-                        <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                         <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                        <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
                         <node concept="35c_gC" id="20mebiUgXts" role="37wK5m">
                           <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                           <node concept="1ZhdrF" id="20mebiUgXtt" role="lGtFl">
@@ -3027,6 +3058,28 @@
                           <node concept="2kS8pE" id="20mebiUgXtE" role="2Oq$k0" />
                           <node concept="liA8E" id="20mebiUgXtF" role="2OqNvi">
                             <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                          </node>
+                        </node>
+                        <node concept="2qA9n$" id="20mebiUAc15" role="37wK5m">
+                          <node concept="1ZhdrF" id="20mebiUAc16" role="lGtFl">
+                            <property role="P3scX" value="9d69e719-78c8-4286-90db-fb19c107d049/2312097807576509776/2312097807576511308" />
+                            <property role="2qtEX8" value="editor" />
+                            <node concept="3$xsQk" id="20mebiUAc17" role="3$ytzL">
+                              <node concept="3clFbS" id="20mebiUAc18" role="2VODD2">
+                                <node concept="3clFbF" id="20mebiUAc19" role="3cqZAp">
+                                  <node concept="2OqwBi" id="20mebiUAc1a" role="3clFbG">
+                                    <node concept="30H73N" id="20mebiUAc1b" role="2Oq$k0" />
+                                    <node concept="2Xjw5R" id="20mebiUAc1c" role="2OqNvi">
+                                      <node concept="1xMEDy" id="20mebiUAc1d" role="1xVPHs">
+                                        <node concept="chp4Y" id="20mebiUAc1e" role="ri$Ld">
+                                          <ref role="cht4Q" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -3260,8 +3313,8 @@
                 <node concept="3clFbF" id="5$jJV5dPbvW" role="3cqZAp">
                   <node concept="2OqwBi" id="5$jJV5dPeH0" role="3clFbG">
                     <node concept="2YIFZM" id="5$jJV5eah5K" role="2Oq$k0">
-                      <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                       <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                      <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
                       <node concept="35c_gC" id="5$jJV5eah5L" role="37wK5m">
                         <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                         <node concept="1ZhdrF" id="5$jJV5eah5M" role="lGtFl">
@@ -3300,6 +3353,28 @@
                           <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
                         </node>
                       </node>
+                      <node concept="2qA9n$" id="20mebiUAd3U" role="37wK5m">
+                        <node concept="1ZhdrF" id="20mebiUAd3V" role="lGtFl">
+                          <property role="P3scX" value="9d69e719-78c8-4286-90db-fb19c107d049/2312097807576509776/2312097807576511308" />
+                          <property role="2qtEX8" value="editor" />
+                          <node concept="3$xsQk" id="20mebiUAd3W" role="3$ytzL">
+                            <node concept="3clFbS" id="20mebiUAd3X" role="2VODD2">
+                              <node concept="3clFbF" id="20mebiUAd3Y" role="3cqZAp">
+                                <node concept="2OqwBi" id="20mebiUAd3Z" role="3clFbG">
+                                  <node concept="30H73N" id="20mebiUAd40" role="2Oq$k0" />
+                                  <node concept="2Xjw5R" id="20mebiUAd41" role="2OqNvi">
+                                    <node concept="1xMEDy" id="20mebiUAd42" role="1xVPHs">
+                                      <node concept="chp4Y" id="20mebiUAd43" role="ri$Ld">
+                                        <ref role="cht4Q" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                     <node concept="3$u5V9" id="5$jJV5dPfy$" role="2OqNvi">
                       <node concept="1bVj0M" id="5$jJV5dPfyA" role="23t8la">
@@ -3333,8 +3408,8 @@
                 <node concept="3clFbF" id="5$jJV5dQmVg" role="3cqZAp">
                   <node concept="2OqwBi" id="5$jJV5dQmVh" role="3clFbG">
                     <node concept="2YIFZM" id="5$jJV5eahM0" role="2Oq$k0">
-                      <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                       <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                      <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
                       <node concept="35c_gC" id="5$jJV5eahM1" role="37wK5m">
                         <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                         <node concept="1ZhdrF" id="5$jJV5eahM2" role="lGtFl">
@@ -3373,6 +3448,28 @@
                           <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
                         </node>
                       </node>
+                      <node concept="2qA9n$" id="20mebiUAf4i" role="37wK5m">
+                        <node concept="1ZhdrF" id="20mebiUAf4j" role="lGtFl">
+                          <property role="P3scX" value="9d69e719-78c8-4286-90db-fb19c107d049/2312097807576509776/2312097807576511308" />
+                          <property role="2qtEX8" value="editor" />
+                          <node concept="3$xsQk" id="20mebiUAf4k" role="3$ytzL">
+                            <node concept="3clFbS" id="20mebiUAf4l" role="2VODD2">
+                              <node concept="3clFbF" id="20mebiUAf4m" role="3cqZAp">
+                                <node concept="2OqwBi" id="20mebiUAf4n" role="3clFbG">
+                                  <node concept="30H73N" id="20mebiUAf4o" role="2Oq$k0" />
+                                  <node concept="2Xjw5R" id="20mebiUAf4p" role="2OqNvi">
+                                    <node concept="1xMEDy" id="20mebiUAf4q" role="1xVPHs">
+                                      <node concept="chp4Y" id="20mebiUAf4r" role="ri$Ld">
+                                        <ref role="cht4Q" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                     <node concept="3$u5V9" id="5$jJV5dQmVz" role="2OqNvi">
                       <node concept="1bVj0M" id="5$jJV5dQmV$" role="23t8la">
@@ -3404,8 +3501,8 @@
                     <property role="TrG5h" value="subconcept" />
                     <node concept="2OqwBi" id="5$jJV5dQnjT" role="33vP2m">
                       <node concept="2YIFZM" id="20mebiUgZ8_" role="2Oq$k0">
-                        <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                         <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                        <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
                         <node concept="35c_gC" id="20mebiUgZ8A" role="37wK5m">
                           <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                           <node concept="1ZhdrF" id="20mebiUgZ8B" role="lGtFl">
@@ -3442,6 +3539,28 @@
                           <node concept="2kS8pE" id="20mebiUgZ8O" role="2Oq$k0" />
                           <node concept="liA8E" id="20mebiUgZ8P" role="2OqNvi">
                             <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                          </node>
+                        </node>
+                        <node concept="2qA9n$" id="20mebiU_Y_o" role="37wK5m">
+                          <node concept="1ZhdrF" id="20mebiU_Z9Y" role="lGtFl">
+                            <property role="P3scX" value="9d69e719-78c8-4286-90db-fb19c107d049/2312097807576509776/2312097807576511308" />
+                            <property role="2qtEX8" value="editor" />
+                            <node concept="3$xsQk" id="20mebiU_Z9Z" role="3$ytzL">
+                              <node concept="3clFbS" id="20mebiU_Za0" role="2VODD2">
+                                <node concept="3clFbF" id="20mebiU_ZJf" role="3cqZAp">
+                                  <node concept="2OqwBi" id="20mebiUA0fm" role="3clFbG">
+                                    <node concept="30H73N" id="20mebiU_ZJe" role="2Oq$k0" />
+                                    <node concept="2Xjw5R" id="20mebiUA18E" role="2OqNvi">
+                                      <node concept="1xMEDy" id="20mebiUA18G" role="1xVPHs">
+                                        <node concept="chp4Y" id="20mebiUA5lA" role="ri$Ld">
+                                          <ref role="cht4Q" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -3821,8 +3940,8 @@
                     <property role="TrG5h" value="subconcept" />
                     <node concept="2OqwBi" id="5$jJV5dQ7lc" role="33vP2m">
                       <node concept="2YIFZM" id="20mebiUgZJb" role="2Oq$k0">
-                        <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                         <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                        <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
                         <node concept="35c_gC" id="20mebiUgZJc" role="37wK5m">
                           <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                           <node concept="1ZhdrF" id="20mebiUgZJd" role="lGtFl">
@@ -3859,6 +3978,28 @@
                           <node concept="2kS8pE" id="20mebiUgZJq" role="2Oq$k0" />
                           <node concept="liA8E" id="20mebiUgZJr" role="2OqNvi">
                             <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                          </node>
+                        </node>
+                        <node concept="2qA9n$" id="20mebiUAdR8" role="37wK5m">
+                          <node concept="1ZhdrF" id="20mebiUAdR9" role="lGtFl">
+                            <property role="P3scX" value="9d69e719-78c8-4286-90db-fb19c107d049/2312097807576509776/2312097807576511308" />
+                            <property role="2qtEX8" value="editor" />
+                            <node concept="3$xsQk" id="20mebiUAdRa" role="3$ytzL">
+                              <node concept="3clFbS" id="20mebiUAdRb" role="2VODD2">
+                                <node concept="3clFbF" id="20mebiUAdRc" role="3cqZAp">
+                                  <node concept="2OqwBi" id="20mebiUAdRd" role="3clFbG">
+                                    <node concept="30H73N" id="20mebiUAdRe" role="2Oq$k0" />
+                                    <node concept="2Xjw5R" id="20mebiUAdRf" role="2OqNvi">
+                                      <node concept="1xMEDy" id="20mebiUAdRg" role="1xVPHs">
+                                        <node concept="chp4Y" id="20mebiUAdRh" role="ri$Ld">
+                                          <ref role="cht4Q" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -4028,8 +4169,8 @@
                 <node concept="3clFbF" id="5$jJV5dQ7n3" role="3cqZAp">
                   <node concept="2OqwBi" id="5$jJV5dQ7n4" role="3clFbG">
                     <node concept="2YIFZM" id="5$jJV5eahrS" role="2Oq$k0">
-                      <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                       <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                      <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
                       <node concept="35c_gC" id="5$jJV5eahrT" role="37wK5m">
                         <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                         <node concept="1ZhdrF" id="5$jJV5eahrU" role="lGtFl">
@@ -4066,6 +4207,28 @@
                         <node concept="2kS8pE" id="5$jJV5eahs7" role="2Oq$k0" />
                         <node concept="liA8E" id="5$jJV5eahs8" role="2OqNvi">
                           <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                        </node>
+                      </node>
+                      <node concept="2qA9n$" id="20mebiUAe$T" role="37wK5m">
+                        <node concept="1ZhdrF" id="20mebiUAe$U" role="lGtFl">
+                          <property role="P3scX" value="9d69e719-78c8-4286-90db-fb19c107d049/2312097807576509776/2312097807576511308" />
+                          <property role="2qtEX8" value="editor" />
+                          <node concept="3$xsQk" id="20mebiUAe$V" role="3$ytzL">
+                            <node concept="3clFbS" id="20mebiUAe$W" role="2VODD2">
+                              <node concept="3clFbF" id="20mebiUAe$X" role="3cqZAp">
+                                <node concept="2OqwBi" id="20mebiUAe$Y" role="3clFbG">
+                                  <node concept="30H73N" id="20mebiUAe$Z" role="2Oq$k0" />
+                                  <node concept="2Xjw5R" id="20mebiUAe_0" role="2OqNvi">
+                                    <node concept="1xMEDy" id="20mebiUAe_1" role="1xVPHs">
+                                      <node concept="chp4Y" id="20mebiUAe_2" role="ri$Ld">
+                                        <ref role="cht4Q" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -13766,8 +13929,8 @@
                     <node concept="3bZ5Sz" id="19dgrWh_gYf" role="1tU5fm" />
                   </node>
                   <node concept="2YIFZM" id="20mebiUh1tM" role="1DdaDG">
-                    <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                     <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                    <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
                     <node concept="35c_gC" id="20mebiUh1tN" role="37wK5m">
                       <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                       <node concept="1ZhdrF" id="20mebiUh1tO" role="lGtFl">
@@ -13802,6 +13965,28 @@
                       </node>
                       <node concept="liA8E" id="20mebiUh1u1" role="2OqNvi">
                         <ref role="37wK5l" to="zce0:~NodeSubstituteActionsFactoryContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                      </node>
+                    </node>
+                    <node concept="2qA9n$" id="20mebiUAhM7" role="37wK5m">
+                      <node concept="1ZhdrF" id="20mebiUAhM8" role="lGtFl">
+                        <property role="P3scX" value="9d69e719-78c8-4286-90db-fb19c107d049/2312097807576509776/2312097807576511308" />
+                        <property role="2qtEX8" value="editor" />
+                        <node concept="3$xsQk" id="20mebiUAhM9" role="3$ytzL">
+                          <node concept="3clFbS" id="20mebiUAhMa" role="2VODD2">
+                            <node concept="3clFbF" id="20mebiUAhMb" role="3cqZAp">
+                              <node concept="2OqwBi" id="20mebiUAhMc" role="3clFbG">
+                                <node concept="30H73N" id="20mebiUAhMd" role="2Oq$k0" />
+                                <node concept="2Xjw5R" id="20mebiUAhMe" role="2OqNvi">
+                                  <node concept="1xMEDy" id="20mebiUAhMf" role="1xVPHs">
+                                    <node concept="chp4Y" id="20mebiUAhMg" role="ri$Ld">
+                                      <ref role="cht4Q" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -15862,8 +16047,8 @@
                                       <node concept="3bZ5Sz" id="5n4nn1a7a1g" role="1tU5fm" />
                                     </node>
                                     <node concept="2YIFZM" id="20mebiUh41w" role="1DdaDG">
-                                      <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                                       <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                                      <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
                                       <node concept="35c_gC" id="20mebiUh41x" role="37wK5m">
                                         <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                                         <node concept="1ZhdrF" id="20mebiUh41y" role="lGtFl">
@@ -15898,6 +16083,28 @@
                                         </node>
                                         <node concept="liA8E" id="20mebiUh41J" role="2OqNvi">
                                           <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                                        </node>
+                                      </node>
+                                      <node concept="2qA9n$" id="20mebiUAkEh" role="37wK5m">
+                                        <node concept="1ZhdrF" id="20mebiUAkEi" role="lGtFl">
+                                          <property role="P3scX" value="9d69e719-78c8-4286-90db-fb19c107d049/2312097807576509776/2312097807576511308" />
+                                          <property role="2qtEX8" value="editor" />
+                                          <node concept="3$xsQk" id="20mebiUAkEj" role="3$ytzL">
+                                            <node concept="3clFbS" id="20mebiUAkEk" role="2VODD2">
+                                              <node concept="3clFbF" id="20mebiUAkEl" role="3cqZAp">
+                                                <node concept="2OqwBi" id="20mebiUAkEm" role="3clFbG">
+                                                  <node concept="30H73N" id="20mebiUAkEn" role="2Oq$k0" />
+                                                  <node concept="2Xjw5R" id="20mebiUAkEo" role="2OqNvi">
+                                                    <node concept="1xMEDy" id="20mebiUAkEp" role="1xVPHs">
+                                                      <node concept="chp4Y" id="20mebiUAkEq" role="ri$Ld">
+                                                        <ref role="cht4Q" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
                                         </node>
                                       </node>
                                     </node>
@@ -19190,6 +19397,37 @@
               <node concept="raruj" id="48TKAW3Vg0K" role="lGtFl" />
               <node concept="5jKBG" id="48TKAW3Vg0L" role="lGtFl">
                 <ref role="v9R2y" to="tpc3:2dv1ickkgDx" resolve="template_EditorCellModel_CommonMethods" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="20mebiUAwhk" role="3acgRq">
+      <ref role="30HIoZ" to="teg0:20mebiUzEPg" resolve="ConceptEditorClassReference" />
+      <node concept="1Koe21" id="20mebiUAwi6" role="1lVwrX">
+        <node concept="3VsKOn" id="20mebiUAQrB" role="1Koe22">
+          <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
+          <node concept="raruj" id="20mebiUAQrN" role="lGtFl" />
+          <node concept="1ZhdrF" id="20mebiUAQrZ" role="lGtFl">
+            <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1116615150612/1116615189566" />
+            <property role="2qtEX8" value="classifier" />
+            <node concept="3$xsQk" id="20mebiUAQs0" role="3$ytzL">
+              <node concept="3clFbS" id="20mebiUAQs1" role="2VODD2">
+                <node concept="3clFbF" id="20mebiUAQta" role="3cqZAp">
+                  <node concept="2OqwBi" id="20mebiUAzl4" role="3clFbG">
+                    <node concept="1iwH7S" id="20mebiUAziR" role="2Oq$k0" />
+                    <node concept="1iwH70" id="20mebiUAznA" role="2OqNvi">
+                      <ref role="1iwH77" to="tpc3:hG00Hig" resolve="generatedClass" />
+                      <node concept="2OqwBi" id="20mebiUAzAb" role="1iwH7V">
+                        <node concept="30H73N" id="20mebiUAzx7" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="20mebiUAzHu" role="2OqNvi">
+                          <ref role="3Tt5mk" to="teg0:20mebiUzFdc" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

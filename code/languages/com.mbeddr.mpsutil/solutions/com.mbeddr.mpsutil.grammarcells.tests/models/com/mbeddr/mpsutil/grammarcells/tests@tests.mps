@@ -158,6 +158,10 @@
       </concept>
     </language>
     <language id="a257f68c-93a3-47b0-838b-6905dd9c20f6" name="com.mbeddr.mpsutil.grammarcells.sandboxlang">
+      <concept id="7621529404689461241" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.UnaryExpression" flags="ng" index="22sbd_">
+        <child id="7621529404689461538" name="inner" index="22saQY" />
+      </concept>
+      <concept id="7621529404689601115" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.PreIncrementExpression" flags="ng" index="22sGV7" />
       <concept id="1749127723000260978" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.Module" flags="ng" index="2cssWn">
         <child id="1749127723000260979" name="content" index="2cssWm" />
       </concept>
@@ -171,6 +175,7 @@
       <concept id="1749127723000261004" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.EmptyModuleContent" flags="ng" index="2cssZD" />
       <concept id="1749127723000261010" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.EmptyStatement" flags="ng" index="2cssZR" />
       <concept id="1749127723000290684" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.IntType" flags="ng" index="2cvBGp" />
+      <concept id="2312097807578461524" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.PostIncrement" flags="ng" index="2qI$Rw" />
       <concept id="5083944728300136332" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.PlusExpression" flags="ng" index="ywmH7" />
       <concept id="5083944728300233282" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.MulExpression" flags="ng" index="ywYU9" />
       <concept id="5083944728299528547" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.Visibility" flags="ng" index="yzEQC" />
@@ -1488,6 +1493,128 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="20mebiUGvFR">
+    <property role="TrG5h" value="PreIncrement" />
+    <node concept="2cssWn" id="20mebiUGvFS" role="LiRBU">
+      <property role="TrG5h" value="m" />
+      <node concept="2cssWt" id="20mebiUGvFT" role="2cssWm">
+        <property role="TrG5h" value="f" />
+        <node concept="2cssWo" id="20mebiUGvFU" role="2cssWr">
+          <node concept="1kHs8n" id="20mebiUGvFV" role="2cssZA">
+            <property role="TrG5h" value="i" />
+            <node concept="2cvBGp" id="20mebiUGvFW" role="1kHs7J" />
+            <node concept="yA7Z4" id="20mebiUGvGu" role="1kHs8a">
+              <property role="yA7Zo" value="1" />
+              <node concept="LIFWc" id="20mebiUGvGz" role="lGtFl">
+                <property role="LIFWa" value="0" />
+                <property role="OXtK3" value="true" />
+                <property role="p6zMq" value="0" />
+                <property role="p6zMs" value="0" />
+                <property role="LIFWd" value="property_value" />
+              </node>
+            </node>
+          </node>
+          <node concept="2cssZR" id="20mebiUGvG1" role="2cssZA" />
+        </node>
+        <node concept="yzEQC" id="20mebiUGvG2" role="yzEPe" />
+      </node>
+      <node concept="2cssZD" id="20mebiUGvG3" role="2cssWm" />
+    </node>
+    <node concept="2cssWn" id="20mebiUGvG4" role="LiZbd">
+      <property role="TrG5h" value="m" />
+      <node concept="2cssWt" id="20mebiUGvG5" role="2cssWm">
+        <property role="TrG5h" value="f" />
+        <node concept="2cssWo" id="20mebiUGvG6" role="2cssWr">
+          <node concept="1kHs8n" id="20mebiUGvG7" role="2cssZA">
+            <property role="TrG5h" value="i" />
+            <node concept="2cvBGp" id="20mebiUGvG8" role="1kHs7J" />
+            <node concept="22sGV7" id="20mebiUGvGY" role="1kHs8a">
+              <node concept="yA7Z4" id="20mebiUGvGO" role="22saQY">
+                <property role="yA7Zo" value="1" />
+              </node>
+            </node>
+          </node>
+          <node concept="2cssZR" id="20mebiUGvGd" role="2cssZA" />
+        </node>
+        <node concept="yzEQC" id="20mebiUGvGe" role="yzEPe" />
+      </node>
+      <node concept="2cssZD" id="20mebiUGvGf" role="2cssWm" />
+    </node>
+    <node concept="3clFbS" id="20mebiUGvGg" role="LjaKd">
+      <node concept="2TK7Tu" id="20mebiUGvGh" role="3cqZAp">
+        <property role="2TTd_B" value=" ++" />
+      </node>
+      <node concept="3clFbH" id="20mebiUGvIb" role="3cqZAp" />
+      <node concept="3SKdUt" id="20mebiUGvJy" role="3cqZAp">
+        <node concept="3SKdUq" id="20mebiUGvJK" role="3SKWNk">
+          <property role="3SKdUp" value="The post increment is a UnaryExpression but has its own editor. If the overriding behaviour works" />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="20mebiUGvLb" role="3cqZAp">
+        <node concept="3SKdUq" id="20mebiUGvLx" role="3SKWNk">
+          <property role="3SKdUp" value="properly, the post increment should not be available on the left side, only the pre increment." />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="20mebiUGvN4" role="3cqZAp">
+        <node concept="3SKdUq" id="20mebiUGvNy" role="3SKWNk">
+          <property role="3SKdUp" value="If it is not working, we have two entries and the side transformation is not executed." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="20mebiUGvHi">
+    <property role="TrG5h" value="PostIncrement" />
+    <node concept="2cssWn" id="20mebiUGvHj" role="LiRBU">
+      <property role="TrG5h" value="m" />
+      <node concept="2cssWt" id="20mebiUGvHk" role="2cssWm">
+        <property role="TrG5h" value="f" />
+        <node concept="2cssWo" id="20mebiUGvHl" role="2cssWr">
+          <node concept="1kHs8n" id="20mebiUGvHm" role="2cssZA">
+            <property role="TrG5h" value="i" />
+            <node concept="2cvBGp" id="20mebiUGvHn" role="1kHs7J" />
+            <node concept="yA7Z4" id="20mebiUGvHo" role="1kHs8a">
+              <property role="yA7Zo" value="1" />
+              <node concept="LIFWc" id="20mebiUGvI6" role="lGtFl">
+                <property role="ZRATv" value="true" />
+                <property role="OXtK3" value="true" />
+                <property role="p6zMq" value="1" />
+                <property role="p6zMs" value="1" />
+                <property role="LIFWd" value="property_value" />
+              </node>
+            </node>
+          </node>
+          <node concept="2cssZR" id="20mebiUGvHq" role="2cssZA" />
+        </node>
+        <node concept="yzEQC" id="20mebiUGvHr" role="yzEPe" />
+      </node>
+      <node concept="2cssZD" id="20mebiUGvHs" role="2cssWm" />
+    </node>
+    <node concept="2cssWn" id="20mebiUGvHt" role="LiZbd">
+      <property role="TrG5h" value="m" />
+      <node concept="2cssWt" id="20mebiUGvHu" role="2cssWm">
+        <property role="TrG5h" value="f" />
+        <node concept="2cssWo" id="20mebiUGvHv" role="2cssWr">
+          <node concept="1kHs8n" id="20mebiUGvHw" role="2cssZA">
+            <property role="TrG5h" value="i" />
+            <node concept="2cvBGp" id="20mebiUGvHx" role="1kHs7J" />
+            <node concept="2qI$Rw" id="20mebiUGvHM" role="1kHs8a">
+              <node concept="yA7Z4" id="20mebiUGvHz" role="22saQY">
+                <property role="yA7Zo" value="1" />
+              </node>
+            </node>
+          </node>
+          <node concept="2cssZR" id="20mebiUGvH$" role="2cssZA" />
+        </node>
+        <node concept="yzEQC" id="20mebiUGvH_" role="yzEPe" />
+      </node>
+      <node concept="2cssZD" id="20mebiUGvHA" role="2cssWm" />
+    </node>
+    <node concept="3clFbS" id="20mebiUGvHB" role="LjaKd">
+      <node concept="2TK7Tu" id="20mebiUGvHC" role="3cqZAp">
+        <property role="2TTd_B" value=" ++" />
       </node>
     </node>
   </node>

@@ -12,9 +12,11 @@
     <import index="teg0" ref="r:96165ed2-ef22-48c7-bfe5-8fce083cbabb(com.mbeddr.mpsutil.grammarcells.structure)" />
     <import index="tpdg" ref="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="iwf0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.descriptor(MPS.Editor/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -109,9 +111,13 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
+        <child id="1171903916107" name="bound" index="3qUE_r" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -1443,6 +1449,36 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1YbPZF" id="20mebiUzEPn">
+    <property role="TrG5h" value="typeof_ConceptEditorClassReference" />
+    <node concept="3clFbS" id="20mebiUzEPo" role="18ibNy">
+      <node concept="1Z5TYs" id="20mebiUzERb" role="3cqZAp">
+        <node concept="mw_s8" id="20mebiUzERR" role="1ZfhKB">
+          <node concept="2c44tf" id="20mebiUzERN" role="mwGJk">
+            <node concept="3uibUv" id="20mebiUzESE" role="2c44tc">
+              <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+              <node concept="3qUE_q" id="20mebiUzEUS" role="11_B2D">
+                <node concept="3uibUv" id="20mebiUzEVn" role="3qUE_r">
+                  <ref role="3uigEE" to="iwf0:~ConceptEditor" resolve="ConceptEditor" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="20mebiUzERe" role="1ZfhK$">
+          <node concept="1Z2H0r" id="20mebiUzEPu" role="mwGJk">
+            <node concept="1YBJjd" id="20mebiUzEQ3" role="1Z2MuG">
+              <ref role="1YBMHb" node="20mebiUzEPq" resolve="conceptEditorClassReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="20mebiUzEPq" role="1YuTPh">
+      <property role="TrG5h" value="conceptEditorClassReference" />
+      <ref role="1YaFvo" to="teg0:20mebiUzEPg" resolve="ConceptEditorClassReference" />
     </node>
   </node>
 </model>
