@@ -3004,7 +3004,7 @@
                     <node concept="2OqwBi" id="5$jJV5dPrHS" role="33vP2m">
                       <node concept="2YIFZM" id="20mebiUgXtr" role="2Oq$k0">
                         <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
-                        <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
+                        <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                         <node concept="35c_gC" id="20mebiUgXts" role="37wK5m">
                           <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                           <node concept="1ZhdrF" id="20mebiUgXtt" role="lGtFl">
@@ -3041,11 +3041,6 @@
                           <node concept="2kS8pE" id="20mebiUgXtE" role="2Oq$k0" />
                           <node concept="liA8E" id="20mebiUgXtF" role="2OqNvi">
                             <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
-                          </node>
-                        </node>
-                        <node concept="10Nm6u" id="20mebiUIVle" role="37wK5m">
-                          <node concept="5jKBG" id="20mebiUIVlf" role="lGtFl">
-                            <ref role="v9R2y" node="20mebiUIPgp" resolve="template_conceptEditorClass" />
                           </node>
                         </node>
                       </node>
@@ -3280,7 +3275,7 @@
                   <node concept="2OqwBi" id="5$jJV5dPeH0" role="3clFbG">
                     <node concept="2YIFZM" id="5$jJV5eah5K" role="2Oq$k0">
                       <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
-                      <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
+                      <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                       <node concept="35c_gC" id="5$jJV5eah5L" role="37wK5m">
                         <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                         <node concept="1ZhdrF" id="5$jJV5eah5M" role="lGtFl">
@@ -3319,11 +3314,6 @@
                           <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
                         </node>
                       </node>
-                      <node concept="10Nm6u" id="20mebiUITFP" role="37wK5m">
-                        <node concept="5jKBG" id="20mebiUITFQ" role="lGtFl">
-                          <ref role="v9R2y" node="20mebiUIPgp" resolve="template_conceptEditorClass" />
-                        </node>
-                      </node>
                     </node>
                     <node concept="3$u5V9" id="5$jJV5dPfy$" role="2OqNvi">
                       <node concept="1bVj0M" id="5$jJV5dPfyA" role="23t8la">
@@ -3358,7 +3348,7 @@
                   <node concept="2OqwBi" id="5$jJV5dQmVh" role="3clFbG">
                     <node concept="2YIFZM" id="5$jJV5eahM0" role="2Oq$k0">
                       <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
-                      <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
+                      <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                       <node concept="35c_gC" id="5$jJV5eahM1" role="37wK5m">
                         <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                         <node concept="1ZhdrF" id="5$jJV5eahM2" role="lGtFl">
@@ -3397,11 +3387,6 @@
                           <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
                         </node>
                       </node>
-                      <node concept="10Nm6u" id="20mebiUIV7F" role="37wK5m">
-                        <node concept="5jKBG" id="20mebiUIV7G" role="lGtFl">
-                          <ref role="v9R2y" node="20mebiUIPgp" resolve="template_conceptEditorClass" />
-                        </node>
-                      </node>
                     </node>
                     <node concept="3$u5V9" id="5$jJV5dQmVz" role="2OqNvi">
                       <node concept="1bVj0M" id="5$jJV5dQmV$" role="23t8la">
@@ -3434,7 +3419,7 @@
                     <node concept="2OqwBi" id="5$jJV5dQnjT" role="33vP2m">
                       <node concept="2YIFZM" id="20mebiUgZ8_" role="2Oq$k0">
                         <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
-                        <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
+                        <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                         <node concept="35c_gC" id="20mebiUgZ8A" role="37wK5m">
                           <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                           <node concept="1ZhdrF" id="20mebiUgZ8B" role="lGtFl">
@@ -3471,11 +3456,6 @@
                           <node concept="2kS8pE" id="20mebiUgZ8O" role="2Oq$k0" />
                           <node concept="liA8E" id="20mebiUgZ8P" role="2OqNvi">
                             <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
-                          </node>
-                        </node>
-                        <node concept="10Nm6u" id="20mebiUITTK" role="37wK5m">
-                          <node concept="5jKBG" id="20mebiUITTL" role="lGtFl">
-                            <ref role="v9R2y" node="20mebiUIPgp" resolve="template_conceptEditorClass" />
                           </node>
                         </node>
                       </node>
@@ -3856,7 +3836,7 @@
                     <node concept="2OqwBi" id="5$jJV5dQ7lc" role="33vP2m">
                       <node concept="2YIFZM" id="20mebiUgZJb" role="2Oq$k0">
                         <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
-                        <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
+                        <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                         <node concept="35c_gC" id="20mebiUgZJc" role="37wK5m">
                           <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                           <node concept="1ZhdrF" id="20mebiUgZJd" role="lGtFl">
@@ -3893,11 +3873,6 @@
                           <node concept="2kS8pE" id="20mebiUgZJq" role="2Oq$k0" />
                           <node concept="liA8E" id="20mebiUgZJr" role="2OqNvi">
                             <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
-                          </node>
-                        </node>
-                        <node concept="10Nm6u" id="20mebiUIUHe" role="37wK5m">
-                          <node concept="5jKBG" id="20mebiUIUHf" role="lGtFl">
-                            <ref role="v9R2y" node="20mebiUIPgp" resolve="template_conceptEditorClass" />
                           </node>
                         </node>
                       </node>
@@ -4068,7 +4043,7 @@
                   <node concept="2OqwBi" id="5$jJV5dQ7n4" role="3clFbG">
                     <node concept="2YIFZM" id="5$jJV5eahrS" role="2Oq$k0">
                       <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
-                      <ref role="37wK5l" to="czm:20mebiUzWg8" resolve="getVisibleSubconceptsNonAbstract" />
+                      <ref role="37wK5l" to="czm:5$jJV5e9K8Y" resolve="getVisibleSubconceptsNonAbstract" />
                       <node concept="35c_gC" id="5$jJV5eahrT" role="37wK5m">
                         <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                         <node concept="1ZhdrF" id="5$jJV5eahrU" role="lGtFl">
@@ -4105,11 +4080,6 @@
                         <node concept="2kS8pE" id="5$jJV5eahs7" role="2Oq$k0" />
                         <node concept="liA8E" id="5$jJV5eahs8" role="2OqNvi">
                           <ref role="37wK5l" to="zce0:~SideTransformActionsBuilderContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
-                        </node>
-                      </node>
-                      <node concept="10Nm6u" id="20mebiUIUvL" role="37wK5m">
-                        <node concept="5jKBG" id="20mebiUIUvM" role="lGtFl">
-                          <ref role="v9R2y" node="20mebiUIPgp" resolve="template_conceptEditorClass" />
                         </node>
                       </node>
                     </node>
