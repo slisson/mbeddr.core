@@ -452,6 +452,23 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1OBXBjLiuJj" role="3cqZAp">
+          <node concept="2OqwBi" id="1OBXBjLiuMU" role="3clFbG">
+            <node concept="2YIFZM" id="1OBXBjLiuLx" role="2Oq$k0">
+              <ref role="37wK5l" to="czm:5_y0OhSxtIA" resolve="getInstance" />
+              <ref role="1Pybhc" to="czm:5_y0OhSv6AE" resolve="VisibleLanguagesCache" />
+            </node>
+            <node concept="liA8E" id="1OBXBjLiviV" role="2OqNvi">
+              <ref role="37wK5l" to="czm:5_y0OhSv7Zk" resolve="dispose" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1OBXBjLivrF" role="3cqZAp">
+          <node concept="2YIFZM" id="1OBXBjLivEs" role="3clFbG">
+            <ref role="37wK5l" to="czm:1q2ZuLRiy8m" resolve="invalidateAll" />
+            <ref role="1Pybhc" to="czm:3VuMMxTwgbn" resolve="RulesCache" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
