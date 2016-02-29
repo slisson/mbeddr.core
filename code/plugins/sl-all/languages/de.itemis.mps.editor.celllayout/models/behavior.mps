@@ -756,5 +756,36 @@
       <node concept="3clFbS" id="43ViAfTrZnn" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="43ViAfTtIpK">
+    <ref role="13h7C2" to="pvux:43ViAfTtIpJ" resolve="FontFamilyStyle" />
+    <node concept="13hLZK" id="43ViAfTtIpL" role="13h7CW">
+      <node concept="3clFbS" id="43ViAfTtIpM" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="43ViAfTtIpN" role="13h7CS">
+      <property role="2Ki8OM" value="true" />
+      <property role="TrG5h" value="getStyleAttributeDeclaration" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="2nutuZsM_FC" resolve="getStyleAttributeDeclaration" />
+      <node concept="3Tm1VV" id="43ViAfTtIpO" role="1B3o_S" />
+      <node concept="3clFbS" id="43ViAfTtIpT" role="3clF47">
+        <node concept="3clFbF" id="43ViAfTtIq9" role="3cqZAp">
+          <node concept="2OqwBi" id="43ViAfTtItl" role="3clFbG">
+            <node concept="2c44tf" id="43ViAfTtIq7" role="2Oq$k0">
+              <node concept="1Z6Ecs" id="43ViAfTtIqD" role="2c44tc">
+                <ref role="1Z6EpT" to="z0fb:6SVXTgIpgkb" resolve="_font-family" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="43ViAfTtIxM" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpc2:5eGiGGGHIMM" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="43ViAfTtIpU" role="3clF45">
+        <ref role="ehGHo" to="tpc2:3t4KfBEkQvF" resolve="StyleAttributeDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 

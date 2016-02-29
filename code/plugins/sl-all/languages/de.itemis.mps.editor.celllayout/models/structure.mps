@@ -189,5 +189,35 @@
     <property role="34LRSv" value="horizontal-line-color" />
     <ref role="1TJDcQ" node="2nutuZsLvZ1" resolve="ColorStyle" />
   </node>
+  <node concept="1TIwiD" id="43ViAfTtx6N">
+    <property role="1pbfSe" value="980507670" />
+    <property role="TrG5h" value="StringStyle" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpc2:hgV6hR6" resolve="StyleClassItem" />
+    <node concept="1TJgyj" id="hZxKXiv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="query" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpc2:hZxMbdG" resolve="QueryFunction_String" />
+    </node>
+    <node concept="1TJgyi" id="i1413G$" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="58mW1s9z$X4" role="1TKVEl">
+      <property role="TrG5h" value="hasNoValue" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="43ViAfTtIpF" role="PzmwI">
+      <ref role="PrY4T" node="2nutuZsM_$3" resolve="IUserDefinedStyle" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="43ViAfTtIpJ">
+    <property role="1pbfSe" value="980562130" />
+    <property role="TrG5h" value="FontFamilyStyle" />
+    <property role="34LRSv" value="font-family" />
+    <ref role="1TJDcQ" node="43ViAfTtx6N" resolve="StringStyle" />
+  </node>
 </model>
 
